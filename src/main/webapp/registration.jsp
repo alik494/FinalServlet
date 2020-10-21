@@ -13,8 +13,8 @@
     <input type="hidden" name="command" value="registration"/>
     <input type="text" name="email"/><br>
     <input type="text" name="name"/><br>
-    <input type="password" name = "pass"/><br>
-    <input type="password" name = "pass2"/><br>
+    <input type="password" name = "password"/><br>
+    <input type="password" name = "password2"/><br>
     <input type="submit"/>
 </form>
 

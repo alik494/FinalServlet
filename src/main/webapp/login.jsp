@@ -12,7 +12,7 @@
         <form id="login" method="POST" action="controller">
             <input type="hidden" name="command" value="login"/>
             <input type="text" name="email"/><br>
-            <input type="password" name = "pass"/><br>
+            <input type="password" name = "password"/><br>
             <input type="submit"/>
         </form>
 

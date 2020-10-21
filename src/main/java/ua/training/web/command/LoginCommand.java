@@ -25,10 +25,10 @@ public class LoginCommand extends Command {
     public String execute(HttpServletRequest request, HttpServletResponse response) throws  ServletException, IOException {
 
         LOG.debug("Login command starts;");
-        String name = request.getParameter("email");
-        String pass = request.getParameter("pass");
+        String email = request.getParameter("email");
+        String pass = request.getParameter("password");
 
-        if( name == null || name.equals("") || pass == null || pass.equals("")  ){
+        if( email == null || email.equals("") || pass == null || pass.equals("")  ){
             throw new IOException("Login/password cannot be empty");
         }
         return Path.PAGE_ERROR_PAGE;

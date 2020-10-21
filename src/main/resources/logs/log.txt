@@ -156,3 +156,45 @@
 2020-10-21 18:43:59 DEBUG LoginCommand:27 - Login command starts;
 2020-10-21 18:43:59 TRACE FrontController:65 - Forward address --> /WEB-INF/jsp/error_page.jsp
 2020-10-21 18:43:59 DEBUG FrontController:67 - FrontController finished, now go to forward address --> /WEB-INF/jsp/error_page.jsp
+2020-10-21 21:15:13 DEBUG FrontController:47 - FrontController starts
+2020-10-21 21:15:13 TRACE FrontController:51 - Request parameter: command --> login
+2020-10-21 21:15:13 TRACE FrontController:55 - Obtaned command: LoginCommand
+2020-10-21 21:15:13 DEBUG LoginCommand:27 - Login command starts;
+2020-10-21 21:15:13 TRACE FrontController:65 - Forward address --> /WEB-INF/jsp/error_page.jsp
+2020-10-21 21:15:13 DEBUG FrontController:67 - FrontController finished, now go to forward address --> /WEB-INF/jsp/error_page.jsp
+2020-10-21 21:15:39 DEBUG FrontController:47 - FrontController starts
+2020-10-21 21:15:39 TRACE FrontController:51 - Request parameter: command --> login
+2020-10-21 21:15:39 TRACE FrontController:55 - Obtaned command: LoginCommand
+2020-10-21 21:15:39 DEBUG LoginCommand:27 - Login command starts;
+2020-10-21 21:15:39 TRACE FrontController:65 - Forward address --> /WEB-INF/jsp/error_page.jsp
+2020-10-21 21:15:39 DEBUG FrontController:67 - FrontController finished, now go to forward address --> /WEB-INF/jsp/error_page.jsp
+2020-10-21 21:15:42 DEBUG FrontController:47 - FrontController starts
+2020-10-21 21:15:42 TRACE FrontController:51 - Request parameter: command --> login
+2020-10-21 21:15:42 TRACE FrontController:55 - Obtaned command: LoginCommand
+2020-10-21 21:15:42 DEBUG LoginCommand:27 - Login command starts;
+2020-10-21 21:15:42 TRACE FrontController:65 - Forward address --> /WEB-INF/jsp/error_page.jsp
+2020-10-21 21:15:42 DEBUG FrontController:67 - FrontController finished, now go to forward address --> /WEB-INF/jsp/error_page.jsp
+2020-10-21 21:15:45 DEBUG FrontController:47 - FrontController starts
+2020-10-21 21:15:45 TRACE FrontController:51 - Request parameter: command --> login
+2020-10-21 21:15:45 TRACE FrontController:55 - Obtaned command: LoginCommand
+2020-10-21 21:15:45 DEBUG LoginCommand:27 - Login command starts;
+2020-10-21 21:15:45 TRACE FrontController:65 - Forward address --> /WEB-INF/jsp/error_page.jsp
+2020-10-21 21:15:45 DEBUG FrontController:67 - FrontController finished, now go to forward address --> /WEB-INF/jsp/error_page.jsp
+2020-10-21 21:16:23 DEBUG FrontController:47 - FrontController starts
+2020-10-21 21:16:23 TRACE FrontController:51 - Request parameter: command --> login
+2020-10-21 21:16:23 TRACE FrontController:55 - Obtaned command: LoginCommand
+2020-10-21 21:16:26 DEBUG LoginCommand:27 - Login command starts;
+2020-10-21 21:16:48 TRACE FrontController:65 - Forward address --> /WEB-INF/jsp/error_page.jsp
+2020-10-21 21:17:05 DEBUG FrontController:67 - FrontController finished, now go to forward address --> /WEB-INF/jsp/error_page.jsp
+2020-10-21 21:21:14 DEBUG FrontController:47 - FrontController starts
+2020-10-21 21:21:14 TRACE FrontController:51 - Request parameter: command --> login
+2020-10-21 21:21:14 TRACE FrontController:55 - Obtaned command: LoginCommand
+2020-10-21 21:21:14 DEBUG LoginCommand:27 - Login command starts;
+2020-10-21 21:21:14 TRACE FrontController:65 - Forward address --> /WEB-INF/jsp/error_page.jsp
+2020-10-21 21:21:14 DEBUG FrontController:67 - FrontController finished, now go to forward address --> /WEB-INF/jsp/error_page.jsp
+2020-10-21 21:22:24 DEBUG FrontController:47 - FrontController starts
+2020-10-21 21:22:24 TRACE FrontController:51 - Request parameter: command --> login
+2020-10-21 21:22:24 TRACE FrontController:55 - Obtaned command: LoginCommand
+2020-10-21 21:22:24 DEBUG LoginCommand:27 - Login command starts;
+2020-10-21 21:22:24 TRACE FrontController:65 - Forward address --> /WEB-INF/jsp/error_page.jsp
+2020-10-21 21:22:24 DEBUG FrontController:67 - FrontController finished, now go to forward address --> /WEB-INF/jsp/error_page.jsp
