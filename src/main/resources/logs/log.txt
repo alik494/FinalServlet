@@ -1,0 +1,158 @@
+2020-10-21 14:58:18 DEBUG CommandAccessFilter:97 - Start initializing filter: CommandAccessFilter
+2020-10-21 14:58:18 DEBUG CommandAccessFilter:99 - Finished initializing filter: CommandAccessFilter
+2020-10-21 15:00:31 DEBUG CommandAccessFilter:97 - Start initializing filter: CommandAccessFilter
+2020-10-21 15:00:31 DEBUG CommandAccessFilter:99 - Finished initializing filter: CommandAccessFilter
+2020-10-21 15:02:36 DEBUG CommandAccessFilter:114 - This command can be accessed only by logged in users: null
+2020-10-21 15:02:36 DEBUG CommandAccessFilter:117 - Unauthorized access to resource. Client is not logged-in.
+2020-10-21 15:02:52 DEBUG CommandAccessFilter:114 - This command can be accessed only by logged in users: null
+2020-10-21 15:02:52 DEBUG CommandAccessFilter:117 - Unauthorized access to resource. Client is not logged-in.
+2020-10-21 15:06:59 DEBUG CommandAccessFilter:114 - This command can be accessed only by logged in users: null
+2020-10-21 15:06:59 DEBUG CommandAccessFilter:117 - Unauthorized access to resource. Client is not logged-in.
+2020-10-21 15:20:53 DEBUG CommandAccessFilter:97 - Start initializing filter: CommandAccessFilter
+2020-10-21 15:20:53 DEBUG CommandAccessFilter:99 - Finished initializing filter: CommandAccessFilter
+2020-10-21 15:21:01 DEBUG CommandAccessFilter:114 - This command can be accessed only by logged in users: null
+2020-10-21 15:21:01 DEBUG CommandAccessFilter:117 - Unauthorized access to resource. Client is not logged-in.
+2020-10-21 15:22:03 DEBUG CommandAccessFilter:97 - Start initializing filter: CommandAccessFilter
+2020-10-21 15:22:03 DEBUG CommandAccessFilter:99 - Finished initializing filter: CommandAccessFilter
+2020-10-21 15:22:10 DEBUG CommandAccessFilter:114 - This command can be accessed only by logged in users: null
+2020-10-21 15:22:10 DEBUG CommandAccessFilter:117 - Unauthorized access to resource. Client is not logged-in.
+2020-10-21 15:22:37 DEBUG CommandAccessFilter:97 - Start initializing filter: CommandAccessFilter
+2020-10-21 15:22:37 DEBUG CommandAccessFilter:99 - Finished initializing filter: CommandAccessFilter
+2020-10-21 15:23:35 DEBUG CommandAccessFilter:97 - Start initializing filter: CommandAccessFilter
+2020-10-21 15:23:35 DEBUG CommandAccessFilter:99 - Finished initializing filter: CommandAccessFilter
+2020-10-21 15:23:50 DEBUG CommandAccessFilter:114 - This command can be accessed only by logged in users: null
+2020-10-21 15:23:50 DEBUG CommandAccessFilter:117 - Unauthorized access to resource. Client is not logged-in.
+2020-10-21 15:24:00 DEBUG CommandAccessFilter:97 - Start initializing filter: CommandAccessFilter
+2020-10-21 15:24:00 DEBUG CommandAccessFilter:99 - Finished initializing filter: CommandAccessFilter
+2020-10-21 15:24:04 DEBUG CommandAccessFilter:114 - This command can be accessed only by logged in users: null
+2020-10-21 15:24:04 DEBUG CommandAccessFilter:117 - Unauthorized access to resource. Client is not logged-in.
+2020-10-21 15:24:34 DEBUG CommandAccessFilter:114 - This command can be accessed only by logged in users: null
+2020-10-21 15:24:34 DEBUG CommandAccessFilter:117 - Unauthorized access to resource. Client is not logged-in.
+2020-10-21 15:42:55 DEBUG CommandAccessFilter:97 - Start initializing filter: CommandAccessFilter
+2020-10-21 15:42:55 DEBUG CommandAccessFilter:99 - Finished initializing filter: CommandAccessFilter
+2020-10-21 15:43:00 DEBUG CommandAccessFilter:114 - This command can be accessed only by logged in users: null
+2020-10-21 15:43:00 DEBUG CommandAccessFilter:117 - Unauthorized access to resource. Client is not logged-in.
+2020-10-21 15:44:07 DEBUG CommandAccessFilter:97 - Start initializing filter: CommandAccessFilter
+2020-10-21 15:44:07 DEBUG CommandAccessFilter:99 - Finished initializing filter: CommandAccessFilter
+2020-10-21 15:44:16 DEBUG CommandAccessFilter:114 - This command can be accessed only by logged in users: null
+2020-10-21 15:44:16 DEBUG CommandAccessFilter:117 - Unauthorized access to resource. Client is not logged-in.
+2020-10-21 15:52:25 DEBUG CommandAccessFilter:97 - Start initializing filter: CommandAccessFilter
+2020-10-21 15:52:25 DEBUG CommandAccessFilter:99 - Finished initializing filter: CommandAccessFilter
+2020-10-21 15:52:27 DEBUG CommandAccessFilter:114 - This command can be accessed only by logged in users: null
+2020-10-21 15:52:27 DEBUG CommandAccessFilter:117 - Unauthorized access to resource. Client is not logged-in.
+2020-10-21 15:53:33 DEBUG CommandAccessFilter:97 - Start initializing filter: CommandAccessFilter
+2020-10-21 15:53:33 DEBUG CommandAccessFilter:99 - Finished initializing filter: CommandAccessFilter
+2020-10-21 15:53:52 DEBUG CommandAccessFilter:97 - Start initializing filter: CommandAccessFilter
+2020-10-21 15:53:52 DEBUG CommandAccessFilter:99 - Finished initializing filter: CommandAccessFilter
+2020-10-21 15:54:01 DEBUG CommandAccessFilter:97 - Start initializing filter: CommandAccessFilter
+2020-10-21 15:54:01 DEBUG CommandAccessFilter:99 - Finished initializing filter: CommandAccessFilter
+2020-10-21 15:54:10 DEBUG CommandAccessFilter:97 - Start initializing filter: CommandAccessFilter
+2020-10-21 15:54:10 DEBUG CommandAccessFilter:99 - Finished initializing filter: CommandAccessFilter
+2020-10-21 15:54:17 DEBUG CommandAccessFilter:114 - This command can be accessed only by logged in users: null
+2020-10-21 15:54:17 DEBUG CommandAccessFilter:117 - Unauthorized access to resource. Client is not logged-in.
+2020-10-21 15:59:54 DEBUG CommandAccessFilter:97 - Start initializing filter: CommandAccessFilter
+2020-10-21 15:59:54 DEBUG CommandAccessFilter:99 - Finished initializing filter: CommandAccessFilter
+2020-10-21 16:00:00 DEBUG CommandAccessFilter:114 - This command can be accessed only by logged in users: null
+2020-10-21 16:00:00 DEBUG CommandAccessFilter:117 - Unauthorized access to resource. Client is not logged-in.
+2020-10-21 16:01:48 DEBUG CommandAccessFilter:97 - Start initializing filter: CommandAccessFilter
+2020-10-21 16:01:48 DEBUG CommandAccessFilter:99 - Finished initializing filter: CommandAccessFilter
+2020-10-21 16:01:52 DEBUG CommandAccessFilter:114 - This command can be accessed only by logged in users: null
+2020-10-21 16:01:52 DEBUG CommandAccessFilter:117 - Unauthorized access to resource. Client is not logged-in.
+2020-10-21 16:02:00 DEBUG CommandAccessFilter:114 - This command can be accessed only by logged in users: null
+2020-10-21 16:02:00 DEBUG CommandAccessFilter:117 - Unauthorized access to resource. Client is not logged-in.
+2020-10-21 16:02:18 DEBUG CommandAccessFilter:97 - Start initializing filter: CommandAccessFilter
+2020-10-21 16:02:18 DEBUG CommandAccessFilter:99 - Finished initializing filter: CommandAccessFilter
+2020-10-21 18:05:20 DEBUG FrontController:46 - FrontController starts
+2020-10-21 18:05:20 TRACE FrontController:50 - Request parameter: command --> login
+2020-10-21 18:05:20 TRACE FrontController:54 - Obtaned command: LoginCommand
+2020-10-21 18:05:20 DEBUG LoginCommand:26 - Login command starts;
+2020-10-21 18:05:20 TRACE FrontController:64 - Forward address --> /login.jsp
+2020-10-21 18:05:20 DEBUG FrontController:66 - FrontController finished, now go to forward address --> /login.jsp
+2020-10-21 18:05:23 DEBUG FrontController:46 - FrontController starts
+2020-10-21 18:05:23 TRACE FrontController:50 - Request parameter: command --> login
+2020-10-21 18:05:23 TRACE FrontController:54 - Obtaned command: LoginCommand
+2020-10-21 18:05:23 DEBUG LoginCommand:26 - Login command starts;
+2020-10-21 18:05:23 TRACE FrontController:64 - Forward address --> /login.jsp
+2020-10-21 18:05:23 DEBUG FrontController:66 - FrontController finished, now go to forward address --> /login.jsp
+2020-10-21 18:06:02 DEBUG FrontController:46 - FrontController starts
+2020-10-21 18:06:02 TRACE FrontController:50 - Request parameter: command --> login
+2020-10-21 18:06:02 TRACE FrontController:54 - Obtaned command: LoginCommand
+2020-10-21 18:06:02 DEBUG LoginCommand:26 - Login command starts;
+2020-10-21 18:06:02 TRACE FrontController:64 - Forward address --> /login.jsp
+2020-10-21 18:06:02 DEBUG FrontController:66 - FrontController finished, now go to forward address --> /login.jsp
+2020-10-21 18:19:02 DEBUG FrontController:46 - FrontController starts
+2020-10-21 18:19:10 TRACE FrontController:50 - Request parameter: command --> login
+2020-10-21 18:19:18 TRACE FrontController:54 - Obtaned command: LoginCommand
+2020-10-21 18:19:31 DEBUG LoginCommand:26 - Login command starts;
+2020-10-21 18:19:36 TRACE FrontController:64 - Forward address --> /login.jsp
+2020-10-21 18:19:39 DEBUG FrontController:66 - FrontController finished, now go to forward address --> /login.jsp
+2020-10-21 18:21:08 DEBUG FrontController:46 - FrontController starts
+2020-10-21 18:21:08 TRACE FrontController:50 - Request parameter: command --> login
+2020-10-21 18:21:08 TRACE FrontController:54 - Obtaned command: LoginCommand
+2020-10-21 18:21:08 DEBUG LoginCommand:26 - Login command starts;
+2020-10-21 18:21:08 TRACE FrontController:64 - Forward address --> /login.jsp
+2020-10-21 18:21:08 DEBUG FrontController:66 - FrontController finished, now go to forward address --> /login.jsp
+2020-10-21 18:25:27 DEBUG FrontController:46 - FrontController starts
+2020-10-21 18:25:29 TRACE FrontController:50 - Request parameter: command --> login
+2020-10-21 18:25:32 TRACE FrontController:54 - Obtaned command: LoginCommand
+2020-10-21 18:25:55 DEBUG LoginCommand:26 - Login command starts;
+2020-10-21 18:26:28 TRACE FrontController:64 - Forward address --> /login.jsp
+2020-10-21 18:26:28 DEBUG FrontController:66 - FrontController finished, now go to forward address --> /login.jsp
+2020-10-21 18:27:26 DEBUG FrontController:46 - FrontController starts
+2020-10-21 18:27:26 TRACE FrontController:50 - Request parameter: command --> login
+2020-10-21 18:27:26 TRACE FrontController:54 - Obtaned command: LoginCommand
+2020-10-21 18:27:26 DEBUG LoginCommand:26 - Login command starts;
+2020-10-21 18:27:26 TRACE FrontController:64 - Forward address --> /login.jsp
+2020-10-21 18:27:26 DEBUG FrontController:66 - FrontController finished, now go to forward address --> /login.jsp
+2020-10-21 18:27:33 DEBUG FrontController:46 - FrontController starts
+2020-10-21 18:27:33 TRACE FrontController:50 - Request parameter: command --> login
+2020-10-21 18:27:33 TRACE FrontController:54 - Obtaned command: LoginCommand
+2020-10-21 18:27:33 DEBUG LoginCommand:26 - Login command starts;
+2020-10-21 18:27:33 TRACE FrontController:64 - Forward address --> /login.jsp
+2020-10-21 18:27:33 DEBUG FrontController:66 - FrontController finished, now go to forward address --> /login.jsp
+2020-10-21 18:28:15 DEBUG FrontController:46 - FrontController starts
+2020-10-21 18:28:15 TRACE FrontController:50 - Request parameter: command --> login
+2020-10-21 18:28:15 TRACE FrontController:54 - Obtaned command: LoginCommand
+2020-10-21 18:28:34 DEBUG LoginCommand:26 - Login command starts;
+2020-10-21 18:33:55 DEBUG FrontController:46 - FrontController starts
+2020-10-21 18:33:55 TRACE FrontController:50 - Request parameter: command --> login
+2020-10-21 18:33:55 TRACE FrontController:54 - Obtaned command: LoginCommand
+2020-10-21 18:34:04 DEBUG LoginCommand:26 - Login command starts;
+2020-10-21 18:34:30 TRACE FrontController:64 - Forward address --> /WEB-INF/jsp/error_page.jsp
+2020-10-21 18:34:31 DEBUG FrontController:66 - FrontController finished, now go to forward address --> /WEB-INF/jsp/error_page.jsp
+2020-10-21 18:37:06 DEBUG FrontController:46 - FrontController starts
+2020-10-21 18:37:06 TRACE FrontController:50 - Request parameter: command --> login
+2020-10-21 18:37:06 TRACE FrontController:54 - Obtaned command: LoginCommand
+2020-10-21 18:37:06 DEBUG LoginCommand:26 - Login command starts;
+2020-10-21 18:37:06 TRACE FrontController:64 - Forward address --> /WEB-INF/jsp/error_page.jsp
+2020-10-21 18:37:06 DEBUG FrontController:66 - FrontController finished, now go to forward address --> /WEB-INF/jsp/error_page.jsp
+2020-10-21 18:37:10 DEBUG FrontController:46 - FrontController starts
+2020-10-21 18:37:10 TRACE FrontController:50 - Request parameter: command --> login
+2020-10-21 18:37:10 TRACE FrontController:54 - Obtaned command: LoginCommand
+2020-10-21 18:37:10 DEBUG LoginCommand:26 - Login command starts;
+2020-10-21 18:37:10 TRACE FrontController:64 - Forward address --> /WEB-INF/jsp/error_page.jsp
+2020-10-21 18:37:10 DEBUG FrontController:66 - FrontController finished, now go to forward address --> /WEB-INF/jsp/error_page.jsp
+2020-10-21 18:39:08 DEBUG FrontController:47 - FrontController starts
+2020-10-21 18:39:08 TRACE FrontController:51 - Request parameter: command --> login
+2020-10-21 18:39:08 TRACE FrontController:55 - Obtaned command: LoginCommand
+2020-10-21 18:39:28 DEBUG LoginCommand:26 - Login command starts;
+2020-10-21 18:40:06 TRACE FrontController:65 - Forward address --> /WEB-INF/jsp/error_page.jsp
+2020-10-21 18:40:10 DEBUG FrontController:67 - FrontController finished, now go to forward address --> /WEB-INF/jsp/error_page.jsp
+2020-10-21 18:40:50 DEBUG FrontController:47 - FrontController starts
+2020-10-21 18:40:50 TRACE FrontController:51 - Request parameter: command --> login
+2020-10-21 18:40:50 TRACE FrontController:55 - Obtaned command: LoginCommand
+2020-10-21 18:41:03 DEBUG LoginCommand:26 - Login command starts;
+2020-10-21 18:42:00 TRACE FrontController:65 - Forward address --> /WEB-INF/jsp/error_page.jsp
+2020-10-21 18:42:01 DEBUG FrontController:67 - FrontController finished, now go to forward address --> /WEB-INF/jsp/error_page.jsp
+2020-10-21 18:43:03 DEBUG FrontController:47 - FrontController starts
+2020-10-21 18:43:03 TRACE FrontController:51 - Request parameter: command --> login
+2020-10-21 18:43:03 TRACE FrontController:55 - Obtaned command: LoginCommand
+2020-10-21 18:43:03 DEBUG LoginCommand:26 - Login command starts;
+2020-10-21 18:43:03 TRACE FrontController:65 - Forward address --> /error.jsp
+2020-10-21 18:43:03 DEBUG FrontController:67 - FrontController finished, now go to forward address --> /error.jsp
+2020-10-21 18:43:59 DEBUG FrontController:47 - FrontController starts
+2020-10-21 18:43:59 TRACE FrontController:51 - Request parameter: command --> login
+2020-10-21 18:43:59 TRACE FrontController:55 - Obtaned command: LoginCommand
+2020-10-21 18:43:59 DEBUG LoginCommand:27 - Login command starts;
+2020-10-21 18:43:59 TRACE FrontController:65 - Forward address --> /WEB-INF/jsp/error_page.jsp
+2020-10-21 18:43:59 DEBUG FrontController:67 - FrontController finished, now go to forward address --> /WEB-INF/jsp/error_page.jsp
