@@ -7,6 +7,12 @@ public class User {
      * The corresponding name of table in database.
      */
     public static final String TABLE_NAME = "usr";
+
+
+    public static final String TABLE_NAME_ROLE = "user_role";
+    public static final String ROLE_COLUMN = "roles";
+    public static final String ROLE_USER_ID_COLUMN = "user_id";
+
     /**
      * The corresponding name of id column in table.
      */
@@ -37,6 +43,12 @@ public class User {
 
 
     public User() {
+    }
+
+    public User(String email, String username, String password) {
+        this.email = email;
+        this.username = username;
+        this.password = password;
     }
 
     public User(Long id, String email, String username, String password, boolean active, Set<Role> roles) {
@@ -115,4 +127,5 @@ public class User {
                 ", roles=" + roles +
                 '}';
     }
+
 }

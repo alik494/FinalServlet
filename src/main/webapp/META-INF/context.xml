@@ -1,0 +1,15 @@
+<!-- Change the lines below according your RDBMS and DB -->
+
+<Context>
+    <Resource name="jdbc/postgres"
+              auth="Container"
+              type="javax.sql.DataSource"
+              maxActive="100" maxIdle="30" maxWait="10000"
+              username="postgres"
+              password="postgres"
+              driverClassName="org.postgresql.Driver"
+              defaultAutoCommit="false"
+              defaultTransactionIsolation="READ_COMMITTED"
+              connectionProperties="useUnicode=yes;characterEncoding=utf8;"
+              url="jdbc:postgresql://localhost/postgres"/>
+</Context>

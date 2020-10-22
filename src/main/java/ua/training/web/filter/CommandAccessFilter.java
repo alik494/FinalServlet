@@ -48,48 +48,13 @@ public class CommandAccessFilter implements Filter {
         accessibleCommands.add("logout");
         accessibleCommands.add("registration");
         accessibleCommands.add("noCommand");
-        accessibleCommands.add("viewSettings");
-        accessibleCommands.add("changeLanguageCommand");
 
         // client commands
-        clientCommands.add("goToUserPageCommand");
-        clientCommands.add("quizzeTestCommand");
-        clientCommands.add("quizzeQuestionCommand");
-        clientCommands.add("quizzeAnswerCommand");
-        clientCommands.add("userAnswerCommand");
-        clientCommands.add("userPageChange");
-        clientCommands.add("userTestFinishCommand");
-        clientCommands.add("quizzeCommand");
-        clientCommands.add("quizzeTestSortCommand");
-        clientCommands.add("subjectCommand");
         clientCommands.add("userTestCommand");
 
         // admin commands
-        adminCommands.add("adminQuizzeCommand");
         adminCommands.add("createSubjectCommand");
-        adminCommands.add("newSubjectCommand");
-        adminCommands.add("deleteSubjectCommand");
-        adminCommands.add("editSubjectCommand");
-        adminCommands.add("updateSubjectCommand");
-        adminCommands.add("testsListCommand");
-        adminCommands.add("createTestCommand");
-        adminCommands.add("newTestCommand");
-        adminCommands.add("deleteTestCommand");
-        adminCommands.add("editTestCommand");
-        adminCommands.add("updateTestCommand");
-        adminCommands.add("questionCommand");
-        adminCommands.add("adminPageChange");
-        adminCommands.add("createQuestionCommand");
-        adminCommands.add("newQuestionCommand");
-        adminCommands.add("updateAnswerCommand");
-        adminCommands.add("editAnswerCommand");
-        adminCommands.add("deleteQuestionCommand");
-        adminCommands.add("editQuestionCommand");
-        adminCommands.add("updateQuestionCommand");
-        adminCommands.add("adminPageCommand");
-        adminCommands.add("listUsersCommand");
-        adminCommands.add("changeRoleCommand");
-        adminCommands.add("changeUserStatusCommand");
+
     }
 
     @Override
