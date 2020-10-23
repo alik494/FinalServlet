@@ -10,10 +10,11 @@
         <br/>
         <br>
         <form id="login" method="POST" action="controller">
-            <input type="hidden" name="command" value="login"/>
-            <input type="text" name="email"/><br>
+            <p style="color: red;">${errorString}</p>
+            <input  type="hidden" name="command" value="login"/>
+            <input id="email" type="text" name="email"/><br>
             <input type="password" name = "password"/><br>
-            <input type="submit"/>
+            <input id="btn" type="submit"/>
         </form>
 
     </body>

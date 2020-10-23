@@ -1,35 +1,97 @@
-2020-10-22 02:59:53 DEBUG FrontController:47 - FrontController starts
-2020-10-22 02:59:53 TRACE FrontController:51 - Request parameter: command --> registration
-2020-10-22 02:59:53 TRACE FrontController:55 - Obtaned command: RegistrationCommand
-2020-10-22 02:59:53 DEBUG RegistrationCommand:23 - RegistrationCommand starts
-2020-10-22 02:59:53 TRACE UserServiceImpl:17 - Service method getOne --> aaan@mail.com
-2020-10-22 02:59:53 TRACE UserRepositoryImpl:43 - Repository impl method getOne --> aaan@mail.com
-2020-10-22 02:59:53 DEBUG ConnectionPool:30 - org.apache.commons.dbcp2.BasicDataSource@1988e27c
-2020-10-22 02:59:53 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@1988e27c
-2020-10-22 02:59:53 TRACE UserRepositoryImpl:61 - Repository method getOne returned --> User{id=null, email='null', username='null', password='null', active=false, roles=null}
-2020-10-22 02:59:53 TRACE UserServiceImpl:28 - Service method createUser  for email--> aaan@mail.com
-2020-10-22 02:59:53 TRACE UserRepositoryImpl:75 - Repository method createUser  --> User{id=null, email='aaan@mail.com', username='Alika', password='aaa', active=true, roles=[USER]}
-2020-10-22 02:59:53 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@1988e27c
-2020-10-22 02:59:53 TRACE UserRepositoryImpl:88 - Repository method createUser  FIND_NEXT_USER_ID StringId--> 22
-2020-10-22 02:59:53 ERROR UserRepositoryImpl:120 - org.postgresql.util.PSQLException: ERROR: syntax error at or near "insert"
-  Позиция: 84
-2020-10-22 02:59:53 TRACE UserRepositoryImpl:122 - Repository method createUser returned --> User{id=22, email='aaan@mail.com', username='Alika', password='aaa', active=true, roles=[USER]}
-2020-10-22 02:59:53 TRACE FrontController:65 - Forward address --> /login.jsp
-2020-10-22 02:59:53 DEBUG FrontController:67 - FrontController finished, now go to forward address --> /login.jsp
-2020-10-22 03:00:52 DEBUG FrontController:47 - FrontController starts
-2020-10-22 03:00:52 TRACE FrontController:51 - Request parameter: command --> registration
-2020-10-22 03:00:52 TRACE FrontController:55 - Obtaned command: RegistrationCommand
-2020-10-22 03:00:52 DEBUG RegistrationCommand:23 - RegistrationCommand starts
-2020-10-22 03:00:52 TRACE UserServiceImpl:17 - Service method getOne --> aa2an@mail.com
-2020-10-22 03:00:52 TRACE UserRepositoryImpl:43 - Repository impl method getOne --> aa2an@mail.com
-2020-10-22 03:00:52 DEBUG ConnectionPool:30 - org.apache.commons.dbcp2.BasicDataSource@6985f17d
-2020-10-22 03:00:52 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@6985f17d
-2020-10-22 03:00:52 TRACE UserRepositoryImpl:61 - Repository method getOne returned --> User{id=null, email='null', username='null', password='null', active=false, roles=null}
-2020-10-22 03:00:52 TRACE UserServiceImpl:28 - Service method createUser  for email--> aa2an@mail.com
-2020-10-22 03:00:52 TRACE UserRepositoryImpl:75 - Repository method createUser  --> User{id=null, email='aa2an@mail.com', username='Alika', password='aaa', active=true, roles=[USER]}
-2020-10-22 03:00:52 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@6985f17d
-2020-10-22 03:00:52 TRACE UserRepositoryImpl:88 - Repository method createUser  FIND_NEXT_USER_ID StringId--> 23
-2020-10-22 03:00:52 ERROR UserRepositoryImpl:120 - org.postgresql.util.PSQLException: Запрос не вернул результатов.
-2020-10-22 03:00:52 TRACE UserRepositoryImpl:122 - Repository method createUser returned --> User{id=23, email='aa2an@mail.com', username='Alika', password='aaa', active=true, roles=[USER]}
-2020-10-22 03:00:52 TRACE FrontController:65 - Forward address --> /login.jsp
-2020-10-22 03:00:52 DEBUG FrontController:67 - FrontController finished, now go to forward address --> /login.jsp
+2020-10-22 05:07:59 DEBUG FrontController:47 - FrontController starts
+2020-10-22 05:07:59 TRACE FrontController:51 - Request parameter: command --> login
+2020-10-22 05:07:59 TRACE FrontController:55 - Obtaned command: LoginCommand
+2020-10-22 05:07:59 DEBUG LoginCommand:33 - LoginCommand starts
+2020-10-22 05:07:59 TRACE UserServiceImpl:17 - Service method getOne --> diana@mail.com
+2020-10-22 05:07:59 TRACE UserRepositoryImpl:42 - Repository impl method getOne --> diana@mail.com
+2020-10-22 05:07:59 DEBUG ConnectionPool:30 - org.apache.commons.dbcp2.BasicDataSource@4fcbbdba
+2020-10-22 05:07:59 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@4fcbbdba
+2020-10-22 05:08:00 TRACE UserRepositoryImpl:60 - Repository method getOne returned --> User{id=24, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=null}
+2020-10-22 05:08:00 TRACE LoginCommand:43 - Found in DB: user --> User{id=24, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=null}
+2020-10-22 05:08:00 TRACE UserServiceImpl:17 - Service method getOne --> diana@mail.com
+2020-10-22 05:08:00 TRACE UserRepositoryImpl:42 - Repository impl method getOne --> diana@mail.com
+2020-10-22 05:08:00 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@4fcbbdba
+2020-10-22 05:08:00 TRACE UserRepositoryImpl:60 - Repository method getOne returned --> User{id=24, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=null}
+2020-10-22 05:08:00 DEBUG LoginCommand:55 - LoginCommand getUserUser{id=24, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=null}
+2020-10-22 05:08:00 TRACE FrontController:65 - Forward address --> /WEB-INF/jsp/error_page.jsp
+2020-10-22 05:08:00 DEBUG FrontController:67 - FrontController finished, now go to forward address --> /WEB-INF/jsp/error_page.jsp
+2020-10-22 05:08:42 DEBUG FrontController:47 - FrontController starts
+2020-10-22 05:08:42 TRACE FrontController:51 - Request parameter: command --> login
+2020-10-22 05:08:42 TRACE FrontController:55 - Obtaned command: LoginCommand
+2020-10-22 05:08:42 DEBUG LoginCommand:33 - LoginCommand starts
+2020-10-22 05:08:42 TRACE UserServiceImpl:17 - Service method getOne --> diana@mail.com
+2020-10-22 05:08:42 TRACE UserRepositoryImpl:42 - Repository impl method getOne --> diana@mail.com
+2020-10-22 05:08:42 DEBUG ConnectionPool:30 - org.apache.commons.dbcp2.BasicDataSource@75bf053f
+2020-10-22 05:08:42 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@75bf053f
+2020-10-22 05:08:42 TRACE UserRepositoryImpl:60 - Repository method getOne returned --> User{id=24, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=null}
+2020-10-22 05:08:42 TRACE LoginCommand:43 - Found in DB: user --> User{id=24, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=null}
+2020-10-22 05:08:42 TRACE UserServiceImpl:17 - Service method getOne --> diana@mail.com
+2020-10-22 05:08:42 TRACE UserRepositoryImpl:42 - Repository impl method getOne --> diana@mail.com
+2020-10-22 05:08:42 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@75bf053f
+2020-10-22 05:08:42 TRACE UserRepositoryImpl:60 - Repository method getOne returned --> User{id=24, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=null}
+2020-10-22 05:08:42 DEBUG LoginCommand:55 - LoginCommand getUserUser{id=24, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=null}
+2020-10-22 05:08:42 TRACE FrontController:65 - Forward address --> /WEB-INF/jsp/user/userCab.jsp
+2020-10-22 05:08:42 DEBUG FrontController:67 - FrontController finished, now go to forward address --> /WEB-INF/jsp/user/userCab.jsp
+2020-10-22 05:08:43 DEBUG FrontController:34 - FrontController doPost exception : org.apache.jasper.JasperException: An exception occurred processing JSP page /WEB-INF/jsp/user/userCab.jsp at line 5
+
+2: <body>
+3: <h2>Hello World! userCab</h2>
+4: <br/>
+5: <p style="color: red;">Hello ${user.getUsername}</p>
+6: <br>
+7: </body>
+8: </html>
+
+
+Stacktrace:
+2020-10-22 05:10:20 DEBUG FrontController:47 - FrontController starts
+2020-10-22 05:10:20 TRACE FrontController:51 - Request parameter: command --> login
+2020-10-22 05:10:20 TRACE FrontController:55 - Obtaned command: LoginCommand
+2020-10-22 05:10:20 DEBUG LoginCommand:33 - LoginCommand starts
+2020-10-22 05:10:20 TRACE UserServiceImpl:17 - Service method getOne --> diana@mail.com
+2020-10-22 05:10:20 TRACE UserRepositoryImpl:42 - Repository impl method getOne --> diana@mail.com
+2020-10-22 05:10:21 DEBUG ConnectionPool:30 - org.apache.commons.dbcp2.BasicDataSource@45a3c035
+2020-10-22 05:10:21 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@45a3c035
+2020-10-22 05:10:21 TRACE UserRepositoryImpl:60 - Repository method getOne returned --> User{id=24, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=null}
+2020-10-22 05:10:21 TRACE LoginCommand:43 - Found in DB: user --> User{id=24, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=null}
+2020-10-22 05:10:21 TRACE UserServiceImpl:17 - Service method getOne --> diana@mail.com
+2020-10-22 05:10:21 TRACE UserRepositoryImpl:42 - Repository impl method getOne --> diana@mail.com
+2020-10-22 05:10:21 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@45a3c035
+2020-10-22 05:10:21 TRACE UserRepositoryImpl:60 - Repository method getOne returned --> User{id=24, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=null}
+2020-10-22 05:10:21 DEBUG LoginCommand:55 - LoginCommand getUserUser{id=24, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=null}
+2020-10-22 05:10:21 TRACE FrontController:65 - Forward address --> /WEB-INF/jsp/user/userCab.jsp
+2020-10-22 05:10:21 DEBUG FrontController:67 - FrontController finished, now go to forward address --> /WEB-INF/jsp/user/userCab.jsp
+2020-10-22 05:10:47 DEBUG FrontController:47 - FrontController starts
+2020-10-22 05:10:47 TRACE FrontController:51 - Request parameter: command --> login
+2020-10-22 05:10:47 TRACE FrontController:55 - Obtaned command: LoginCommand
+2020-10-22 05:10:47 DEBUG LoginCommand:33 - LoginCommand starts
+2020-10-22 05:10:47 TRACE UserServiceImpl:17 - Service method getOne --> admin@mail.com
+2020-10-22 05:10:47 TRACE UserRepositoryImpl:42 - Repository impl method getOne --> admin@mail.com
+2020-10-22 05:10:47 DEBUG ConnectionPool:30 - org.apache.commons.dbcp2.BasicDataSource@473b322d
+2020-10-22 05:10:47 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@473b322d
+2020-10-22 05:10:47 TRACE UserRepositoryImpl:60 - Repository method getOne returned --> User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=null}
+2020-10-22 05:10:47 TRACE LoginCommand:43 - Found in DB: user --> User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=null}
+2020-10-22 05:10:47 TRACE UserServiceImpl:17 - Service method getOne --> admin@mail.com
+2020-10-22 05:10:47 TRACE UserRepositoryImpl:42 - Repository impl method getOne --> admin@mail.com
+2020-10-22 05:10:47 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@473b322d
+2020-10-22 05:10:47 TRACE UserRepositoryImpl:60 - Repository method getOne returned --> User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=null}
+2020-10-22 05:10:47 DEBUG LoginCommand:55 - LoginCommand getUserUser{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=null}
+2020-10-22 05:10:47 TRACE FrontController:65 - Forward address --> /WEB-INF/jsp/error_page.jsp
+2020-10-22 05:10:47 DEBUG FrontController:67 - FrontController finished, now go to forward address --> /WEB-INF/jsp/error_page.jsp
+2020-10-23 17:49:50 DEBUG FrontController:47 - FrontController starts
+2020-10-23 17:49:50 TRACE FrontController:51 - Request parameter: command --> login
+2020-10-23 17:49:50 TRACE FrontController:55 - Obtaned command: LoginCommand
+2020-10-23 17:49:50 DEBUG LoginCommand:33 - LoginCommand starts
+2020-10-23 17:49:50 TRACE UserServiceImpl:17 - Service method getOne --> diana@mail.com
+2020-10-23 17:49:50 TRACE UserRepositoryImpl:42 - Repository impl method getOne --> diana@mail.com
+2020-10-23 17:49:50 DEBUG ConnectionPool:30 - org.apache.commons.dbcp2.BasicDataSource@3fe5dcfe
+2020-10-23 17:49:50 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@3fe5dcfe
+2020-10-23 17:49:50 TRACE UserRepositoryImpl:60 - Repository method getOne returned --> User{id=24, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=null}
+2020-10-23 17:49:50 TRACE LoginCommand:43 - Found in DB: user --> User{id=24, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=null}
+2020-10-23 17:49:50 TRACE UserServiceImpl:17 - Service method getOne --> diana@mail.com
+2020-10-23 17:49:50 TRACE UserRepositoryImpl:42 - Repository impl method getOne --> diana@mail.com
+2020-10-23 17:49:50 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@3fe5dcfe
+2020-10-23 17:49:51 TRACE UserRepositoryImpl:60 - Repository method getOne returned --> User{id=24, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=null}
+2020-10-23 17:49:51 DEBUG LoginCommand:55 - LoginCommand getUserUser{id=24, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=null}
+2020-10-23 17:49:51 TRACE FrontController:65 - Forward address --> /WEB-INF/jsp/user/userCab.jsp
+2020-10-23 17:49:51 DEBUG FrontController:67 - FrontController finished, now go to forward address --> /WEB-INF/jsp/user/userCab.jsp

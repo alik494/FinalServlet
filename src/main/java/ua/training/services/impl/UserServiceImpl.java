@@ -29,4 +29,14 @@ public class UserServiceImpl implements UserService {
 
         return repository.createUser( email, name, password);
     }
+
+    @Override
+    public String getHashAlgorithm(Long id) {
+        return null;
+    }
+
+    @Override
+    public String getSalt(Long id) {
+        return null;
+    }
 }

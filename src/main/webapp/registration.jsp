@@ -6,7 +6,6 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>Registration</title>
 </head>
-<c:set var="currentLocale" value="en" scope="session"/>
 
 <body>
 
@@ -17,7 +16,7 @@
     <input id = "register" type="hidden" name="command" value="registration"/>
     <input id="email" type="text" name="email"/><br>
     <input id="name" type="text" name="name"/><br>
-    <input type="password" name = "password"/><br>
+    <input type="password" name = "password" /><br>
     <input type="password" name = "password2"/><br>
     <input id="btn" type="submit"/>
 </form>
