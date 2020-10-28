@@ -2,6 +2,8 @@ package ua.training.services;
 
 import ua.training.domain.User;
 
+import java.util.List;
+
 public interface UserService {
     User getOne(String login);
     User getOne(long id);
@@ -10,4 +12,6 @@ public interface UserService {
     String getHashAlgorithm(Long id);
 
     String getSalt(Long id);
+
+    List<User> getAll();
 }

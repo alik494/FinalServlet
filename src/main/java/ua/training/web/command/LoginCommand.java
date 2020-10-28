@@ -6,6 +6,7 @@ import ua.training.domain.Role;
 import ua.training.domain.User;
 import ua.training.services.UserService;
 import ua.training.services.impl.UserServiceImpl;
+import ua.training.web.utils.DataHelper;
 import ua.training.web.utils.InputDataCheck;
 import ua.training.web.utils.VerifyProvidedPassword;
 
@@ -27,7 +28,7 @@ public class LoginCommand extends Command {
      * @return Address to go once the command is executed.
      */
     @Override
-    public String execute(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+    public String execute(HttpServletRequest req, HttpServletResponse resp) throws  ServletException, IOException {
 
 
         LOG.debug("LoginCommand starts");
@@ -53,11 +54,13 @@ public class LoginCommand extends Command {
         }
 
         LOG.debug("LoginCommand getUser"+ user.toString());
-        session.setAttribute("userGetUsername", user.getUsername());
         session.setAttribute("user", user);
-//        if (user.getRoles().contains(Role.ADMIN)) {
-//            return Path.PAGE_ADMIN_PAGE_USERLIST;
-//        }
+        session.setAttribute("userRole", user.getRoles());
+        if (user.getRoles().contains(Role.ADMIN)) {
+            List<User> userList = DataHelper.getUsersList();
+            req.setAttribute("userList", userList);
+            return Path.PAGE_ADMIN_PAGE_USERLIST;
+        }
         return Path.PAGE_USER_PAGE;
 
     }

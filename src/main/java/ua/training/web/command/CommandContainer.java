@@ -16,6 +16,8 @@ public class CommandContainer {
         commands.put("login", new LoginCommand());
 //        commands.put("logout", new LogoutCommand());
         commands.put("registration", new RegistrationCommand());
+
+        commands.put("changeLanguageCommand", new ChangeLanguageCommand());
 //        commands.put("noCommand", new NoCommand());
     }
 

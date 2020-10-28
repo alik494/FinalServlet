@@ -1,5 +1,6 @@
 package ua.training.domain;
 
+import java.util.HashSet;
 import java.util.Set;
 
 public class User {
@@ -42,6 +43,7 @@ public class User {
     private Set<Role> roles;
 
 
+
     public User() {
     }
 
@@ -66,7 +68,10 @@ public class User {
         this.username = username;
         this.password = password;
         this.active = active;
+        this.roles=new HashSet<>();
     }
+
+
 
     public String getEmail() {
         return email;

@@ -1,6 +1,7 @@
 package ua.training.web.filter;
 
 import org.apache.log4j.Logger;
+import ua.training.domain.Role;
 
 import javax.servlet.*;
 import javax.servlet.http.HttpServletRequest;
@@ -8,6 +9,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 
 public class CommandAccessFilter implements Filter {
@@ -49,6 +51,8 @@ public class CommandAccessFilter implements Filter {
         accessibleCommands.add("registration");
         accessibleCommands.add("noCommand");
 
+        accessibleCommands.add("changeLanguageCommand");
+
         // client commands
         clientCommands.add("userTestCommand");
 
@@ -82,18 +86,16 @@ public class CommandAccessFilter implements Filter {
                 LOG.debug("Unauthorized access to resource. Client is not logged-in.");
                 httpResponse.sendError(HttpServletResponse.SC_UNAUTHORIZED);
             } else {
-                String userRole = "admin";
-//                        ((Role) session.getAttribute("userRole")).getName().toLowerCase();
-                LOG.debug("Command is specific to user. Check user role.");
-                LOG.debug("Check user role." + userRole);
-                if ("client".equals(userRole) && clientCommands.contains(command)) {
-                    LOG.debug("User is client. Command can be executed by client: " + command);
-                    chain.doFilter(httpRequest, httpResponse);
 
-                } else if ("admin".equals(userRole) && adminCommands.contains(command)) {
+                Set userRole = (Set) session.getAttribute("userRole");
+                LOG.debug("s. Check user role.");
+                LOG.debug("Check user role." + userRole);
+                if (userRole.contains(Role.ADMIN) && adminCommands.contains(command)) {
                     LOG.debug("User is admin. Command can be executed by admin: " + command);
                     chain.doFilter(httpRequest, httpResponse);
-
+                } else if (userRole.contains(Role.USER) && clientCommands.contains(command)) {
+                    LOG.debug("User is client. Command can be executed by client: " + command);
+                    chain.doFilter(httpRequest, httpResponse);
                 } else {
                     httpResponse.sendError(HttpServletResponse.SC_UNAUTHORIZED);
                 }

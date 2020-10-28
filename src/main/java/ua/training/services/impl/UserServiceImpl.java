@@ -6,6 +6,8 @@ import ua.training.repository.UserRepository;
 import ua.training.repository.impl.UserRepositoryImpl;
 import ua.training.services.UserService;
 
+import java.util.List;
+
 public class UserServiceImpl implements UserService {
 
     private static final Logger LOG = Logger.getLogger(UserServiceImpl.class);
@@ -38,5 +40,12 @@ public class UserServiceImpl implements UserService {
     @Override
     public String getSalt(Long id) {
         return null;
+    }
+
+    @Override
+    public List<User> getAll() {
+        LOG.trace("Service method get all users");
+        return repository.getAllUsers();
+
     }
 }

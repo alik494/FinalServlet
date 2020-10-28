@@ -2,6 +2,8 @@ package ua.training.repository;
 
 import ua.training.domain.User;
 
+import java.util.List;
+
 public interface UserRepository {
 
     /**
@@ -28,4 +30,6 @@ public interface UserRepository {
      * @return User entity.
      */
     User createUser(String email,String name,String password) ;
+
+    List<User> getAllUsers();
 }
