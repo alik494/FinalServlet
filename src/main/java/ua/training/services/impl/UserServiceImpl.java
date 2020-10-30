@@ -1,6 +1,7 @@
 package ua.training.services.impl;
 
 import org.apache.log4j.Logger;
+import ua.training.domain.Activity;
 import ua.training.domain.User;
 import ua.training.repository.UserRepository;
 import ua.training.repository.impl.UserRepositoryImpl;
@@ -47,5 +48,10 @@ public class UserServiceImpl implements UserService {
         LOG.trace("Service method get all users");
         return repository.getAllUsers();
 
+    }
+
+    @Override
+    public Activity createNewActivity(String text, String tag, Long userId) {
+      return   repository.createNewActivity(text,tag,userId);
     }
 }

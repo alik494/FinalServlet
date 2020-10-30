@@ -16,33 +16,28 @@
     <tr>
         <th><fmt:message key="activPart.id"/></th>
 
-        <th><fmt:message key="userList.email"/></th>
-        <th><fmt:message key="userList.name"/></th>
-        <th><fmt:message key="userList.pass"/></th>
-        <th><fmt:message key="userList.role"/></th>
-        <th><fmt:message key="userList.active"/></th>
-        <th>${changeStatus}</th>
-        <th><fmt:message key="userList.LinkToEdit"/></th>
+        <th><fmt:message key="activPart.tag"/></th>
+        <th><fmt:message key="activPart.usernames"/></th>
 
 
     </tr>
     </thead>
 
 
-    <c:forEach items="${requestScope.userList}" var="user" varStatus="loop">
+    <c:forEach items="${requestScope.activities}" var="activity" varStatus="loop">
 
         <tr>
-            <td>${user.id}</td>
-            <td>${user.email}</td>
-            <td>${user.username} </td>
-            <td>${user.password}</td>
-            <td>${user.roles}</td>
-            <td>${user.active}</td>
+            <td>${activity.id}</td>
+            <td>${activity.tag}</td>
+            <td>${activity.users}</td>
+<%--            <td>${user.username} </td>--%>
+<%--            <td>${user.password}</td>--%>
+<%--            <td>${user.roles}</td>--%>
+<%--            <td>${user.active}</td>--%>
             <td>
                 <form action="controller" method="post">
                     <input type="hidden" name="command" value="changeUserStatusCommand"/>
-                    <input type="hidden" name="user_id" value="${user.id}">
-                    <input type="hidden" name="user_current_status" value="${user.active}">
+                    <input type="hidden" name="user_id" value="${activity.id}">
                     <button type="submit" class = "button btn-warning">${changeStatus}</button>
                 </form>
             </td>

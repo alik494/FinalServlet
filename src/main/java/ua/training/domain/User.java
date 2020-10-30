@@ -46,6 +46,12 @@ public class User {
 
     public User() {
     }
+    public boolean isAdmin(){
+        if (roles.contains(Role.ADMIN)){
+            return true;
+        }
+        return false;
+    }
 
     public User(String email, String username, String password) {
         this.email = email;

@@ -1,1217 +1,430 @@
-2020-10-28 15:29:02 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 15:29:02 DEBUG SessionLocaleFilter:54 - Current locale: ru
-2020-10-28 15:29:02 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 15:29:20 DEBUG CommandAccessFilter:77 - This command can be accessed by all users: login
-2020-10-28 15:29:20 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 15:29:20 DEBUG SessionLocaleFilter:54 - Current locale: ru
-2020-10-28 15:29:20 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 15:29:20 DEBUG FrontController:46 - FrontController starts
-2020-10-28 15:29:20 TRACE FrontController:50 - Request parameter: command --> login
-2020-10-28 15:29:20 TRACE FrontController:54 - Obtaned command: LoginCommand
-2020-10-28 15:29:20 DEBUG LoginCommand:34 - LoginCommand starts
-2020-10-28 15:29:20 TRACE UserServiceImpl:19 - Service method getOne --> admin@mail.com
-2020-10-28 15:29:20 TRACE UserRepositoryImpl:42 -Current local
-2020-10-28 15:29:20 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@5daf4eaa
-
-
-
-
-2020-10-28 15:30:06 DEBUG CommandAccessFilter:64 - Start initializing filter: CommandAccessFilter
-2020-10-28 15:30:06 DEBUG CommandAccessFilter:66 - Finished initializing filter: CommandAccessFilter
-2020-10-28 15:30:09 DEBUG CommandAccessFilter:77 - This command can be accessed by all users: login
-2020-10-28 15:30:09 DEBUG FrontController:46 - FrontController starts
-2020-10-28 15:30:09 TRACE FrontController:50 - Request parameter: command --> login
-2020-10-28 15:30:09 TRACE FrontController:54 - Obtaned command: LoginCommand
-2020-10-28 15:30:09 DEBUG LoginCommand:34 - LoginCommand starts
-2020-10-28 15:30:09 TRACE UserServiceImpl:19 - Service method getOne --> admin@mail.com
-2020-10-28 15:30:09 TRACE UserRepositoryImpl:42 - Repository impl method getOne --> admin@mail.com
-2020-10-28 15:30:09 DEBUG ConnectionPool:30 - org.apache.commons.dbcp2.BasicDataSource@201b9601
-2020-10-28 15:30:09 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@201b9601
-2020-10-28 15:30:09 TRACE UserRepositoryImpl:55 - Repository method getOne returned --> User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}
-2020-10-28 15:30:09 TRACE LoginCommand:44 - Found in DB: user --> User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}
-2020-10-28 15:30:09 TRACE UserServiceImpl:19 - Service method getOne --> admin@mail.com
-2020-10-28 15:30:09 TRACE UserRepositoryImpl:42 - Repository impl method getOne --> admin@mail.com
-2020-10-28 15:30:09 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@201b9601
-2020-10-28 15:30:09 TRACE UserRepositoryImpl:55 - Repository method getOne returned --> User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}
-2020-10-28 15:30:09 DEBUG LoginCommand:56 - LoginCommand getUserUser{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}
-2020-10-28 15:30:09 TRACE UserServiceImpl:47 - Service method get all users
-2020-10-28 15:30:09 TRACE UserRepositoryImpl:136 - Repository impl method getAllUsers.
-2020-10-28 15:30:09 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@201b9601
-2020-10-28 15:30:09 TRACE UserRepositoryImpl:155 - Repository method getAll returned --> [User{id=26, email='admin2@mail.com', username='Alik', password='123', active=true, roles=[USER]}, User{id=25, email='diana2@mail.com', username='Alik', password='123', active=true, roles=[USER]}, User{id=27, email='admin3@mail.com', username='Aliks', password='123', active=true, roles=[USER]}, User{id=28, email='admin4@mail.com', username='Alika', password='aaa', active=true, roles=[USER]}, User{id=24, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=[USER]}, User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}, User{id=23, email='aa2an@mail.com', username='Alika', password='aaa', active=true, roles=[USER]}]
-2020-10-28 15:30:09 DEBUG DataHelper:23 - Found in DB: userList --> [User{id=26, email='admin2@mail.com', username='Alik', password='123', active=true, roles=[USER]}, User{id=25, email='diana2@mail.com', username='Alik', password='123', active=true, roles=[USER]}, User{id=27, email='admin3@mail.com', username='Aliks', password='123', active=true, roles=[USER]}, User{id=28, email='admin4@mail.com', username='Alika', password='aaa', active=true, roles=[USER]}, User{id=24, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=[USER]}, User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}, User{id=23, email='aa2an@mail.com', username='Alika', password='aaa', active=true, roles=[USER]}]
-2020-10-28 15:30:09 TRACE FrontController:64 - Forward address --> /WEB-INF/jsp/admin/userList.jsp
-2020-10-28 15:30:09 DEBUG FrontController:66 - FrontController finished, now go to forward address --> /WEB-INF/jsp/admin/userList.jsp
-2020-10-28 15:32:47 DEBUG CommandAccessFilter:64 - Start initializing filter: CommandAccessFilter
-2020-10-28 15:32:47 DEBUG CommandAccessFilter:66 - Finished initializing filter: CommandAccessFilter
-2020-10-28 15:32:56 DEBUG SessionLocaleFilter:19 - Filter initialization starts
-2020-10-28 15:32:56 DEBUG SessionLocaleFilter:21 - Filter initialization finished
-2020-10-28 15:32:56 DEBUG CommandAccessFilter:64 - Start initializing filter: CommandAccessFilter
-2020-10-28 15:32:56 DEBUG CommandAccessFilter:66 - Finished initializing filter: CommandAccessFilter
-2020-10-28 15:33:45 DEBUG CommandAccessFilter:77 - This command can be accessed by all users: login
-2020-10-28 15:33:45 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 15:33:45 DEBUG SessionLocaleFilter:47 - Preferred Locale: ru
-2020-10-28 15:33:49 DEBUG SessionLocaleFilter:54 - Current locale: ru
-2020-10-28 15:33:54 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 15:34:03 DEBUG FrontController:46 - FrontController starts
-2020-10-28 15:34:03 TRACE FrontController:50 - Request parameter: command --> login
-2020-10-28 15:34:03 TRACE FrontController:54 - Obtaned command: LoginCommand
-2020-10-28 15:34:03 DEBUG LoginCommand:34 - LoginCommand starts
-2020-10-28 15:34:03 TRACE UserServiceImpl:19 - Service method getOne --> admin@mail.com
-2020-10-28 15:34:03 TRACE UserRepositoryImpl:42 - Repository impl method getOne --> admin@mail.com
-2020-10-28 15:34:03 DEBUG ConnectionPool:30 - org.apache.commons.dbcp2.BasicDataSource@3cbaeb38
-2020-10-28 15:34:03 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@3cbaeb38
-2020-10-28 15:34:04 TRACE UserRepositoryImpl:55 - Repository method getOne returned --> User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}
-2020-10-28 15:34:04 TRACE LoginCommand:44 - Found in DB: user --> User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}
-2020-10-28 15:34:04 TRACE UserServiceImpl:19 - Service method getOne --> admin@mail.com
-2020-10-28 15:34:04 TRACE UserRepositoryImpl:42 - Repository impl method getOne --> admin@mail.com
-2020-10-28 15:34:04 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@3cbaeb38
-2020-10-28 15:34:04 TRACE UserRepositoryImpl:55 - Repository method getOne returned --> User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}
-2020-10-28 15:34:04 DEBUG LoginCommand:56 - LoginCommand getUserUser{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}
-2020-10-28 15:34:04 TRACE UserServiceImpl:47 - Service method get all users
-2020-10-28 15:34:04 TRACE UserRepositoryImpl:136 - Repository impl method getAllUsers.
-2020-10-28 15:34:04 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@3cbaeb38
-2020-10-28 15:34:04 TRACE UserRepositoryImpl:155 - Repository method getAll returned --> [User{id=26, email='admin2@mail.com', username='Alik', password='123', active=true, roles=[USER]}, User{id=25, email='diana2@mail.com', username='Alik', password='123', active=true, roles=[USER]}, User{id=27, email='admin3@mail.com', username='Aliks', password='123', active=true, roles=[USER]}, User{id=28, email='admin4@mail.com', username='Alika', password='aaa', active=true, roles=[USER]}, User{id=24, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=[USER]}, User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}, User{id=23, email='aa2an@mail.com', username='Alika', password='aaa', active=true, roles=[USER]}]
-2020-10-28 15:34:04 DEBUG DataHelper:23 - Found in DB: userList --> [User{id=26, email='admin2@mail.com', username='Alik', password='123', active=true, roles=[USER]}, User{id=25, email='diana2@mail.com', username='Alik', password='123', active=true, roles=[USER]}, User{id=27, email='admin3@mail.com', username='Aliks', password='123', active=true, roles=[USER]}, User{id=28, email='admin4@mail.com', username='Alika', password='aaa', active=true, roles=[USER]}, User{id=24, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=[USER]}, User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}, User{id=23, email='aa2an@mail.com', username='Alika', password='aaa', active=true, roles=[USER]}]
-2020-10-28 15:34:04 TRACE FrontController:64 - Forward address --> /WEB-INF/jsp/admin/userList.jsp
-2020-10-28 15:34:04 DEBUG FrontController:66 - FrontController finished, now go to forward address --> /WEB-INF/jsp/admin/userList.jsp
-2020-10-28 15:34:57 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 15:34:57 DEBUG SessionLocaleFilter:54 - Current locale: ru
-2020-10-28 15:34:57 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 15:35:03 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 15:35:03 DEBUG SessionLocaleFilter:54 - Current locale: ru
-2020-10-28 15:35:03 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 15:38:38 DEBUG SessionLocaleFilter:19 - Filter initialization starts
-2020-10-28 15:38:38 DEBUG SessionLocaleFilter:21 - Filter initialization finished
-2020-10-28 15:38:38 DEBUG CommandAccessFilter:64 - Start initializing filter: CommandAccessFilter
-2020-10-28 15:38:38 DEBUG CommandAccessFilter:66 - Finished initializing filter: CommandAccessFilter
-2020-10-28 15:38:41 DEBUG CommandAccessFilter:77 - This command can be accessed by all users: login
-2020-10-28 15:38:41 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 15:38:41 DEBUG SessionLocaleFilter:47 - Preferred Locale: ru
-2020-10-28 15:38:41 DEBUG SessionLocaleFilter:54 - Current locale: ru
-2020-10-28 15:38:41 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 15:38:41 DEBUG FrontController:46 - FrontController starts
-2020-10-28 15:38:41 TRACE FrontController:50 - Request parameter: command --> login
-2020-10-28 15:38:41 TRACE FrontController:54 - Obtaned command: LoginCommand
-2020-10-28 15:38:41 DEBUG LoginCommand:34 - LoginCommand starts
-2020-10-28 15:38:41 TRACE UserServiceImpl:19 - Service method getOne --> admin@mail.com
-2020-10-28 15:38:41 TRACE UserRepositoryImpl:42 - Repository impl method getOne --> admin@mail.com
-2020-10-28 15:38:41 DEBUG ConnectionPool:30 - org.apache.commons.dbcp2.BasicDataSource@100718fd
-2020-10-28 15:38:41 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@100718fd
-2020-10-28 15:38:41 TRACE UserRepositoryImpl:55 - Repository method getOne returned --> User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[USER, ADMIN]}
-2020-10-28 15:38:41 TRACE LoginCommand:44 - Found in DB: user --> User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[USER, ADMIN]}
-2020-10-28 15:38:41 TRACE UserServiceImpl:19 - Service method getOne --> admin@mail.com
-2020-10-28 15:38:41 TRACE UserRepositoryImpl:42 - Repository impl method getOne --> admin@mail.com
-2020-10-28 15:38:41 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@100718fd
-2020-10-28 15:38:41 TRACE UserRepositoryImpl:55 - Repository method getOne returned --> User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[USER, ADMIN]}
-2020-10-28 15:38:41 DEBUG LoginCommand:56 - LoginCommand getUserUser{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[USER, ADMIN]}
-2020-10-28 15:38:41 TRACE UserServiceImpl:47 - Service method get all users
-2020-10-28 15:38:41 TRACE UserRepositoryImpl:136 - Repository impl method getAllUsers.
-2020-10-28 15:38:41 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@100718fd
-2020-10-28 15:38:41 TRACE UserRepositoryImpl:155 - Repository method getAll returned --> [User{id=26, email='admin2@mail.com', username='Alik', password='123', active=true, roles=[USER]}, User{id=25, email='diana2@mail.com', username='Alik', password='123', active=true, roles=[USER]}, User{id=27, email='admin3@mail.com', username='Aliks', password='123', active=true, roles=[USER]}, User{id=28, email='admin4@mail.com', username='Alika', password='aaa', active=true, roles=[USER]}, User{id=24, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=[USER]}, User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[USER, ADMIN]}, User{id=23, email='aa2an@mail.com', username='Alika', password='aaa', active=true, roles=[USER]}]
-2020-10-28 15:38:41 DEBUG DataHelper:23 - Found in DB: userList --> [User{id=26, email='admin2@mail.com', username='Alik', password='123', active=true, roles=[USER]}, User{id=25, email='diana2@mail.com', username='Alik', password='123', active=true, roles=[USER]}, User{id=27, email='admin3@mail.com', username='Aliks', password='123', active=true, roles=[USER]}, User{id=28, email='admin4@mail.com', username='Alika', password='aaa', active=true, roles=[USER]}, User{id=24, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=[USER]}, User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[USER, ADMIN]}, User{id=23, email='aa2an@mail.com', username='Alika', password='aaa', active=true, roles=[USER]}]
-2020-10-28 15:38:41 TRACE FrontController:64 - Forward address --> /WEB-INF/jsp/admin/userList.jsp
-2020-10-28 15:38:41 DEBUG FrontController:66 - FrontController finished, now go to forward address --> /WEB-INF/jsp/admin/userList.jsp
-2020-10-28 15:38:41 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 15:38:41 DEBUG SessionLocaleFilter:54 - Current locale: ru
-2020-10-28 15:38:41 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 15:38:41 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 15:38:41 DEBUG SessionLocaleFilter:54 - Current locale: ru
-2020-10-28 15:38:41 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 15:39:25 DEBUG SessionLocaleFilter:19 - Filter initialization starts
-2020-10-28 15:39:25 DEBUG SessionLocaleFilter:21 - Filter initialization finished
-2020-10-28 15:39:25 DEBUG CommandAccessFilter:64 - Start initializing filter: CommandAccessFilter
-2020-10-28 15:39:25 DEBUG CommandAccessFilter:66 - Finished initializing filter: CommandAccessFilter
-2020-10-28 15:39:27 DEBUG CommandAccessFilter:77 - This command can be accessed by all users: login
-2020-10-28 15:39:27 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 15:39:27 DEBUG SessionLocaleFilter:47 - Preferred Locale: ru
-2020-10-28 15:39:27 DEBUG SessionLocaleFilter:54 - Current locale: ru
-2020-10-28 15:39:27 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 15:39:27 DEBUG FrontController:46 - FrontController starts
-2020-10-28 15:39:27 TRACE FrontController:50 - Request parameter: command --> login
-2020-10-28 15:39:27 TRACE FrontController:54 - Obtaned command: LoginCommand
-2020-10-28 15:39:27 DEBUG LoginCommand:34 - LoginCommand starts
-2020-10-28 15:39:27 TRACE UserServiceImpl:19 - Service method getOne --> admin@mail.com
-2020-10-28 15:39:27 TRACE UserRepositoryImpl:42 - Repository impl method getOne --> admin@mail.com
-2020-10-28 15:39:27 DEBUG ConnectionPool:30 - org.apache.commons.dbcp2.BasicDataSource@796a616b
-2020-10-28 15:39:27 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@796a616b
-2020-10-28 15:39:27 TRACE UserRepositoryImpl:55 - Repository method getOne returned --> User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}
-2020-10-28 15:39:27 TRACE LoginCommand:44 - Found in DB: user --> User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}
-2020-10-28 15:39:27 TRACE UserServiceImpl:19 - Service method getOne --> admin@mail.com
-2020-10-28 15:39:27 TRACE UserRepositoryImpl:42 - Repository impl method getOne --> admin@mail.com
-2020-10-28 15:39:27 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@796a616b
-2020-10-28 15:39:27 TRACE UserRepositoryImpl:55 - Repository method getOne returned --> User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}
-2020-10-28 15:39:27 DEBUG LoginCommand:56 - LoginCommand getUserUser{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}
-2020-10-28 15:39:27 TRACE UserServiceImpl:47 - Service method get all users
-2020-10-28 15:39:27 TRACE UserRepositoryImpl:136 - Repository impl method getAllUsers.
-2020-10-28 15:39:27 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@796a616b
-2020-10-28 15:39:28 TRACE UserRepositoryImpl:155 - Repository method getAll returned --> [User{id=26, email='admin2@mail.com', username='Alik', password='123', active=true, roles=[USER]}, User{id=25, email='diana2@mail.com', username='Alik', password='123', active=true, roles=[USER]}, User{id=27, email='admin3@mail.com', username='Aliks', password='123', active=true, roles=[USER]}, User{id=28, email='admin4@mail.com', username='Alika', password='aaa', active=true, roles=[USER]}, User{id=24, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=[USER]}, User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}, User{id=23, email='aa2an@mail.com', username='Alika', password='aaa', active=true, roles=[USER]}]
-2020-10-28 15:39:28 DEBUG DataHelper:23 - Found in DB: userList --> [User{id=26, email='admin2@mail.com', username='Alik', password='123', active=true, roles=[USER]}, User{id=25, email='diana2@mail.com', username='Alik', password='123', active=true, roles=[USER]}, User{id=27, email='admin3@mail.com', username='Aliks', password='123', active=true, roles=[USER]}, User{id=28, email='admin4@mail.com', username='Alika', password='aaa', active=true, roles=[USER]}, User{id=24, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=[USER]}, User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}, User{id=23, email='aa2an@mail.com', username='Alika', password='aaa', active=true, roles=[USER]}]
-2020-10-28 15:39:28 TRACE FrontController:64 - Forward address --> /WEB-INF/jsp/admin/userList.jsp
-2020-10-28 15:39:28 DEBUG FrontController:66 - FrontController finished, now go to forward address --> /WEB-INF/jsp/admin/userList.jsp
-2020-10-28 15:39:28 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 15:39:28 DEBUG SessionLocaleFilter:54 - Current locale: ru
-2020-10-28 15:39:28 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 15:39:28 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 15:39:28 DEBUG SessionLocaleFilter:54 - Current locale: ru
-2020-10-28 15:39:28 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 15:39:31 DEBUG CommandAccessFilter:81 - This command can be accessed only by logged in users: changeLanguageCommand
-2020-10-28 15:39:31 DEBUG CommandAccessFilter:89 - s. Check user role.
-2020-10-28 15:39:31 DEBUG CommandAccessFilter:90 - Check user role.[ADMIN, USER]
-2020-10-28 15:39:45 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 15:39:45 DEBUG SessionLocaleFilter:54 - Current locale: ru
-2020-10-28 15:39:45 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 15:39:46 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 15:39:46 DEBUG SessionLocaleFilter:54 - Current locale: ru
-2020-10-28 15:39:46 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 15:39:48 DEBUG CommandAccessFilter:77 - This command can be accessed by all users: login
-2020-10-28 15:39:48 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 15:39:48 DEBUG SessionLocaleFilter:54 - Current locale: ru
-2020-10-28 15:39:48 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 15:39:48 DEBUG FrontController:46 - FrontController starts
-2020-10-28 15:39:48 TRACE FrontController:50 - Request parameter: command --> login
-2020-10-28 15:39:48 TRACE FrontController:54 - Obtaned command: LoginCommand
-2020-10-28 15:39:48 DEBUG LoginCommand:34 - LoginCommand starts
-2020-10-28 15:39:48 TRACE UserServiceImpl:19 - Service method getOne --> admin@mail.com
-2020-10-28 15:39:48 TRACE UserRepositoryImpl:42 - Repository impl method getOne --> admin@mail.com
-2020-10-28 15:39:48 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@796a616b
-2020-10-28 15:39:48 TRACE UserRepositoryImpl:55 - Repository method getOne returned --> User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}
-2020-10-28 15:39:48 TRACE LoginCommand:44 - Found in DB: user --> User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}
-2020-10-28 15:39:48 TRACE UserServiceImpl:19 - Service method getOne --> admin@mail.com
-2020-10-28 15:39:48 TRACE UserRepositoryImpl:42 - Repository impl method getOne --> admin@mail.com
-2020-10-28 15:39:48 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@796a616b
-2020-10-28 15:39:49 TRACE UserRepositoryImpl:55 - Repository method getOne returned --> User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}
-2020-10-28 15:39:49 DEBUG LoginCommand:56 - LoginCommand getUserUser{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}
-2020-10-28 15:39:49 TRACE UserServiceImpl:47 - Service method get all users
-2020-10-28 15:39:49 TRACE UserRepositoryImpl:136 - Repository impl method getAllUsers.
-2020-10-28 15:39:49 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@796a616b
-2020-10-28 15:39:49 TRACE UserRepositoryImpl:155 - Repository method getAll returned --> [User{id=26, email='admin2@mail.com', username='Alik', password='123', active=true, roles=[USER]}, User{id=25, email='diana2@mail.com', username='Alik', password='123', active=true, roles=[USER]}, User{id=27, email='admin3@mail.com', username='Aliks', password='123', active=true, roles=[USER]}, User{id=28, email='admin4@mail.com', username='Alika', password='aaa', active=true, roles=[USER]}, User{id=24, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=[USER]}, User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}, User{id=23, email='aa2an@mail.com', username='Alika', password='aaa', active=true, roles=[USER]}]
-2020-10-28 15:39:49 DEBUG DataHelper:23 - Found in DB: userList --> [User{id=26, email='admin2@mail.com', username='Alik', password='123', active=true, roles=[USER]}, User{id=25, email='diana2@mail.com', username='Alik', password='123', active=true, roles=[USER]}, User{id=27, email='admin3@mail.com', username='Aliks', password='123', active=true, roles=[USER]}, User{id=28, email='admin4@mail.com', username='Alika', password='aaa', active=true, roles=[USER]}, User{id=24, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=[USER]}, User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}, User{id=23, email='aa2an@mail.com', username='Alika', password='aaa', active=true, roles=[USER]}]
-2020-10-28 15:39:49 TRACE FrontController:64 - Forward address --> /WEB-INF/jsp/admin/userList.jsp
-2020-10-28 15:39:49 DEBUG FrontController:66 - FrontController finished, now go to forward address --> /WEB-INF/jsp/admin/userList.jsp
-2020-10-28 15:39:49 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 15:39:49 DEBUG SessionLocaleFilter:54 - Current locale: ru
-2020-10-28 15:39:49 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 15:39:49 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 15:39:49 DEBUG SessionLocaleFilter:54 - Current locale: ru
-2020-10-28 15:39:49 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 15:39:51 DEBUG CommandAccessFilter:81 - This command can be accessed only by logged in users: changeLanguageCommand
-2020-10-28 15:39:51 DEBUG CommandAccessFilter:89 - s. Check user role.
-2020-10-28 15:39:51 DEBUG CommandAccessFilter:90 - Check user role.[ADMIN, USER]
-2020-10-28 15:41:11 DEBUG SessionLocaleFilter:19 - Filter initialization starts
-2020-10-28 15:41:11 DEBUG SessionLocaleFilter:21 - Filter initialization finished
-2020-10-28 15:41:11 DEBUG CommandAccessFilter:66 - Start initializing filter: CommandAccessFilter
-2020-10-28 15:41:11 DEBUG CommandAccessFilter:68 - Finished initializing filter: CommandAccessFilter
-2020-10-28 15:41:15 DEBUG CommandAccessFilter:79 - This command can be accessed by all users: login
-2020-10-28 15:41:15 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 15:41:15 DEBUG SessionLocaleFilter:47 - Preferred Locale: ru
-2020-10-28 15:41:15 DEBUG SessionLocaleFilter:54 - Current locale: ru
-2020-10-28 15:41:15 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 15:41:15 DEBUG FrontController:46 - FrontController starts
-2020-10-28 15:41:15 TRACE FrontController:50 - Request parameter: command --> login
-2020-10-28 15:41:15 TRACE FrontController:54 - Obtaned command: LoginCommand
-2020-10-28 15:41:15 DEBUG LoginCommand:34 - LoginCommand starts
-2020-10-28 15:41:15 TRACE UserServiceImpl:19 - Service method getOne --> admin@mail.com
-2020-10-28 15:41:15 TRACE UserRepositoryImpl:42 - Repository impl method getOne --> admin@mail.com
-2020-10-28 15:41:15 DEBUG ConnectionPool:30 - org.apache.commons.dbcp2.BasicDataSource@5641f3c4
-2020-10-28 15:41:15 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@5641f3c4
-2020-10-28 15:41:15 TRACE UserRepositoryImpl:55 - Repository method getOne returned --> User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}
-2020-10-28 15:41:15 TRACE LoginCommand:44 - Found in DB: user --> User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}
-2020-10-28 15:41:15 TRACE UserServiceImpl:19 - Service method getOne --> admin@mail.com
-2020-10-28 15:41:15 TRACE UserRepositoryImpl:42 - Repository impl method getOne --> admin@mail.com
-2020-10-28 15:41:15 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@5641f3c4
-2020-10-28 15:41:15 TRACE UserRepositoryImpl:55 - Repository method getOne returned --> User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}
-2020-10-28 15:41:15 DEBUG LoginCommand:56 - LoginCommand getUserUser{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}
-2020-10-28 15:41:15 TRACE UserServiceImpl:47 - Service method get all users
-2020-10-28 15:41:15 TRACE UserRepositoryImpl:136 - Repository impl method getAllUsers.
-2020-10-28 15:41:15 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@5641f3c4
-2020-10-28 15:41:15 TRACE UserRepositoryImpl:155 - Repository method getAll returned --> [User{id=26, email='admin2@mail.com', username='Alik', password='123', active=true, roles=[USER]}, User{id=25, email='diana2@mail.com', username='Alik', password='123', active=true, roles=[USER]}, User{id=27, email='admin3@mail.com', username='Aliks', password='123', active=true, roles=[USER]}, User{id=28, email='admin4@mail.com', username='Alika', password='aaa', active=true, roles=[USER]}, User{id=24, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=[USER]}, User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}, User{id=23, email='aa2an@mail.com', username='Alika', password='aaa', active=true, roles=[USER]}]
-2020-10-28 15:41:15 DEBUG DataHelper:23 - Found in DB: userList --> [User{id=26, email='admin2@mail.com', username='Alik', password='123', active=true, roles=[USER]}, User{id=25, email='diana2@mail.com', username='Alik', password='123', active=true, roles=[USER]}, User{id=27, email='admin3@mail.com', username='Aliks', password='123', active=true, roles=[USER]}, User{id=28, email='admin4@mail.com', username='Alika', password='aaa', active=true, roles=[USER]}, User{id=24, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=[USER]}, User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}, User{id=23, email='aa2an@mail.com', username='Alika', password='aaa', active=true, roles=[USER]}]
-2020-10-28 15:41:15 TRACE FrontController:64 - Forward address --> /WEB-INF/jsp/admin/userList.jsp
-2020-10-28 15:41:15 DEBUG FrontController:66 - FrontController finished, now go to forward address --> /WEB-INF/jsp/admin/userList.jsp
-2020-10-28 15:41:15 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 15:41:15 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 15:41:15 DEBUG SessionLocaleFilter:54 - Current locale: ru
-2020-10-28 15:41:15 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 15:41:15 DEBUG SessionLocaleFilter:54 - Current locale: ru
-2020-10-28 15:41:15 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 15:41:17 DEBUG CommandAccessFilter:79 - This command can be accessed by all users: changeLanguageCommand
-2020-10-28 15:41:17 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 15:41:17 DEBUG SessionLocaleFilter:54 - Current locale: en
-2020-10-28 15:41:17 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 15:41:17 DEBUG FrontController:46 - FrontController starts
-2020-10-28 15:41:17 TRACE FrontController:50 - Request parameter: command --> changeLanguageCommand
-2020-10-28 15:41:17 TRACE FrontController:54 - Obtaned command: ChangeLanguageCommand
-2020-10-28 15:41:17 DEBUG ChangeLanguageCommand:28 - LanguageChangeCommand starts
-2020-10-28 15:41:17 DEBUG ChangeLanguageCommand:33 - LanguageChangeCommand finished
-2020-10-28 15:41:17 TRACE FrontController:64 - Forward address --> /controller?command=listUsersCommand
-2020-10-28 15:41:17 DEBUG FrontController:66 - FrontController finished, now go to forward address --> /controller?command=listUsersCommand
-2020-10-28 15:41:17 DEBUG FrontController:46 - FrontController starts
-2020-10-28 15:41:17 TRACE FrontController:50 - Request parameter: command --> listUsersCommand
-2020-10-28 15:41:17 TRACE CommandContainer:33 - Command not found, name --> listUsersCommand
-2020-10-28 15:41:17 TRACE FrontController:54 - Obtaned command: null
-2020-10-28 15:41:17 TRACE FrontController:64 - Forward address --> /WEB-INF/jsp/error_page.jsp
-2020-10-28 15:41:17 DEBUG FrontController:66 - FrontController finished, now go to forward address --> /WEB-INF/jsp/error_page.jsp
-2020-10-28 15:41:24 DEBUG CommandAccessFilter:79 - This command can be accessed by all users: login
-2020-10-28 15:41:24 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 15:41:24 DEBUG SessionLocaleFilter:54 - Current locale: en
-2020-10-28 15:41:24 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 15:41:24 DEBUG FrontController:46 - FrontController starts
-2020-10-28 15:41:24 TRACE FrontController:50 - Request parameter: command --> login
-2020-10-28 15:41:24 TRACE FrontController:54 - Obtaned command: LoginCommand
-2020-10-28 15:41:24 DEBUG LoginCommand:34 - LoginCommand starts
-2020-10-28 15:41:24 TRACE UserServiceImpl:19 - Service method getOne --> admin@mail.com
-2020-10-28 15:41:24 TRACE UserRepositoryImpl:42 - Repository impl method getOne --> admin@mail.com
-2020-10-28 15:41:24 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@5641f3c4
-2020-10-28 15:41:24 TRACE UserRepositoryImpl:55 - Repository method getOne returned --> User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}
-2020-10-28 15:41:24 TRACE LoginCommand:44 - Found in DB: user --> User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}
-2020-10-28 15:41:24 TRACE UserServiceImpl:19 - Service method getOne --> admin@mail.com
-2020-10-28 15:41:24 TRACE UserRepositoryImpl:42 - Repository impl method getOne --> admin@mail.com
-2020-10-28 15:41:24 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@5641f3c4
-2020-10-28 15:41:24 TRACE UserRepositoryImpl:55 - Repository method getOne returned --> User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}
-2020-10-28 15:41:24 DEBUG LoginCommand:56 - LoginCommand getUserUser{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}
-2020-10-28 15:41:24 TRACE UserServiceImpl:47 - Service method get all users
-2020-10-28 15:41:24 TRACE UserRepositoryImpl:136 - Repository impl method getAllUsers.
-2020-10-28 15:41:24 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@5641f3c4
-2020-10-28 15:41:25 TRACE UserRepositoryImpl:155 - Repository method getAll returned --> [User{id=26, email='admin2@mail.com', username='Alik', password='123', active=true, roles=[USER]}, User{id=25, email='diana2@mail.com', username='Alik', password='123', active=true, roles=[USER]}, User{id=27, email='admin3@mail.com', username='Aliks', password='123', active=true, roles=[USER]}, User{id=28, email='admin4@mail.com', username='Alika', password='aaa', active=true, roles=[USER]}, User{id=24, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=[USER]}, User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}, User{id=23, email='aa2an@mail.com', username='Alika', password='aaa', active=true, roles=[USER]}]
-2020-10-28 15:41:25 DEBUG DataHelper:23 - Found in DB: userList --> [User{id=26, email='admin2@mail.com', username='Alik', password='123', active=true, roles=[USER]}, User{id=25, email='diana2@mail.com', username='Alik', password='123', active=true, roles=[USER]}, User{id=27, email='admin3@mail.com', username='Aliks', password='123', active=true, roles=[USER]}, User{id=28, email='admin4@mail.com', username='Alika', password='aaa', active=true, roles=[USER]}, User{id=24, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=[USER]}, User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}, User{id=23, email='aa2an@mail.com', username='Alika', password='aaa', active=true, roles=[USER]}]
-2020-10-28 15:41:25 TRACE FrontController:64 - Forward address --> /WEB-INF/jsp/admin/userList.jsp
-2020-10-28 15:41:25 DEBUG FrontController:66 - FrontController finished, now go to forward address --> /WEB-INF/jsp/admin/userList.jsp
-2020-10-28 15:41:25 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 15:41:25 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 15:41:25 DEBUG SessionLocaleFilter:54 - Current locale: en
-2020-10-28 15:41:25 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 15:41:25 DEBUG SessionLocaleFilter:54 - Current locale: en
-2020-10-28 15:41:25 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 15:42:23 DEBUG CommandAccessFilter:79 - This command can be accessed by all users: logout
-2020-10-28 15:42:23 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 15:42:23 DEBUG SessionLocaleFilter:54 - Current locale: en
-2020-10-28 15:42:23 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 15:42:23 DEBUG FrontController:46 - FrontController starts
-2020-10-28 15:42:23 TRACE FrontController:50 - Request parameter: command --> logout
-2020-10-28 15:42:23 TRACE CommandContainer:33 - Command not found, name --> logout
-2020-10-28 15:42:23 TRACE FrontController:54 - Obtaned command: null
-2020-10-28 15:42:23 TRACE FrontController:64 - Forward address --> /WEB-INF/jsp/error_page.jsp
-2020-10-28 15:42:23 DEBUG FrontController:66 - FrontController finished, now go to forward address --> /WEB-INF/jsp/error_page.jsp
-2020-10-28 15:42:26 DEBUG CommandAccessFilter:79 - This command can be accessed by all users: changeLanguageCommand
-2020-10-28 15:42:26 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 15:42:26 DEBUG SessionLocaleFilter:54 - Current locale: en
-2020-10-28 15:42:26 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 15:42:26 DEBUG FrontController:46 - FrontController starts
-2020-10-28 15:42:26 TRACE FrontController:50 - Request parameter: command --> changeLanguageCommand
-2020-10-28 15:42:26 TRACE FrontController:54 - Obtaned command: ChangeLanguageCommand
-2020-10-28 15:42:26 DEBUG ChangeLanguageCommand:28 - LanguageChangeCommand starts
-2020-10-28 15:42:26 DEBUG ChangeLanguageCommand:33 - LanguageChangeCommand finished
-2020-10-28 15:42:26 TRACE FrontController:64 - Forward address --> /controller?command=listUsersCommand
-2020-10-28 15:42:26 DEBUG FrontController:66 - FrontController finished, now go to forward address --> /controller?command=listUsersCommand
-2020-10-28 15:42:26 DEBUG FrontController:46 - FrontController starts
-2020-10-28 15:42:26 TRACE FrontController:50 - Request parameter: command --> listUsersCommand
-2020-10-28 15:42:26 TRACE CommandContainer:33 - Command not found, name --> listUsersCommand
-2020-10-28 15:42:26 TRACE FrontController:54 - Obtaned command: null
-2020-10-28 15:42:26 TRACE FrontController:64 - Forward address --> /WEB-INF/jsp/error_page.jsp
-2020-10-28 15:42:26 DEBUG FrontController:66 - FrontController finished, now go to forward address --> /WEB-INF/jsp/error_page.jsp
-2020-10-28 15:46:50 DEBUG SessionLocaleFilter:19 - Filter initialization starts
-2020-10-28 15:46:50 DEBUG SessionLocaleFilter:21 - Filter initialization finished
-2020-10-28 15:46:50 DEBUG CommandAccessFilter:66 - Start initializing filter: CommandAccessFilter
-2020-10-28 15:46:50 DEBUG CommandAccessFilter:68 - Finished initializing filter: CommandAccessFilter
-2020-10-28 15:46:51 DEBUG CommandAccessFilter:79 - This command can be accessed by all users: login
-2020-10-28 15:46:51 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 15:46:51 DEBUG SessionLocaleFilter:47 - Preferred Locale: ru
-2020-10-28 15:46:51 DEBUG SessionLocaleFilter:54 - Current locale: ru
-2020-10-28 15:46:51 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 15:46:51 DEBUG FrontController:46 - FrontController starts
-2020-10-28 15:46:51 TRACE FrontController:50 - Request parameter: command --> login
-2020-10-28 15:46:51 TRACE FrontController:54 - Obtaned command: LoginCommand
-2020-10-28 15:46:51 DEBUG LoginCommand:34 - LoginCommand starts
-2020-10-28 15:46:51 TRACE UserServiceImpl:19 - Service method getOne --> admin@mail.com
-2020-10-28 15:46:51 TRACE UserRepositoryImpl:42 - Repository impl method getOne --> admin@mail.com
-2020-10-28 15:46:51 DEBUG ConnectionPool:30 - org.apache.commons.dbcp2.BasicDataSource@4a58286e
-2020-10-28 15:46:51 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@4a58286e
-2020-10-28 15:46:51 TRACE UserRepositoryImpl:55 - Repository method getOne returned --> User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[USER, ADMIN]}
-2020-10-28 15:46:51 TRACE LoginCommand:44 - Found in DB: user --> User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[USER, ADMIN]}
-2020-10-28 15:46:51 TRACE UserServiceImpl:19 - Service method getOne --> admin@mail.com
-2020-10-28 15:46:51 TRACE UserRepositoryImpl:42 - Repository impl method getOne --> admin@mail.com
-2020-10-28 15:46:51 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@4a58286e
-2020-10-28 15:46:51 TRACE UserRepositoryImpl:55 - Repository method getOne returned --> User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[USER, ADMIN]}
-2020-10-28 15:46:51 DEBUG LoginCommand:56 - LoginCommand getUserUser{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[USER, ADMIN]}
-2020-10-28 15:46:51 TRACE UserServiceImpl:47 - Service method get all users
-2020-10-28 15:46:51 TRACE UserRepositoryImpl:136 - Repository impl method getAllUsers.
-2020-10-28 15:46:51 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@4a58286e
-2020-10-28 15:46:51 TRACE UserRepositoryImpl:155 - Repository method getAll returned --> [User{id=26, email='admin2@mail.com', username='Alik', password='123', active=true, roles=[USER]}, User{id=25, email='diana2@mail.com', username='Alik', password='123', active=true, roles=[USER]}, User{id=27, email='admin3@mail.com', username='Aliks', password='123', active=true, roles=[USER]}, User{id=28, email='admin4@mail.com', username='Alika', password='aaa', active=true, roles=[USER]}, User{id=24, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=[USER]}, User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[USER, ADMIN]}, User{id=23, email='aa2an@mail.com', username='Alika', password='aaa', active=true, roles=[USER]}]
-2020-10-28 15:46:51 DEBUG DataHelper:23 - Found in DB: userList --> [User{id=26, email='admin2@mail.com', username='Alik', password='123', active=true, roles=[USER]}, User{id=25, email='diana2@mail.com', username='Alik', password='123', active=true, roles=[USER]}, User{id=27, email='admin3@mail.com', username='Aliks', password='123', active=true, roles=[USER]}, User{id=28, email='admin4@mail.com', username='Alika', password='aaa', active=true, roles=[USER]}, User{id=24, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=[USER]}, User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[USER, ADMIN]}, User{id=23, email='aa2an@mail.com', username='Alika', password='aaa', active=true, roles=[USER]}]
-2020-10-28 15:46:51 TRACE FrontController:64 - Forward address --> /WEB-INF/jsp/admin/userList.jsp
-2020-10-28 15:46:51 DEBUG FrontController:66 - FrontController finished, now go to forward address --> /WEB-INF/jsp/admin/userList.jsp
-2020-10-28 15:46:52 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 15:46:52 DEBUG SessionLocaleFilter:54 - Current locale: ru
-2020-10-28 15:46:52 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 15:46:52 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 15:46:52 DEBUG SessionLocaleFilter:54 - Current locale: ru
-2020-10-28 15:46:52 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 15:46:56 DEBUG CommandAccessFilter:79 - This command can be accessed by all users: changeLanguageCommand
-2020-10-28 15:46:56 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 15:46:56 DEBUG SessionLocaleFilter:54 - Current locale: en
-2020-10-28 15:46:56 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 15:46:56 DEBUG FrontController:46 - FrontController starts
-2020-10-28 15:46:56 TRACE FrontController:50 - Request parameter: command --> changeLanguageCommand
-2020-10-28 15:46:56 TRACE FrontController:54 - Obtaned command: ChangeLanguageCommand
-2020-10-28 15:46:56 DEBUG ChangeLanguageCommand:28 - LanguageChangeCommand starts
-2020-10-28 15:46:56 DEBUG ChangeLanguageCommand:33 - LanguageChangeCommand finished
-2020-10-28 15:46:56 TRACE FrontController:64 - Forward address --> /controller?command=listUsersCommand
-2020-10-28 15:46:56 DEBUG FrontController:66 - FrontController finished, now go to forward address --> /controller?command=listUsersCommand
-2020-10-28 15:46:56 DEBUG FrontController:46 - FrontController starts
-2020-10-28 15:46:56 TRACE FrontController:50 - Request parameter: command --> listUsersCommand
-2020-10-28 15:46:56 TRACE CommandContainer:33 - Command not found, name --> listUsersCommand
-2020-10-28 15:46:56 TRACE FrontController:54 - Obtaned command: null
-2020-10-28 15:46:56 TRACE FrontController:64 - Forward address --> /WEB-INF/jsp/error_page.jsp
-2020-10-28 15:46:56 DEBUG FrontController:66 - FrontController finished, now go to forward address --> /WEB-INF/jsp/error_page.jsp
-2020-10-28 15:52:43 DEBUG SessionLocaleFilter:19 - Filter initialization starts
-2020-10-28 15:52:43 DEBUG SessionLocaleFilter:21 - Filter initialization finished
-2020-10-28 15:52:43 DEBUG CommandAccessFilter:66 - Start initializing filter: CommandAccessFilter
-2020-10-28 15:52:43 DEBUG CommandAccessFilter:68 - Finished initializing filter: CommandAccessFilter
-2020-10-28 15:52:43 DEBUG CommandAccessFilter:79 - This command can be accessed by all users: login
-2020-10-28 15:52:43 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 15:52:43 DEBUG SessionLocaleFilter:47 - Preferred Locale: ru
-2020-10-28 15:52:43 DEBUG SessionLocaleFilter:54 - Current locale: ru
-2020-10-28 15:52:43 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 15:52:43 DEBUG FrontController:46 - FrontController starts
-2020-10-28 15:52:43 TRACE FrontController:50 - Request parameter: command --> login
-2020-10-28 15:52:43 TRACE FrontController:54 - Obtaned command: LoginCommand
-2020-10-28 15:52:43 DEBUG LoginCommand:34 - LoginCommand starts
-2020-10-28 15:52:43 TRACE UserServiceImpl:19 - Service method getOne --> admin@mail.com
-2020-10-28 15:52:43 TRACE UserRepositoryImpl:42 - Repository impl method getOne --> admin@mail.com
-2020-10-28 15:52:43 DEBUG ConnectionPool:30 - org.apache.commons.dbcp2.BasicDataSource@2658cbc2
-2020-10-28 15:52:43 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@2658cbc2
-2020-10-28 15:52:43 TRACE UserRepositoryImpl:55 - Repository method getOne returned --> User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}
-2020-10-28 15:52:43 TRACE LoginCommand:44 - Found in DB: user --> User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}
-2020-10-28 15:52:43 TRACE UserServiceImpl:19 - Service method getOne --> admin@mail.com
-2020-10-28 15:52:43 TRACE UserRepositoryImpl:42 - Repository impl method getOne --> admin@mail.com
-2020-10-28 15:52:43 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@2658cbc2
-2020-10-28 15:52:43 TRACE UserRepositoryImpl:55 - Repository method getOne returned --> User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}
-2020-10-28 15:52:43 DEBUG LoginCommand:56 - LoginCommand getUserUser{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}
-2020-10-28 15:52:43 TRACE UserServiceImpl:47 - Service method get all users
-2020-10-28 15:52:43 TRACE UserRepositoryImpl:136 - Repository impl method getAllUsers.
-2020-10-28 15:52:43 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@2658cbc2
-2020-10-28 15:52:43 TRACE UserRepositoryImpl:155 - Repository method getAll returned --> [User{id=26, email='admin2@mail.com', username='Alik', password='123', active=true, roles=[USER]}, User{id=25, email='diana2@mail.com', username='Alik', password='123', active=true, roles=[USER]}, User{id=27, email='admin3@mail.com', username='Aliks', password='123', active=true, roles=[USER]}, User{id=28, email='admin4@mail.com', username='Alika', password='aaa', active=true, roles=[USER]}, User{id=24, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=[USER]}, User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}, User{id=23, email='aa2an@mail.com', username='Alika', password='aaa', active=true, roles=[USER]}]
-2020-10-28 15:52:43 DEBUG DataHelper:23 - Found in DB: userList --> [User{id=26, email='admin2@mail.com', username='Alik', password='123', active=true, roles=[USER]}, User{id=25, email='diana2@mail.com', username='Alik', password='123', active=true, roles=[USER]}, User{id=27, email='admin3@mail.com', username='Aliks', password='123', active=true, roles=[USER]}, User{id=28, email='admin4@mail.com', username='Alika', password='aaa', active=true, roles=[USER]}, User{id=24, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=[USER]}, User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}, User{id=23, email='aa2an@mail.com', username='Alika', password='aaa', active=true, roles=[USER]}]
-2020-10-28 15:52:43 TRACE FrontController:64 - Forward address --> /WEB-INF/jsp/admin/userList.jsp
-2020-10-28 15:52:43 DEBUG FrontController:66 - FrontController finished, now go to forward address --> /WEB-INF/jsp/admin/userList.jsp
-2020-10-28 15:52:44 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 15:52:44 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 15:52:44 DEBUG SessionLocaleFilter:54 - Current locale: ru
-2020-10-28 15:52:44 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 15:52:44 DEBUG SessionLocaleFilter:54 - Current locale: ru
-2020-10-28 15:52:44 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 15:52:48 DEBUG CommandAccessFilter:79 - This command can be accessed by all users: changeLanguageCommand
-2020-10-28 15:52:48 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 15:52:48 DEBUG SessionLocaleFilter:54 - Current locale: en
-2020-10-28 15:52:48 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 15:52:48 DEBUG FrontController:46 - FrontController starts
-2020-10-28 15:52:48 TRACE FrontController:50 - Request parameter: command --> changeLanguageCommand
-2020-10-28 15:52:48 TRACE FrontController:54 - Obtaned command: ChangeLanguageCommand
-2020-10-28 15:52:48 DEBUG ChangeLanguageCommand:28 - LanguageChangeCommand starts
-2020-10-28 15:52:48 DEBUG ChangeLanguageCommand:33 - LanguageChangeCommand finished
-2020-10-28 15:52:48 TRACE FrontController:64 - Forward address --> /controller?command=listUsersCommand
-2020-10-28 15:52:48 DEBUG FrontController:66 - FrontController finished, now go to forward address --> /controller?command=listUsersCommand
-2020-10-28 15:52:48 DEBUG FrontController:46 - FrontController starts
-2020-10-28 15:52:48 TRACE FrontController:50 - Request parameter: command --> listUsersCommand
-2020-10-28 15:52:48 TRACE CommandContainer:33 - Command not found, name --> listUsersCommand
-2020-10-28 15:52:48 TRACE FrontController:54 - Obtaned command: null
-2020-10-28 15:52:48 TRACE FrontController:64 - Forward address --> /WEB-INF/jsp/error_page.jsp
-2020-10-28 15:52:48 DEBUG FrontController:66 - FrontController finished, now go to forward address --> /WEB-INF/jsp/error_page.jsp
-2020-10-28 15:52:54 DEBUG CommandAccessFilter:79 - This command can be accessed by all users: login
-2020-10-28 15:52:54 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 15:52:54 DEBUG SessionLocaleFilter:54 - Current locale: en
-2020-10-28 15:52:54 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 15:52:54 DEBUG FrontController:46 - FrontController starts
-2020-10-28 15:52:54 TRACE FrontController:50 - Request parameter: command --> login
-2020-10-28 15:52:54 TRACE FrontController:54 - Obtaned command: LoginCommand
-2020-10-28 15:52:54 DEBUG LoginCommand:34 - LoginCommand starts
-2020-10-28 15:52:54 TRACE UserServiceImpl:19 - Service method getOne --> admin@mail.com
-2020-10-28 15:52:54 TRACE UserRepositoryImpl:42 - Repository impl method getOne --> admin@mail.com
-2020-10-28 15:52:54 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@2658cbc2
-2020-10-28 15:52:54 TRACE UserRepositoryImpl:55 - Repository method getOne returned --> User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}
-2020-10-28 15:52:54 TRACE LoginCommand:44 - Found in DB: user --> User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}
-2020-10-28 15:52:54 TRACE UserServiceImpl:19 - Service method getOne --> admin@mail.com
-2020-10-28 15:52:54 TRACE UserRepositoryImpl:42 - Repository impl method getOne --> admin@mail.com
-2020-10-28 15:52:54 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@2658cbc2
-2020-10-28 15:52:54 TRACE UserRepositoryImpl:55 - Repository method getOne returned --> User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}
-2020-10-28 15:52:54 DEBUG LoginCommand:56 - LoginCommand getUserUser{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}
-2020-10-28 15:52:54 TRACE UserServiceImpl:47 - Service method get all users
-2020-10-28 15:52:54 TRACE UserRepositoryImpl:136 - Repository impl method getAllUsers.
-2020-10-28 15:52:54 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@2658cbc2
-2020-10-28 15:52:54 TRACE UserRepositoryImpl:155 - Repository method getAll returned --> [User{id=26, email='admin2@mail.com', username='Alik', password='123', active=true, roles=[USER]}, User{id=25, email='diana2@mail.com', username='Alik', password='123', active=true, roles=[USER]}, User{id=27, email='admin3@mail.com', username='Aliks', password='123', active=true, roles=[USER]}, User{id=28, email='admin4@mail.com', username='Alika', password='aaa', active=true, roles=[USER]}, User{id=24, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=[USER]}, User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}, User{id=23, email='aa2an@mail.com', username='Alika', password='aaa', active=true, roles=[USER]}]
-2020-10-28 15:52:54 DEBUG DataHelper:23 - Found in DB: userList --> [User{id=26, email='admin2@mail.com', username='Alik', password='123', active=true, roles=[USER]}, User{id=25, email='diana2@mail.com', username='Alik', password='123', active=true, roles=[USER]}, User{id=27, email='admin3@mail.com', username='Aliks', password='123', active=true, roles=[USER]}, User{id=28, email='admin4@mail.com', username='Alika', password='aaa', active=true, roles=[USER]}, User{id=24, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=[USER]}, User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}, User{id=23, email='aa2an@mail.com', username='Alika', password='aaa', active=true, roles=[USER]}]
-2020-10-28 15:52:54 TRACE FrontController:64 - Forward address --> /WEB-INF/jsp/admin/userList.jsp
-2020-10-28 15:52:54 DEBUG FrontController:66 - FrontController finished, now go to forward address --> /WEB-INF/jsp/admin/userList.jsp
-2020-10-28 15:52:54 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 15:52:54 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 15:52:54 DEBUG SessionLocaleFilter:54 - Current locale: en
-2020-10-28 15:52:54 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 15:52:54 DEBUG SessionLocaleFilter:54 - Current locale: en
-2020-10-28 15:52:54 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 15:52:58 DEBUG CommandAccessFilter:79 - This command can be accessed by all users: login
-2020-10-28 15:52:58 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 15:52:58 DEBUG SessionLocaleFilter:54 - Current locale: en
-2020-10-28 15:52:58 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 15:52:58 DEBUG FrontController:46 - FrontController starts
-2020-10-28 15:52:58 TRACE FrontController:50 - Request parameter: command --> login
-2020-10-28 15:52:58 TRACE FrontController:54 - Obtaned command: LoginCommand
-2020-10-28 15:52:58 DEBUG LoginCommand:34 - LoginCommand starts
-2020-10-28 15:52:58 TRACE UserServiceImpl:19 - Service method getOne --> admin@mail.com
-2020-10-28 15:52:58 TRACE UserRepositoryImpl:42 - Repository impl method getOne --> admin@mail.com
-2020-10-28 15:52:58 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@2658cbc2
-2020-10-28 15:52:58 TRACE UserRepositoryImpl:55 - Repository method getOne returned --> User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}
-2020-10-28 15:52:58 TRACE LoginCommand:44 - Found in DB: user --> User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}
-2020-10-28 15:52:58 TRACE UserServiceImpl:19 - Service method getOne --> admin@mail.com
-2020-10-28 15:52:58 TRACE UserRepositoryImpl:42 - Repository impl method getOne --> admin@mail.com
-2020-10-28 15:52:58 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@2658cbc2
-2020-10-28 15:52:58 TRACE UserRepositoryImpl:55 - Repository method getOne returned --> User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}
-2020-10-28 15:52:58 DEBUG LoginCommand:56 - LoginCommand getUserUser{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}
-2020-10-28 15:52:58 TRACE UserServiceImpl:47 - Service method get all users
-2020-10-28 15:52:58 TRACE UserRepositoryImpl:136 - Repository impl method getAllUsers.
-2020-10-28 15:52:58 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@2658cbc2
-2020-10-28 15:53:03 DEBUG CommandAccessFilter:79 - This command can be accessed by all users: login
-2020-10-28 15:53:03 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 15:53:03 DEBUG SessionLocaleFilter:54 - Current locale: en
-2020-10-28 15:53:03 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 15:53:03 DEBUG FrontController:46 - FrontController starts
-2020-10-28 15:53:03 TRACE FrontController:50 - Request parameter: command --> login
-2020-10-28 15:53:03 TRACE FrontController:54 - Obtaned command: LoginCommand
-2020-10-28 15:53:03 DEBUG LoginCommand:34 - LoginCommand starts
-2020-10-28 15:53:03 TRACE UserServiceImpl:19 - Service method getOne --> admin@mail.com
-2020-10-28 15:53:03 TRACE UserRepositoryImpl:42 - Repository impl method getOne --> admin@mail.com
-2020-10-28 15:53:03 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@2658cbc2
-2020-10-28 15:53:06 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 15:53:06 DEBUG SessionLocaleFilter:54 - Current locale: en
-2020-10-28 15:53:06 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 15:53:08 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 15:53:08 DEBUG SessionLocaleFilter:54 - Current locale: en
-2020-10-28 15:53:08 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 15:53:10 DEBUG CommandAccessFilter:79 - This command can be accessed by all users: login
-2020-10-28 15:53:10 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 15:53:10 DEBUG SessionLocaleFilter:54 - Current locale: en
-2020-10-28 15:53:10 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 15:53:10 DEBUG FrontController:46 - FrontController starts
-2020-10-28 15:53:10 TRACE FrontController:50 - Request parameter: command --> login
-2020-10-28 15:53:10 TRACE FrontController:54 - Obtaned command: LoginCommand
-2020-10-28 15:53:10 DEBUG LoginCommand:34 - LoginCommand starts
-2020-10-28 15:53:10 TRACE UserServiceImpl:19 - Service method getOne --> admin@mail.com
-2020-10-28 15:53:10 TRACE UserRepositoryImpl:42 - Repository impl method getOne --> admin@mail.com
-2020-10-28 15:53:10 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@2658cbc2
-2020-10-28 15:53:15 DEBUG CommandAccessFilter:79 - This command can be accessed by all users: login
-2020-10-28 15:53:15 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 15:53:15 DEBUG SessionLocaleFilter:54 - Current locale: en
-2020-10-28 15:53:15 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 15:53:15 DEBUG FrontController:46 - FrontController starts
-2020-10-28 15:53:15 TRACE FrontController:50 - Request parameter: command --> login
-2020-10-28 15:53:15 TRACE FrontController:54 - Obtaned command: LoginCommand
-2020-10-28 15:53:15 DEBUG LoginCommand:34 - LoginCommand starts
-2020-10-28 15:53:15 TRACE UserServiceImpl:19 - Service method getOne --> admin@mail.com
-2020-10-28 15:53:15 TRACE UserRepositoryImpl:42 - Repository impl method getOne --> admin@mail.com
-2020-10-28 15:53:15 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@2658cbc2
-2020-10-28 15:53:41 DEBUG SessionLocaleFilter:19 - Filter initialization starts
-2020-10-28 15:53:41 DEBUG SessionLocaleFilter:21 - Filter initialization finished
-2020-10-28 15:53:41 DEBUG CommandAccessFilter:66 - Start initializing filter: CommandAccessFilter
-2020-10-28 15:53:41 DEBUG CommandAccessFilter:68 - Finished initializing filter: CommandAccessFilter
-2020-10-28 15:53:44 DEBUG CommandAccessFilter:79 - This command can be accessed by all users: login
-2020-10-28 15:53:44 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 15:53:44 DEBUG SessionLocaleFilter:47 - Preferred Locale: ru
-2020-10-28 15:53:44 DEBUG SessionLocaleFilter:54 - Current locale: ru
-2020-10-28 15:53:44 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 15:53:44 DEBUG FrontController:46 - FrontController starts
-2020-10-28 15:53:44 TRACE FrontController:50 - Request parameter: command --> login
-2020-10-28 15:53:44 TRACE FrontController:54 - Obtaned command: LoginCommand
-2020-10-28 15:53:44 DEBUG LoginCommand:34 - LoginCommand starts
-2020-10-28 15:53:44 TRACE UserServiceImpl:19 - Service method getOne --> admin@mail.com
-2020-10-28 15:53:44 TRACE UserRepositoryImpl:42 - Repository impl method getOne --> admin@mail.com
-2020-10-28 15:53:44 DEBUG ConnectionPool:30 - org.apache.commons.dbcp2.BasicDataSource@48888216
-2020-10-28 15:53:44 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@48888216
-2020-10-28 15:53:45 TRACE UserRepositoryImpl:55 - Repository method getOne returned --> User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[USER, ADMIN]}
-2020-10-28 15:53:45 TRACE LoginCommand:44 - Found in DB: user --> User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[USER, ADMIN]}
-2020-10-28 15:53:45 TRACE UserServiceImpl:19 - Service method getOne --> admin@mail.com
-2020-10-28 15:53:45 TRACE UserRepositoryImpl:42 - Repository impl method getOne --> admin@mail.com
-2020-10-28 15:53:45 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@48888216
-2020-10-28 15:53:45 TRACE UserRepositoryImpl:55 - Repository method getOne returned --> User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[USER, ADMIN]}
-2020-10-28 15:53:45 DEBUG LoginCommand:56 - LoginCommand getUserUser{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[USER, ADMIN]}
-2020-10-28 15:53:45 TRACE UserServiceImpl:47 - Service method get all users
-2020-10-28 15:53:45 TRACE UserRepositoryImpl:136 - Repository impl method getAllUsers.
-2020-10-28 15:53:45 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@48888216
-2020-10-28 15:53:45 TRACE UserRepositoryImpl:155 - Repository method getAll returned --> [User{id=26, email='admin2@mail.com', username='Alik', password='123', active=true, roles=[USER]}, User{id=25, email='diana2@mail.com', username='Alik', password='123', active=true, roles=[USER]}, User{id=27, email='admin3@mail.com', username='Aliks', password='123', active=true, roles=[USER]}, User{id=28, email='admin4@mail.com', username='Alika', password='aaa', active=true, roles=[USER]}, User{id=24, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=[USER]}, User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[USER, ADMIN]}, User{id=23, email='aa2an@mail.com', username='Alika', password='aaa', active=true, roles=[USER]}]
-2020-10-28 15:53:45 DEBUG DataHelper:23 - Found in DB: userList --> [User{id=26, email='admin2@mail.com', username='Alik', password='123', active=true, roles=[USER]}, User{id=25, email='diana2@mail.com', username='Alik', password='123', active=true, roles=[USER]}, User{id=27, email='admin3@mail.com', username='Aliks', password='123', active=true, roles=[USER]}, User{id=28, email='admin4@mail.com', username='Alika', password='aaa', active=true, roles=[USER]}, User{id=24, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=[USER]}, User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[USER, ADMIN]}, User{id=23, email='aa2an@mail.com', username='Alika', password='aaa', active=true, roles=[USER]}]
-2020-10-28 15:53:45 TRACE FrontController:64 - Forward address --> /WEB-INF/jsp/admin/userList.jsp
-2020-10-28 15:53:45 DEBUG FrontController:66 - FrontController finished, now go to forward address --> /WEB-INF/jsp/admin/userList.jsp
-2020-10-28 15:53:46 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 15:53:46 DEBUG SessionLocaleFilter:54 - Current locale: ru
-2020-10-28 15:53:46 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 15:53:46 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 15:53:46 DEBUG SessionLocaleFilter:54 - Current locale: ru
-2020-10-28 15:53:46 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 15:57:32 DEBUG SessionLocaleFilter:19 - Filter initialization starts
-2020-10-28 15:57:32 DEBUG SessionLocaleFilter:21 - Filter initialization finished
-2020-10-28 15:57:32 DEBUG CommandAccessFilter:66 - Start initializing filter: CommandAccessFilter
-2020-10-28 15:57:32 DEBUG CommandAccessFilter:68 - Finished initializing filter: CommandAccessFilter
-2020-10-28 15:57:32 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 15:57:32 DEBUG SessionLocaleFilter:47 - Preferred Locale: ru
-2020-10-28 15:57:32 DEBUG SessionLocaleFilter:54 - Current locale: ru
-2020-10-28 15:57:32 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 15:58:23 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 15:58:23 DEBUG SessionLocaleFilter:54 - Current locale: en
-2020-10-28 15:58:23 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 15:58:30 DEBUG CommandAccessFilter:79 - This command can be accessed by all users: login
-2020-10-28 15:58:30 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 15:58:30 DEBUG SessionLocaleFilter:54 - Current locale: en
-2020-10-28 15:58:30 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 15:58:30 DEBUG FrontController:46 - FrontController starts
-2020-10-28 15:58:30 TRACE FrontController:50 - Request parameter: command --> login
-2020-10-28 15:58:30 TRACE FrontController:54 - Obtaned command: LoginCommand
-2020-10-28 15:58:30 DEBUG LoginCommand:34 - LoginCommand starts
-2020-10-28 15:58:30 TRACE UserServiceImpl:19 - Service method getOne --> admin@mail.com
-2020-10-28 15:58:30 TRACE UserRepositoryImpl:42 - Repository impl method getOne --> admin@mail.com
-2020-10-28 15:58:30 DEBUG ConnectionPool:30 - org.apache.commons.dbcp2.BasicDataSource@65c4d55e
-2020-10-28 15:58:30 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@65c4d55e
-2020-10-28 15:58:30 TRACE UserRepositoryImpl:55 - Repository method getOne returned --> User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}
-2020-10-28 15:58:30 TRACE LoginCommand:44 - Found in DB: user --> User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}
-2020-10-28 15:58:30 TRACE UserServiceImpl:19 - Service method getOne --> admin@mail.com
-2020-10-28 15:58:30 TRACE UserRepositoryImpl:42 - Repository impl method getOne --> admin@mail.com
-2020-10-28 15:58:30 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@65c4d55e
-2020-10-28 15:58:30 TRACE UserRepositoryImpl:55 - Repository method getOne returned --> User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}
-2020-10-28 15:58:30 DEBUG LoginCommand:56 - LoginCommand getUserUser{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}
-2020-10-28 15:58:30 TRACE UserServiceImpl:47 - Service method get all users
-2020-10-28 15:58:30 TRACE UserRepositoryImpl:136 - Repository impl method getAllUsers.
-2020-10-28 15:58:30 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@65c4d55e
-2020-10-28 15:58:30 TRACE UserRepositoryImpl:155 - Repository method getAll returned --> [User{id=26, email='admin2@mail.com', username='Alik', password='123', active=true, roles=[USER]}, User{id=25, email='diana2@mail.com', username='Alik', password='123', active=true, roles=[USER]}, User{id=27, email='admin3@mail.com', username='Aliks', password='123', active=true, roles=[USER]}, User{id=28, email='admin4@mail.com', username='Alika', password='aaa', active=true, roles=[USER]}, User{id=24, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=[USER]}, User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}, User{id=23, email='aa2an@mail.com', username='Alika', password='aaa', active=true, roles=[USER]}]
-2020-10-28 15:58:30 DEBUG DataHelper:23 - Found in DB: userList --> [User{id=26, email='admin2@mail.com', username='Alik', password='123', active=true, roles=[USER]}, User{id=25, email='diana2@mail.com', username='Alik', password='123', active=true, roles=[USER]}, User{id=27, email='admin3@mail.com', username='Aliks', password='123', active=true, roles=[USER]}, User{id=28, email='admin4@mail.com', username='Alika', password='aaa', active=true, roles=[USER]}, User{id=24, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=[USER]}, User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}, User{id=23, email='aa2an@mail.com', username='Alika', password='aaa', active=true, roles=[USER]}]
-2020-10-28 15:58:30 TRACE FrontController:64 - Forward address --> /WEB-INF/jsp/admin/userList.jsp
-2020-10-28 15:58:30 DEBUG FrontController:66 - FrontController finished, now go to forward address --> /WEB-INF/jsp/admin/userList.jsp
-2020-10-28 15:58:30 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 15:58:30 DEBUG SessionLocaleFilter:54 - Current locale: en
-2020-10-28 15:58:30 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 15:58:30 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 15:58:30 DEBUG SessionLocaleFilter:54 - Current locale: en
-2020-10-28 15:58:30 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 15:58:33 DEBUG CommandAccessFilter:79 - This command can be accessed by all users: changeLanguageCommand
-2020-10-28 15:58:33 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 15:58:33 DEBUG SessionLocaleFilter:54 - Current locale: ru
-2020-10-28 15:58:33 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 15:58:33 DEBUG FrontController:46 - FrontController starts
-2020-10-28 15:58:33 TRACE FrontController:50 - Request parameter: command --> changeLanguageCommand
-2020-10-28 15:58:33 TRACE FrontController:54 - Obtaned command: ChangeLanguageCommand
-2020-10-28 15:58:33 DEBUG ChangeLanguageCommand:28 - LanguageChangeCommand starts
-2020-10-28 15:58:33 DEBUG ChangeLanguageCommand:33 - LanguageChangeCommand finished
-2020-10-28 15:58:33 TRACE FrontController:64 - Forward address --> /controller?command=listUsersCommand
-2020-10-28 15:58:33 DEBUG FrontController:66 - FrontController finished, now go to forward address --> /controller?command=listUsersCommand
-2020-10-28 15:58:33 DEBUG FrontController:46 - FrontController starts
-2020-10-28 15:58:33 TRACE FrontController:50 - Request parameter: command --> listUsersCommand
-2020-10-28 15:58:33 TRACE CommandContainer:33 - Command not found, name --> listUsersCommand
-2020-10-28 15:58:33 TRACE FrontController:54 - Obtaned command: null
-2020-10-28 15:58:33 TRACE FrontController:64 - Forward address --> /WEB-INF/jsp/error_page.jsp
-2020-10-28 15:58:33 DEBUG FrontController:66 - FrontController finished, now go to forward address --> /WEB-INF/jsp/error_page.jsp
-2020-10-28 16:00:29 DEBUG SessionLocaleFilter:19 - Filter initialization starts
-2020-10-28 16:00:29 DEBUG SessionLocaleFilter:21 - Filter initialization finished
-2020-10-28 16:00:29 DEBUG CommandAccessFilter:66 - Start initializing filter: CommandAccessFilter
-2020-10-28 16:00:29 DEBUG CommandAccessFilter:68 - Finished initializing filter: CommandAccessFilter
-2020-10-28 16:00:29 DEBUG CommandAccessFilter:79 - This command can be accessed by all users: login
-2020-10-28 16:00:29 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 16:00:29 DEBUG SessionLocaleFilter:47 - Preferred Locale: ru
-2020-10-28 16:00:29 DEBUG SessionLocaleFilter:54 - Current locale: ru
-2020-10-28 16:00:29 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 16:00:29 DEBUG FrontController:46 - FrontController starts
-2020-10-28 16:00:29 TRACE FrontController:50 - Request parameter: command --> login
-2020-10-28 16:00:29 TRACE FrontController:54 - Obtaned command: LoginCommand
-2020-10-28 16:00:29 DEBUG LoginCommand:34 - LoginCommand starts
-2020-10-28 16:00:29 TRACE UserServiceImpl:19 - Service method getOne --> admin@mail.com
-2020-10-28 16:00:29 TRACE UserRepositoryImpl:42 - Repository impl method getOne --> admin@mail.com
-2020-10-28 16:00:29 DEBUG ConnectionPool:30 - org.apache.commons.dbcp2.BasicDataSource@23a036c7
-2020-10-28 16:00:29 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@23a036c7
-2020-10-28 16:00:30 TRACE UserRepositoryImpl:55 - Repository method getOne returned --> User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}
-2020-10-28 16:00:30 TRACE LoginCommand:44 - Found in DB: user --> User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}
-2020-10-28 16:00:30 TRACE UserServiceImpl:19 - Service method getOne --> admin@mail.com
-2020-10-28 16:00:30 TRACE UserRepositoryImpl:42 - Repository impl method getOne --> admin@mail.com
-2020-10-28 16:00:30 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@23a036c7
-2020-10-28 16:00:30 TRACE UserRepositoryImpl:55 - Repository method getOne returned --> User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}
-2020-10-28 16:00:30 DEBUG LoginCommand:56 - LoginCommand getUserUser{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}
-2020-10-28 16:00:30 TRACE UserServiceImpl:47 - Service method get all users
-2020-10-28 16:00:30 TRACE UserRepositoryImpl:136 - Repository impl method getAllUsers.
-2020-10-28 16:00:30 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@23a036c7
-2020-10-28 16:00:30 TRACE UserRepositoryImpl:155 - Repository method getAll returned --> [User{id=26, email='admin2@mail.com', username='Alik', password='123', active=true, roles=[USER]}, User{id=25, email='diana2@mail.com', username='Alik', password='123', active=true, roles=[USER]}, User{id=27, email='admin3@mail.com', username='Aliks', password='123', active=true, roles=[USER]}, User{id=28, email='admin4@mail.com', username='Alika', password='aaa', active=true, roles=[USER]}, User{id=24, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=[USER]}, User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}, User{id=23, email='aa2an@mail.com', username='Alika', password='aaa', active=true, roles=[USER]}]
-2020-10-28 16:00:30 DEBUG DataHelper:23 - Found in DB: userList --> [User{id=26, email='admin2@mail.com', username='Alik', password='123', active=true, roles=[USER]}, User{id=25, email='diana2@mail.com', username='Alik', password='123', active=true, roles=[USER]}, User{id=27, email='admin3@mail.com', username='Aliks', password='123', active=true, roles=[USER]}, User{id=28, email='admin4@mail.com', username='Alika', password='aaa', active=true, roles=[USER]}, User{id=24, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=[USER]}, User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}, User{id=23, email='aa2an@mail.com', username='Alika', password='aaa', active=true, roles=[USER]}]
-2020-10-28 16:00:30 TRACE FrontController:64 - Forward address --> /WEB-INF/jsp/admin/userList.jsp
-2020-10-28 16:00:30 DEBUG FrontController:66 - FrontController finished, now go to forward address --> /WEB-INF/jsp/admin/userList.jsp
-2020-10-28 16:00:30 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 16:00:30 DEBUG SessionLocaleFilter:54 - Current locale: ru
-2020-10-28 16:00:30 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 16:00:30 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 16:00:30 DEBUG SessionLocaleFilter:54 - Current locale: ru
-2020-10-28 16:00:30 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 16:00:33 DEBUG CommandAccessFilter:79 - This command can be accessed by all users: changeLanguageCommand
-2020-10-28 16:00:33 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 16:00:33 DEBUG SessionLocaleFilter:54 - Current locale: en
-2020-10-28 16:00:33 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 16:00:33 DEBUG FrontController:46 - FrontController starts
-2020-10-28 16:00:33 TRACE FrontController:50 - Request parameter: command --> changeLanguageCommand
-2020-10-28 16:00:33 TRACE FrontController:54 - Obtaned command: ChangeLanguageCommand
-2020-10-28 16:00:33 DEBUG ChangeLanguageCommand:28 - LanguageChangeCommand starts
-2020-10-28 16:00:33 DEBUG ChangeLanguageCommand:33 - LanguageChangeCommand finished
-2020-10-28 16:00:33 TRACE FrontController:64 - Forward address --> /controller?command=listUsersCommand
-2020-10-28 16:00:33 DEBUG FrontController:66 - FrontController finished, now go to forward address --> /controller?command=listUsersCommand
-2020-10-28 16:00:33 DEBUG FrontController:46 - FrontController starts
-2020-10-28 16:00:33 TRACE FrontController:50 - Request parameter: command --> listUsersCommand
-2020-10-28 16:00:33 TRACE CommandContainer:33 - Command not found, name --> listUsersCommand
-2020-10-28 16:00:33 TRACE FrontController:54 - Obtaned command: null
-2020-10-28 16:00:33 TRACE FrontController:64 - Forward address --> /WEB-INF/jsp/error_page.jsp
-2020-10-28 16:00:33 DEBUG FrontController:66 - FrontController finished, now go to forward address --> /WEB-INF/jsp/error_page.jsp
-2020-10-28 16:00:38 DEBUG CommandAccessFilter:79 - This command can be accessed by all users: login
-2020-10-28 16:00:38 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 16:00:38 DEBUG SessionLocaleFilter:54 - Current locale: en
-2020-10-28 16:00:38 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 16:00:38 DEBUG FrontController:46 - FrontController starts
-2020-10-28 16:00:38 TRACE FrontController:50 - Request parameter: command --> login
-2020-10-28 16:00:38 TRACE FrontController:54 - Obtaned command: LoginCommand
-2020-10-28 16:00:38 DEBUG LoginCommand:34 - LoginCommand starts
-2020-10-28 16:00:38 TRACE UserServiceImpl:19 - Service method getOne --> admin@mail.com
-2020-10-28 16:00:38 TRACE UserRepositoryImpl:42 - Repository impl method getOne --> admin@mail.com
-2020-10-28 16:00:38 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@23a036c7
-2020-10-28 16:00:38 TRACE UserRepositoryImpl:55 - Repository method getOne returned --> User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}
-2020-10-28 16:00:38 TRACE LoginCommand:44 - Found in DB: user --> User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}
-2020-10-28 16:00:38 TRACE UserServiceImpl:19 - Service method getOne --> admin@mail.com
-2020-10-28 16:00:38 TRACE UserRepositoryImpl:42 - Repository impl method getOne --> admin@mail.com
-2020-10-28 16:00:38 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@23a036c7
-2020-10-28 16:00:38 TRACE UserRepositoryImpl:55 - Repository method getOne returned --> User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}
-2020-10-28 16:00:38 DEBUG LoginCommand:56 - LoginCommand getUserUser{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}
-2020-10-28 16:00:38 TRACE UserServiceImpl:47 - Service method get all users
-2020-10-28 16:00:38 TRACE UserRepositoryImpl:136 - Repository impl method getAllUsers.
-2020-10-28 16:00:38 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@23a036c7
-2020-10-28 16:00:38 TRACE UserRepositoryImpl:155 - Repository method getAll returned --> [User{id=26, email='admin2@mail.com', username='Alik', password='123', active=true, roles=[USER]}, User{id=25, email='diana2@mail.com', username='Alik', password='123', active=true, roles=[USER]}, User{id=27, email='admin3@mail.com', username='Aliks', password='123', active=true, roles=[USER]}, User{id=28, email='admin4@mail.com', username='Alika', password='aaa', active=true, roles=[USER]}, User{id=24, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=[USER]}, User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}, User{id=23, email='aa2an@mail.com', username='Alika', password='aaa', active=true, roles=[USER]}]
-2020-10-28 16:00:38 DEBUG DataHelper:23 - Found in DB: userList --> [User{id=26, email='admin2@mail.com', username='Alik', password='123', active=true, roles=[USER]}, User{id=25, email='diana2@mail.com', username='Alik', password='123', active=true, roles=[USER]}, User{id=27, email='admin3@mail.com', username='Aliks', password='123', active=true, roles=[USER]}, User{id=28, email='admin4@mail.com', username='Alika', password='aaa', active=true, roles=[USER]}, User{id=24, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=[USER]}, User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}, User{id=23, email='aa2an@mail.com', username='Alika', password='aaa', active=true, roles=[USER]}]
-2020-10-28 16:00:38 TRACE FrontController:64 - Forward address --> /WEB-INF/jsp/admin/userList.jsp
-2020-10-28 16:00:38 DEBUG FrontController:66 - FrontController finished, now go to forward address --> /WEB-INF/jsp/admin/userList.jsp
-2020-10-28 16:00:38 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 16:00:38 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 16:00:38 DEBUG SessionLocaleFilter:54 - Current locale: en
-2020-10-28 16:00:38 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 16:00:38 DEBUG SessionLocaleFilter:54 - Current locale: en
-2020-10-28 16:00:38 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 16:01:12 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 16:01:12 DEBUG SessionLocaleFilter:54 - Current locale: en
-2020-10-28 16:01:12 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 16:01:21 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 16:01:21 DEBUG SessionLocaleFilter:54 - Current locale: en
-2020-10-28 16:01:21 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 16:01:24 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 16:01:24 DEBUG SessionLocaleFilter:54 - Current locale: en
-2020-10-28 16:01:24 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 16:01:25 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 16:01:25 DEBUG SessionLocaleFilter:54 - Current locale: en
-2020-10-28 16:01:25 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 16:01:30 DEBUG CommandAccessFilter:79 - This command can be accessed by all users: login
-2020-10-28 16:01:30 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 16:01:30 DEBUG SessionLocaleFilter:54 - Current locale: en
-2020-10-28 16:01:30 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 16:01:30 DEBUG FrontController:46 - FrontController starts
-2020-10-28 16:01:30 TRACE FrontController:50 - Request parameter: command --> login
-2020-10-28 16:01:30 TRACE FrontController:54 - Obtaned command: LoginCommand
-2020-10-28 16:01:30 DEBUG LoginCommand:34 - LoginCommand starts
-2020-10-28 16:01:30 TRACE UserServiceImpl:19 - Service method getOne --> admin@mail.com
-2020-10-28 16:01:30 TRACE UserRepositoryImpl:42 - Repository impl method getOne --> admin@mail.com
-2020-10-28 16:01:30 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@23a036c7
-2020-10-28 16:01:30 TRACE UserRepositoryImpl:55 - Repository method getOne returned --> User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}
-2020-10-28 16:01:30 TRACE LoginCommand:44 - Found in DB: user --> User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}
-2020-10-28 16:01:30 TRACE UserServiceImpl:19 - Service method getOne --> admin@mail.com
-2020-10-28 16:01:30 TRACE UserRepositoryImpl:42 - Repository impl method getOne --> admin@mail.com
-2020-10-28 16:01:30 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@23a036c7
-2020-10-28 16:01:30 TRACE UserRepositoryImpl:55 - Repository method getOne returned --> User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}
-2020-10-28 16:01:30 DEBUG LoginCommand:56 - LoginCommand getUserUser{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}
-2020-10-28 16:01:30 TRACE UserServiceImpl:47 - Service method get all users
-2020-10-28 16:01:30 TRACE UserRepositoryImpl:136 - Repository impl method getAllUsers.
-2020-10-28 16:01:30 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@23a036c7
-2020-10-28 16:01:35 DEBUG CommandAccessFilter:79 - This command can be accessed by all users: login
-2020-10-28 16:01:35 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 16:01:35 DEBUG SessionLocaleFilter:54 - Current locale: en
-2020-10-28 16:01:35 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 16:01:35 DEBUG FrontController:46 - FrontController starts
-2020-10-28 16:01:35 TRACE FrontController:50 - Request parameter: command --> login
-2020-10-28 16:01:35 TRACE FrontController:54 - Obtaned command: LoginCommand
-2020-10-28 16:01:35 DEBUG LoginCommand:34 - LoginCommand starts
-2020-10-28 16:01:35 TRACE UserServiceImpl:19 - Service method getOne --> admin@mail.com
-2020-10-28 16:01:35 TRACE UserRepositoryImpl:42 - Repository impl method getOne --> admin@mail.com
-2020-10-28 16:01:35 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@23a036c7
-2020-10-28 16:02:05 DEBUG SessionLocaleFilter:19 - Filter initialization starts
-2020-10-28 16:02:05 DEBUG SessionLocaleFilter:21 - Filter initialization finished
-2020-10-28 16:02:05 DEBUG CommandAccessFilter:66 - Start initializing filter: CommandAccessFilter
-2020-10-28 16:02:05 DEBUG CommandAccessFilter:68 - Finished initializing filter: CommandAccessFilter
-2020-10-28 16:02:08 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 16:02:08 DEBUG SessionLocaleFilter:47 - Preferred Locale: ru
-2020-10-28 16:02:08 DEBUG SessionLocaleFilter:54 - Current locale: ru
-2020-10-28 16:02:08 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 16:02:11 DEBUG CommandAccessFilter:79 - This command can be accessed by all users: login
-2020-10-28 16:02:11 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 16:02:11 DEBUG SessionLocaleFilter:54 - Current locale: en
-2020-10-28 16:02:11 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 16:02:11 DEBUG FrontController:46 - FrontController starts
-2020-10-28 16:02:11 TRACE FrontController:50 - Request parameter: command --> login
-2020-10-28 16:02:11 TRACE FrontController:54 - Obtaned command: LoginCommand
-2020-10-28 16:02:11 DEBUG LoginCommand:34 - LoginCommand starts
-2020-10-28 16:02:11 TRACE UserServiceImpl:19 - Service method getOne --> admin@mail.com
-2020-10-28 16:02:11 TRACE UserRepositoryImpl:42 - Repository impl method getOne --> admin@mail.com
-2020-10-28 16:02:11 DEBUG ConnectionPool:30 - org.apache.commons.dbcp2.BasicDataSource@1bbccab
-2020-10-28 16:02:11 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@1bbccab
-2020-10-28 16:02:11 TRACE UserRepositoryImpl:55 - Repository method getOne returned --> User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[USER, ADMIN]}
-2020-10-28 16:02:11 TRACE LoginCommand:44 - Found in DB: user --> User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[USER, ADMIN]}
-2020-10-28 16:02:11 TRACE UserServiceImpl:19 - Service method getOne --> admin@mail.com
-2020-10-28 16:02:11 TRACE UserRepositoryImpl:42 - Repository impl method getOne --> admin@mail.com
-2020-10-28 16:02:11 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@1bbccab
-2020-10-28 16:02:11 TRACE UserRepositoryImpl:55 - Repository method getOne returned --> User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[USER, ADMIN]}
-2020-10-28 16:02:11 DEBUG LoginCommand:56 - LoginCommand getUserUser{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[USER, ADMIN]}
-2020-10-28 16:02:11 TRACE UserServiceImpl:47 - Service method get all users
-2020-10-28 16:02:11 TRACE UserRepositoryImpl:136 - Repository impl method getAllUsers.
-2020-10-28 16:02:11 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@1bbccab
-2020-10-28 16:02:11 TRACE UserRepositoryImpl:155 - Repository method getAll returned --> [User{id=26, email='admin2@mail.com', username='Alik', password='123', active=true, roles=[USER]}, User{id=25, email='diana2@mail.com', username='Alik', password='123', active=true, roles=[USER]}, User{id=27, email='admin3@mail.com', username='Aliks', password='123', active=true, roles=[USER]}, User{id=28, email='admin4@mail.com', username='Alika', password='aaa', active=true, roles=[USER]}, User{id=24, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=[USER]}, User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[USER, ADMIN]}, User{id=23, email='aa2an@mail.com', username='Alika', password='aaa', active=true, roles=[USER]}]
-2020-10-28 16:02:11 DEBUG DataHelper:23 - Found in DB: userList --> [User{id=26, email='admin2@mail.com', username='Alik', password='123', active=true, roles=[USER]}, User{id=25, email='diana2@mail.com', username='Alik', password='123', active=true, roles=[USER]}, User{id=27, email='admin3@mail.com', username='Aliks', password='123', active=true, roles=[USER]}, User{id=28, email='admin4@mail.com', username='Alika', password='aaa', active=true, roles=[USER]}, User{id=24, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=[USER]}, User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[USER, ADMIN]}, User{id=23, email='aa2an@mail.com', username='Alika', password='aaa', active=true, roles=[USER]}]
-2020-10-28 16:02:11 TRACE FrontController:64 - Forward address --> /WEB-INF/jsp/admin/userList.jsp
-2020-10-28 16:02:11 DEBUG FrontController:66 - FrontController finished, now go to forward address --> /WEB-INF/jsp/admin/userList.jsp
-2020-10-28 16:02:11 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 16:02:11 DEBUG SessionLocaleFilter:54 - Current locale: en
-2020-10-28 16:02:11 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 16:02:11 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 16:02:11 DEBUG SessionLocaleFilter:54 - Current locale: en
-2020-10-28 16:02:11 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 16:02:17 DEBUG CommandAccessFilter:79 - This command can be accessed by all users: changeLanguageCommand
-2020-10-28 16:02:17 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 16:02:17 DEBUG SessionLocaleFilter:54 - Current locale: ru
-2020-10-28 16:02:17 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 16:02:17 DEBUG FrontController:46 - FrontController starts
-2020-10-28 16:02:17 TRACE FrontController:50 - Request parameter: command --> changeLanguageCommand
-2020-10-28 16:02:17 TRACE FrontController:54 - Obtaned command: ChangeLanguageCommand
-2020-10-28 16:02:17 DEBUG ChangeLanguageCommand:28 - LanguageChangeCommand starts
-2020-10-28 16:02:17 DEBUG ChangeLanguageCommand:33 - LanguageChangeCommand finished
-2020-10-28 16:02:17 TRACE FrontController:64 - Forward address --> /controller?command=listUsersCommand
-2020-10-28 16:02:17 DEBUG FrontController:66 - FrontController finished, now go to forward address --> /controller?command=listUsersCommand
-2020-10-28 16:02:17 DEBUG FrontController:46 - FrontController starts
-2020-10-28 16:02:17 TRACE FrontController:50 - Request parameter: command --> listUsersCommand
-2020-10-28 16:02:17 TRACE CommandContainer:33 - Command not found, name --> listUsersCommand
-2020-10-28 16:02:17 TRACE FrontController:54 - Obtaned command: null
-2020-10-28 16:02:17 TRACE FrontController:64 - Forward address --> /WEB-INF/jsp/error_page.jsp
-2020-10-28 16:02:17 DEBUG FrontController:66 - FrontController finished, now go to forward address --> /WEB-INF/jsp/error_page.jsp
-2020-10-28 16:02:21 DEBUG CommandAccessFilter:79 - This command can be accessed by all users: login
-2020-10-28 16:02:21 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 16:02:21 DEBUG SessionLocaleFilter:54 - Current locale: ru
-2020-10-28 16:02:21 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 16:02:21 DEBUG FrontController:46 - FrontController starts
-2020-10-28 16:02:21 TRACE FrontController:50 - Request parameter: command --> login
-2020-10-28 16:02:21 TRACE FrontController:54 - Obtaned command: LoginCommand
-2020-10-28 16:02:21 DEBUG LoginCommand:34 - LoginCommand starts
-2020-10-28 16:02:21 TRACE UserServiceImpl:19 - Service method getOne --> admin@mail.com
-2020-10-28 16:02:21 TRACE UserRepositoryImpl:42 - Repository impl method getOne --> admin@mail.com
-2020-10-28 16:02:21 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@1bbccab
-2020-10-28 16:02:21 TRACE UserRepositoryImpl:55 - Repository method getOne returned --> User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[USER, ADMIN]}
-2020-10-28 16:02:21 TRACE LoginCommand:44 - Found in DB: user --> User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[USER, ADMIN]}
-2020-10-28 16:02:21 TRACE UserServiceImpl:19 - Service method getOne --> admin@mail.com
-2020-10-28 16:02:21 TRACE UserRepositoryImpl:42 - Repository impl method getOne --> admin@mail.com
-2020-10-28 16:02:21 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@1bbccab
-2020-10-28 16:02:21 TRACE UserRepositoryImpl:55 - Repository method getOne returned --> User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[USER, ADMIN]}
-2020-10-28 16:02:21 DEBUG LoginCommand:56 - LoginCommand getUserUser{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[USER, ADMIN]}
-2020-10-28 16:02:21 TRACE UserServiceImpl:47 - Service method get all users
-2020-10-28 16:02:21 TRACE UserRepositoryImpl:136 - Repository impl method getAllUsers.
-2020-10-28 16:02:21 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@1bbccab
-2020-10-28 16:02:21 TRACE UserRepositoryImpl:155 - Repository method getAll returned --> [User{id=26, email='admin2@mail.com', username='Alik', password='123', active=true, roles=[USER]}, User{id=25, email='diana2@mail.com', username='Alik', password='123', active=true, roles=[USER]}, User{id=27, email='admin3@mail.com', username='Aliks', password='123', active=true, roles=[USER]}, User{id=28, email='admin4@mail.com', username='Alika', password='aaa', active=true, roles=[USER]}, User{id=24, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=[USER]}, User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[USER, ADMIN]}, User{id=23, email='aa2an@mail.com', username='Alika', password='aaa', active=true, roles=[USER]}]
-2020-10-28 16:02:21 DEBUG DataHelper:23 - Found in DB: userList --> [User{id=26, email='admin2@mail.com', username='Alik', password='123', active=true, roles=[USER]}, User{id=25, email='diana2@mail.com', username='Alik', password='123', active=true, roles=[USER]}, User{id=27, email='admin3@mail.com', username='Aliks', password='123', active=true, roles=[USER]}, User{id=28, email='admin4@mail.com', username='Alika', password='aaa', active=true, roles=[USER]}, User{id=24, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=[USER]}, User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[USER, ADMIN]}, User{id=23, email='aa2an@mail.com', username='Alika', password='aaa', active=true, roles=[USER]}]
-2020-10-28 16:02:21 TRACE FrontController:64 - Forward address --> /WEB-INF/jsp/admin/userList.jsp
-2020-10-28 16:02:21 DEBUG FrontController:66 - FrontController finished, now go to forward address --> /WEB-INF/jsp/admin/userList.jsp
-2020-10-28 16:02:21 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 16:02:21 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 16:02:21 DEBUG SessionLocaleFilter:54 - Current locale: ru
-2020-10-28 16:02:21 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 16:02:21 DEBUG SessionLocaleFilter:54 - Current locale: ru
-2020-10-28 16:02:21 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 16:02:23 DEBUG CommandAccessFilter:79 - This command can be accessed by all users: logout
-2020-10-28 16:02:23 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 16:02:23 DEBUG SessionLocaleFilter:54 - Current locale: ru
-2020-10-28 16:02:23 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 16:02:23 DEBUG FrontController:46 - FrontController starts
-2020-10-28 16:02:23 TRACE FrontController:50 - Request parameter: command --> logout
-2020-10-28 16:02:23 TRACE CommandContainer:33 - Command not found, name --> logout
-2020-10-28 16:02:23 TRACE FrontController:54 - Obtaned command: null
-2020-10-28 16:02:23 TRACE FrontController:64 - Forward address --> /WEB-INF/jsp/error_page.jsp
-2020-10-28 16:02:23 DEBUG FrontController:66 - FrontController finished, now go to forward address --> /WEB-INF/jsp/error_page.jsp
-2020-10-28 16:02:28 DEBUG CommandAccessFilter:79 - This command can be accessed by all users: changeLanguageCommand
-2020-10-28 16:02:28 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 16:02:28 DEBUG SessionLocaleFilter:54 - Current locale: en
-2020-10-28 16:02:28 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 16:02:28 DEBUG FrontController:46 - FrontController starts
-2020-10-28 16:02:28 TRACE FrontController:50 - Request parameter: command --> changeLanguageCommand
-2020-10-28 16:02:28 TRACE FrontController:54 - Obtaned command: ChangeLanguageCommand
-2020-10-28 16:02:28 DEBUG ChangeLanguageCommand:28 - LanguageChangeCommand starts
-2020-10-28 16:02:28 DEBUG ChangeLanguageCommand:33 - LanguageChangeCommand finished
-2020-10-28 16:02:28 TRACE FrontController:64 - Forward address --> /controller?command=listUsersCommand
-2020-10-28 16:02:28 DEBUG FrontController:66 - FrontController finished, now go to forward address --> /controller?command=listUsersCommand
-2020-10-28 16:02:28 DEBUG FrontController:46 - FrontController starts
-2020-10-28 16:02:28 TRACE FrontController:50 - Request parameter: command --> listUsersCommand
-2020-10-28 16:02:28 TRACE CommandContainer:33 - Command not found, name --> listUsersCommand
-2020-10-28 16:02:28 TRACE FrontController:54 - Obtaned command: null
-2020-10-28 16:02:28 TRACE FrontController:64 - Forward address --> /WEB-INF/jsp/error_page.jsp
-2020-10-28 16:02:28 DEBUG FrontController:66 - FrontController finished, now go to forward address --> /WEB-INF/jsp/error_page.jsp
-2020-10-28 16:06:17 DEBUG SessionLocaleFilter:19 - Filter initialization starts
-2020-10-28 16:06:17 DEBUG SessionLocaleFilter:21 - Filter initialization finished
-2020-10-28 16:06:17 DEBUG CommandAccessFilter:66 - Start initializing filter: CommandAccessFilter
-2020-10-28 16:06:17 DEBUG CommandAccessFilter:68 - Finished initializing filter: CommandAccessFilter
-2020-10-28 16:06:18 DEBUG CommandAccessFilter:79 - This command can be accessed by all users: login
-2020-10-28 16:06:18 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 16:06:18 DEBUG SessionLocaleFilter:47 - Preferred Locale: ru
-2020-10-28 16:06:18 DEBUG SessionLocaleFilter:54 - Current locale: ru
-2020-10-28 16:06:18 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 16:06:18 DEBUG FrontController:46 - FrontController starts
-2020-10-28 16:06:18 TRACE FrontController:50 - Request parameter: command --> login
-2020-10-28 16:06:18 TRACE FrontController:54 - Obtaned command: LoginCommand
-2020-10-28 16:06:18 DEBUG LoginCommand:34 - LoginCommand starts
-2020-10-28 16:06:18 TRACE UserServiceImpl:19 - Service method getOne --> admin@mail.com
-2020-10-28 16:06:18 TRACE UserRepositoryImpl:42 - Repository impl method getOne --> admin@mail.com
-2020-10-28 16:06:18 DEBUG ConnectionPool:30 - org.apache.commons.dbcp2.BasicDataSource@1887ddc9
-2020-10-28 16:06:18 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@1887ddc9
-2020-10-28 16:06:18 TRACE UserRepositoryImpl:55 - Repository method getOne returned --> User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}
-2020-10-28 16:06:18 TRACE LoginCommand:44 - Found in DB: user --> User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}
-2020-10-28 16:06:18 TRACE UserServiceImpl:19 - Service method getOne --> admin@mail.com
-2020-10-28 16:06:18 TRACE UserRepositoryImpl:42 - Repository impl method getOne --> admin@mail.com
-2020-10-28 16:06:18 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@1887ddc9
-2020-10-28 16:06:18 TRACE UserRepositoryImpl:55 - Repository method getOne returned --> User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}
-2020-10-28 16:06:18 DEBUG LoginCommand:56 - LoginCommand getUserUser{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}
-2020-10-28 16:06:18 TRACE UserServiceImpl:47 - Service method get all users
-2020-10-28 16:06:18 TRACE UserRepositoryImpl:136 - Repository impl method getAllUsers.
-2020-10-28 16:06:18 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@1887ddc9
-2020-10-28 16:06:18 TRACE UserRepositoryImpl:155 - Repository method getAll returned --> [User{id=26, email='admin2@mail.com', username='Alik', password='123', active=true, roles=[USER]}, User{id=25, email='diana2@mail.com', username='Alik', password='123', active=true, roles=[USER]}, User{id=27, email='admin3@mail.com', username='Aliks', password='123', active=true, roles=[USER]}, User{id=28, email='admin4@mail.com', username='Alika', password='aaa', active=true, roles=[USER]}, User{id=24, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=[USER]}, User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}, User{id=23, email='aa2an@mail.com', username='Alika', password='aaa', active=true, roles=[USER]}]
-2020-10-28 16:06:18 DEBUG DataHelper:23 - Found in DB: userList --> [User{id=26, email='admin2@mail.com', username='Alik', password='123', active=true, roles=[USER]}, User{id=25, email='diana2@mail.com', username='Alik', password='123', active=true, roles=[USER]}, User{id=27, email='admin3@mail.com', username='Aliks', password='123', active=true, roles=[USER]}, User{id=28, email='admin4@mail.com', username='Alika', password='aaa', active=true, roles=[USER]}, User{id=24, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=[USER]}, User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}, User{id=23, email='aa2an@mail.com', username='Alika', password='aaa', active=true, roles=[USER]}]
-2020-10-28 16:06:18 TRACE FrontController:64 - Forward address --> /WEB-INF/jsp/admin/userList.jsp
-2020-10-28 16:06:18 DEBUG FrontController:66 - FrontController finished, now go to forward address --> /WEB-INF/jsp/admin/userList.jsp
-2020-10-28 16:06:18 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 16:06:18 DEBUG SessionLocaleFilter:54 - Current locale: ru
-2020-10-28 16:06:18 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 16:06:18 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 16:06:18 DEBUG SessionLocaleFilter:54 - Current locale: ru
-2020-10-28 16:06:18 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 16:06:20 DEBUG CommandAccessFilter:79 - This command can be accessed by all users: changeLanguageCommand
-2020-10-28 16:06:20 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 16:06:20 DEBUG SessionLocaleFilter:54 - Current locale: en
-2020-10-28 16:06:20 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 16:06:20 DEBUG FrontController:46 - FrontController starts
-2020-10-28 16:06:20 TRACE FrontController:50 - Request parameter: command --> changeLanguageCommand
-2020-10-28 16:06:20 TRACE FrontController:54 - Obtaned command: ChangeLanguageCommand
-2020-10-28 16:06:20 DEBUG ChangeLanguageCommand:28 - LanguageChangeCommand starts
-2020-10-28 16:06:20 DEBUG ChangeLanguageCommand:33 - LanguageChangeCommand finished
-2020-10-28 16:06:20 TRACE FrontController:64 - Forward address --> /WEB-INF/jsp/admin/userList.jsp
-2020-10-28 16:06:20 DEBUG FrontController:66 - FrontController finished, now go to forward address --> /WEB-INF/jsp/admin/userList.jsp
-2020-10-28 16:06:20 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 16:06:20 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 16:06:20 DEBUG SessionLocaleFilter:54 - Current locale: en
-2020-10-28 16:06:20 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 16:06:20 DEBUG SessionLocaleFilter:54 - Current locale: en
-2020-10-28 16:06:20 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 16:06:28 DEBUG CommandAccessFilter:79 - This command can be accessed by all users: changeLanguageCommand
-2020-10-28 16:06:28 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 16:06:28 DEBUG SessionLocaleFilter:54 - Current locale: en
-2020-10-28 16:06:28 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 16:06:28 DEBUG FrontController:46 - FrontController starts
-2020-10-28 16:06:28 TRACE FrontController:50 - Request parameter: command --> changeLanguageCommand
-2020-10-28 16:06:28 TRACE FrontController:54 - Obtaned command: ChangeLanguageCommand
-2020-10-28 16:06:28 DEBUG ChangeLanguageCommand:28 - LanguageChangeCommand starts
-2020-10-28 16:06:28 DEBUG ChangeLanguageCommand:33 - LanguageChangeCommand finished
-2020-10-28 16:06:28 TRACE FrontController:64 - Forward address --> /WEB-INF/jsp/admin/userList.jsp
-2020-10-28 16:06:28 DEBUG FrontController:66 - FrontController finished, now go to forward address --> /WEB-INF/jsp/admin/userList.jsp
-2020-10-28 16:06:28 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 16:06:28 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 16:06:28 DEBUG SessionLocaleFilter:54 - Current locale: en
-2020-10-28 16:06:28 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 16:06:28 DEBUG SessionLocaleFilter:54 - Current locale: en
-2020-10-28 16:06:28 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 16:06:35 DEBUG CommandAccessFilter:79 - This command can be accessed by all users: changeLanguageCommand
-2020-10-28 16:06:35 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 16:06:35 DEBUG SessionLocaleFilter:54 - Current locale: en
-2020-10-28 16:06:35 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 16:06:35 DEBUG FrontController:46 - FrontController starts
-2020-10-28 16:06:35 TRACE FrontController:50 - Request parameter: command --> changeLanguageCommand
-2020-10-28 16:06:35 TRACE FrontController:54 - Obtaned command: ChangeLanguageCommand
-2020-10-28 16:06:35 DEBUG ChangeLanguageCommand:28 - LanguageChangeCommand starts
-2020-10-28 16:06:35 DEBUG ChangeLanguageCommand:33 - LanguageChangeCommand finished
-2020-10-28 16:06:35 TRACE FrontController:64 - Forward address --> /WEB-INF/jsp/admin/userList.jsp
-2020-10-28 16:06:35 DEBUG FrontController:66 - FrontController finished, now go to forward address --> /WEB-INF/jsp/admin/userList.jsp
-2020-10-28 16:06:35 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 16:06:35 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 16:06:35 DEBUG SessionLocaleFilter:54 - Current locale: en
-2020-10-28 16:06:35 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 16:06:35 DEBUG SessionLocaleFilter:54 - Current locale: en
-2020-10-28 16:06:35 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 16:06:35 DEBUG CommandAccessFilter:79 - This command can be accessed by all users: changeLanguageCommand
-2020-10-28 16:06:35 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 16:06:35 DEBUG SessionLocaleFilter:54 - Current locale: ru
-2020-10-28 16:06:35 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 16:06:35 DEBUG FrontController:46 - FrontController starts
-2020-10-28 16:06:35 TRACE FrontController:50 - Request parameter: command --> changeLanguageCommand
-2020-10-28 16:06:35 TRACE FrontController:54 - Obtaned command: ChangeLanguageCommand
-2020-10-28 16:06:35 DEBUG ChangeLanguageCommand:28 - LanguageChangeCommand starts
-2020-10-28 16:06:35 DEBUG ChangeLanguageCommand:33 - LanguageChangeCommand finished
-2020-10-28 16:06:35 TRACE FrontController:64 - Forward address --> /WEB-INF/jsp/admin/userList.jsp
-2020-10-28 16:06:35 DEBUG FrontController:66 - FrontController finished, now go to forward address --> /WEB-INF/jsp/admin/userList.jsp
-2020-10-28 16:06:35 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 16:06:35 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 16:06:35 DEBUG SessionLocaleFilter:54 - Current locale: ru
-2020-10-28 16:06:35 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 16:06:35 DEBUG SessionLocaleFilter:54 - Current locale: ru
-2020-10-28 16:06:35 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 16:06:36 DEBUG CommandAccessFilter:79 - This command can be accessed by all users: changeLanguageCommand
-2020-10-28 16:06:36 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 16:06:36 DEBUG SessionLocaleFilter:54 - Current locale: en
-2020-10-28 16:06:36 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 16:06:36 DEBUG FrontController:46 - FrontController starts
-2020-10-28 16:06:36 TRACE FrontController:50 - Request parameter: command --> changeLanguageCommand
-2020-10-28 16:06:36 TRACE FrontController:54 - Obtaned command: ChangeLanguageCommand
-2020-10-28 16:06:36 DEBUG ChangeLanguageCommand:28 - LanguageChangeCommand starts
-2020-10-28 16:06:36 DEBUG ChangeLanguageCommand:33 - LanguageChangeCommand finished
-2020-10-28 16:06:36 TRACE FrontController:64 - Forward address --> /WEB-INF/jsp/admin/userList.jsp
-2020-10-28 16:06:36 DEBUG FrontController:66 - FrontController finished, now go to forward address --> /WEB-INF/jsp/admin/userList.jsp
-2020-10-28 16:06:36 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 16:06:36 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 16:06:36 DEBUG SessionLocaleFilter:54 - Current locale: en
-2020-10-28 16:06:36 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 16:06:36 DEBUG SessionLocaleFilter:54 - Current locale: en
-2020-10-28 16:06:36 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 16:06:36 DEBUG CommandAccessFilter:79 - This command can be accessed by all users: changeLanguageCommand
-2020-10-28 16:06:36 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 16:06:36 DEBUG SessionLocaleFilter:54 - Current locale: ru
-2020-10-28 16:06:36 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 16:06:36 DEBUG FrontController:46 - FrontController starts
-2020-10-28 16:06:36 TRACE FrontController:50 - Request parameter: command --> changeLanguageCommand
-2020-10-28 16:06:36 TRACE FrontController:54 - Obtaned command: ChangeLanguageCommand
-2020-10-28 16:06:36 DEBUG ChangeLanguageCommand:28 - LanguageChangeCommand starts
-2020-10-28 16:06:36 DEBUG ChangeLanguageCommand:33 - LanguageChangeCommand finished
-2020-10-28 16:06:36 TRACE FrontController:64 - Forward address --> /WEB-INF/jsp/admin/userList.jsp
-2020-10-28 16:06:36 DEBUG FrontController:66 - FrontController finished, now go to forward address --> /WEB-INF/jsp/admin/userList.jsp
-2020-10-28 16:06:36 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 16:06:36 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 16:06:36 DEBUG SessionLocaleFilter:54 - Current locale: ru
-2020-10-28 16:06:36 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 16:06:36 DEBUG SessionLocaleFilter:54 - Current locale: ru
-2020-10-28 16:06:36 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 16:06:37 DEBUG CommandAccessFilter:79 - This command can be accessed by all users: changeLanguageCommand
-2020-10-28 16:06:37 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 16:06:37 DEBUG SessionLocaleFilter:54 - Current locale: en
-2020-10-28 16:06:37 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 16:06:37 DEBUG FrontController:46 - FrontController starts
-2020-10-28 16:06:37 TRACE FrontController:50 - Request parameter: command --> changeLanguageCommand
-2020-10-28 16:06:37 TRACE FrontController:54 - Obtaned command: ChangeLanguageCommand
-2020-10-28 16:06:37 DEBUG ChangeLanguageCommand:28 - LanguageChangeCommand starts
-2020-10-28 16:06:37 DEBUG ChangeLanguageCommand:33 - LanguageChangeCommand finished
-2020-10-28 16:06:37 TRACE FrontController:64 - Forward address --> /WEB-INF/jsp/admin/userList.jsp
-2020-10-28 16:06:37 DEBUG FrontController:66 - FrontController finished, now go to forward address --> /WEB-INF/jsp/admin/userList.jsp
-2020-10-28 16:06:37 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 16:06:37 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 16:06:37 DEBUG SessionLocaleFilter:54 - Current locale: en
-2020-10-28 16:06:37 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 16:06:37 DEBUG SessionLocaleFilter:54 - Current locale: en
-2020-10-28 16:06:37 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 16:06:37 DEBUG CommandAccessFilter:79 - This command can be accessed by all users: changeLanguageCommand
-2020-10-28 16:06:37 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 16:06:37 DEBUG SessionLocaleFilter:54 - Current locale: ru
-2020-10-28 16:06:37 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 16:06:37 DEBUG FrontController:46 - FrontController starts
-2020-10-28 16:06:37 TRACE FrontController:50 - Request parameter: command --> changeLanguageCommand
-2020-10-28 16:06:37 TRACE FrontController:54 - Obtaned command: ChangeLanguageCommand
-2020-10-28 16:06:37 DEBUG ChangeLanguageCommand:28 - LanguageChangeCommand starts
-2020-10-28 16:06:37 DEBUG ChangeLanguageCommand:33 - LanguageChangeCommand finished
-2020-10-28 16:06:37 TRACE FrontController:64 - Forward address --> /WEB-INF/jsp/admin/userList.jsp
-2020-10-28 16:06:37 DEBUG FrontController:66 - FrontController finished, now go to forward address --> /WEB-INF/jsp/admin/userList.jsp
-2020-10-28 16:06:37 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 16:06:37 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 16:06:37 DEBUG SessionLocaleFilter:54 - Current locale: ru
-2020-10-28 16:06:37 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 16:06:37 DEBUG SessionLocaleFilter:54 - Current locale: ru
-2020-10-28 16:06:37 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 16:06:38 DEBUG CommandAccessFilter:79 - This command can be accessed by all users: changeLanguageCommand
-2020-10-28 16:06:38 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 16:06:38 DEBUG SessionLocaleFilter:54 - Current locale: en
-2020-10-28 16:06:38 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 16:06:38 DEBUG FrontController:46 - FrontController starts
-2020-10-28 16:06:38 TRACE FrontController:50 - Request parameter: command --> changeLanguageCommand
-2020-10-28 16:06:38 TRACE FrontController:54 - Obtaned command: ChangeLanguageCommand
-2020-10-28 16:06:38 DEBUG ChangeLanguageCommand:28 - LanguageChangeCommand starts
-2020-10-28 16:06:38 DEBUG ChangeLanguageCommand:33 - LanguageChangeCommand finished
-2020-10-28 16:06:38 TRACE FrontController:64 - Forward address --> /WEB-INF/jsp/admin/userList.jsp
-2020-10-28 16:06:38 DEBUG FrontController:66 - FrontController finished, now go to forward address --> /WEB-INF/jsp/admin/userList.jsp
-2020-10-28 16:06:38 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 16:06:38 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 16:06:38 DEBUG SessionLocaleFilter:54 - Current locale: en
-2020-10-28 16:06:38 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 16:06:38 DEBUG SessionLocaleFilter:54 - Current locale: en
-2020-10-28 16:06:38 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 16:06:39 DEBUG CommandAccessFilter:79 - This command can be accessed by all users: changeLanguageCommand
-2020-10-28 16:06:39 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 16:06:39 DEBUG SessionLocaleFilter:54 - Current locale: ru
-2020-10-28 16:06:39 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 16:06:39 DEBUG FrontController:46 - FrontController starts
-2020-10-28 16:06:39 TRACE FrontController:50 - Request parameter: command --> changeLanguageCommand
-2020-10-28 16:06:39 TRACE FrontController:54 - Obtaned command: ChangeLanguageCommand
-2020-10-28 16:06:39 DEBUG ChangeLanguageCommand:28 - LanguageChangeCommand starts
-2020-10-28 16:06:39 DEBUG ChangeLanguageCommand:33 - LanguageChangeCommand finished
-2020-10-28 16:06:39 TRACE FrontController:64 - Forward address --> /WEB-INF/jsp/admin/userList.jsp
-2020-10-28 16:06:39 DEBUG FrontController:66 - FrontController finished, now go to forward address --> /WEB-INF/jsp/admin/userList.jsp
-2020-10-28 16:06:39 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 16:06:39 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 16:06:39 DEBUG SessionLocaleFilter:54 - Current locale: ru
-2020-10-28 16:06:39 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 16:06:39 DEBUG SessionLocaleFilter:54 - Current locale: ru
-2020-10-28 16:06:39 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 16:06:40 DEBUG CommandAccessFilter:79 - This command can be accessed by all users: changeLanguageCommand
-2020-10-28 16:06:40 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 16:06:40 DEBUG SessionLocaleFilter:54 - Current locale: en
-2020-10-28 16:06:40 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 16:06:40 DEBUG FrontController:46 - FrontController starts
-2020-10-28 16:06:40 TRACE FrontController:50 - Request parameter: command --> changeLanguageCommand
-2020-10-28 16:06:40 TRACE FrontController:54 - Obtaned command: ChangeLanguageCommand
-2020-10-28 16:06:40 DEBUG ChangeLanguageCommand:28 - LanguageChangeCommand starts
-2020-10-28 16:06:40 DEBUG ChangeLanguageCommand:33 - LanguageChangeCommand finished
-2020-10-28 16:06:40 TRACE FrontController:64 - Forward address --> /WEB-INF/jsp/admin/userList.jsp
-2020-10-28 16:06:40 DEBUG FrontController:66 - FrontController finished, now go to forward address --> /WEB-INF/jsp/admin/userList.jsp
-2020-10-28 16:06:40 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 16:06:40 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 16:06:40 DEBUG SessionLocaleFilter:54 - Current locale: en
-2020-10-28 16:06:40 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 16:06:40 DEBUG SessionLocaleFilter:54 - Current locale: en
-2020-10-28 16:06:40 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 16:06:41 DEBUG CommandAccessFilter:79 - This command can be accessed by all users: changeLanguageCommand
-2020-10-28 16:06:41 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 16:06:41 DEBUG SessionLocaleFilter:54 - Current locale: ru
-2020-10-28 16:06:41 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 16:06:41 DEBUG FrontController:46 - FrontController starts
-2020-10-28 16:06:41 TRACE FrontController:50 - Request parameter: command --> changeLanguageCommand
-2020-10-28 16:06:41 TRACE FrontController:54 - Obtaned command: ChangeLanguageCommand
-2020-10-28 16:06:41 DEBUG ChangeLanguageCommand:28 - LanguageChangeCommand starts
-2020-10-28 16:06:41 DEBUG ChangeLanguageCommand:33 - LanguageChangeCommand finished
-2020-10-28 16:06:41 TRACE FrontController:64 - Forward address --> /WEB-INF/jsp/admin/userList.jsp
-2020-10-28 16:06:41 DEBUG FrontController:66 - FrontController finished, now go to forward address --> /WEB-INF/jsp/admin/userList.jsp
-2020-10-28 16:06:41 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 16:06:41 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 16:06:41 DEBUG SessionLocaleFilter:54 - Current locale: ru
-2020-10-28 16:06:41 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 16:06:41 DEBUG SessionLocaleFilter:54 - Current locale: ru
-2020-10-28 16:06:41 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 16:11:49 DEBUG CommandAccessFilter:79 - This command can be accessed by all users: login
-2020-10-28 16:11:49 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 16:11:49 DEBUG SessionLocaleFilter:54 - Current locale: ru
-2020-10-28 16:11:49 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 16:11:49 DEBUG FrontController:46 - FrontController starts
-2020-10-28 16:11:49 TRACE FrontController:50 - Request parameter: command --> login
-2020-10-28 16:11:49 TRACE FrontController:54 - Obtaned command: LoginCommand
-2020-10-28 16:11:49 DEBUG LoginCommand:34 - LoginCommand starts
-2020-10-28 16:11:49 TRACE UserServiceImpl:19 - Service method getOne --> diana@mail.com
-2020-10-28 16:11:49 TRACE UserRepositoryImpl:42 - Repository impl method getOne --> diana@mail.com
-2020-10-28 16:11:49 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@1887ddc9
-2020-10-28 16:11:49 TRACE UserRepositoryImpl:55 - Repository method getOne returned --> User{id=24, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=[USER]}
-2020-10-28 16:11:49 TRACE LoginCommand:44 - Found in DB: user --> User{id=24, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=[USER]}
-2020-10-28 16:11:49 TRACE UserServiceImpl:19 - Service method getOne --> diana@mail.com
-2020-10-28 16:11:49 TRACE UserRepositoryImpl:42 - Repository impl method getOne --> diana@mail.com
-2020-10-28 16:11:49 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@1887ddc9
-2020-10-28 16:11:49 TRACE UserRepositoryImpl:55 - Repository method getOne returned --> User{id=24, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=[USER]}
-2020-10-28 16:11:49 DEBUG LoginCommand:56 - LoginCommand getUserUser{id=24, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=[USER]}
-2020-10-28 16:11:49 TRACE FrontController:64 - Forward address --> /WEB-INF/jsp/user/userCab.jsp
-2020-10-28 16:11:49 DEBUG FrontController:66 - FrontController finished, now go to forward address --> /WEB-INF/jsp/user/userCab.jsp
-2020-10-28 16:13:03 DEBUG SessionLocaleFilter:19 - Filter initialization starts
-2020-10-28 16:13:03 DEBUG SessionLocaleFilter:21 - Filter initialization finished
-2020-10-28 16:13:03 DEBUG CommandAccessFilter:66 - Start initializing filter: CommandAccessFilter
-2020-10-28 16:13:03 DEBUG CommandAccessFilter:68 - Finished initializing filter: CommandAccessFilter
-2020-10-28 16:13:10 DEBUG CommandAccessFilter:79 - This command can be accessed by all users: login
-2020-10-28 16:13:10 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 16:13:10 DEBUG SessionLocaleFilter:47 - Preferred Locale: ru
-2020-10-28 16:13:10 DEBUG SessionLocaleFilter:54 - Current locale: ru
-2020-10-28 16:13:10 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 16:13:10 DEBUG FrontController:46 - FrontController starts
-2020-10-28 16:13:10 TRACE FrontController:50 - Request parameter: command --> login
-2020-10-28 16:13:10 TRACE FrontController:54 - Obtaned command: LoginCommand
-2020-10-28 16:13:10 DEBUG LoginCommand:34 - LoginCommand starts
-2020-10-28 16:13:10 TRACE UserServiceImpl:19 - Service method getOne --> admin@mail.com
-2020-10-28 16:13:10 TRACE UserRepositoryImpl:42 - Repository impl method getOne --> admin@mail.com
-2020-10-28 16:13:10 DEBUG ConnectionPool:30 - org.apache.commons.dbcp2.BasicDataSource@1d7a6722
-2020-10-28 16:13:10 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@1d7a6722
-2020-10-28 16:13:10 TRACE UserRepositoryImpl:55 - Repository method getOne returned --> User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[USER, ADMIN]}
-2020-10-28 16:13:10 TRACE LoginCommand:44 - Found in DB: user --> User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[USER, ADMIN]}
-2020-10-28 16:13:10 TRACE UserServiceImpl:19 - Service method getOne --> admin@mail.com
-2020-10-28 16:13:10 TRACE UserRepositoryImpl:42 - Repository impl method getOne --> admin@mail.com
-2020-10-28 16:13:10 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@1d7a6722
-2020-10-28 16:13:10 TRACE UserRepositoryImpl:55 - Repository method getOne returned --> User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[USER, ADMIN]}
-2020-10-28 16:13:10 DEBUG LoginCommand:56 - LoginCommand getUserUser{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[USER, ADMIN]}
-2020-10-28 16:13:10 TRACE UserServiceImpl:47 - Service method get all users
-2020-10-28 16:13:10 TRACE UserRepositoryImpl:136 - Repository impl method getAllUsers.
-2020-10-28 16:13:10 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@1d7a6722
-2020-10-28 16:13:10 TRACE UserRepositoryImpl:155 - Repository method getAll returned --> [User{id=26, email='admin2@mail.com', username='Alik', password='123', active=true, roles=[USER]}, User{id=25, email='diana2@mail.com', username='Alik', password='123', active=true, roles=[USER]}, User{id=27, email='admin3@mail.com', username='Aliks', password='123', active=true, roles=[USER]}, User{id=28, email='admin4@mail.com', username='Alika', password='aaa', active=true, roles=[USER]}, User{id=24, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=[USER]}, User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[USER, ADMIN]}, User{id=23, email='aa2an@mail.com', username='Alika', password='aaa', active=true, roles=[USER]}]
-2020-10-28 16:13:10 DEBUG DataHelper:23 - Found in DB: userList --> [User{id=26, email='admin2@mail.com', username='Alik', password='123', active=true, roles=[USER]}, User{id=25, email='diana2@mail.com', username='Alik', password='123', active=true, roles=[USER]}, User{id=27, email='admin3@mail.com', username='Aliks', password='123', active=true, roles=[USER]}, User{id=28, email='admin4@mail.com', username='Alika', password='aaa', active=true, roles=[USER]}, User{id=24, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=[USER]}, User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[USER, ADMIN]}, User{id=23, email='aa2an@mail.com', username='Alika', password='aaa', active=true, roles=[USER]}]
-2020-10-28 16:13:10 TRACE FrontController:64 - Forward address --> /WEB-INF/jsp/admin/userList.jsp
-2020-10-28 16:13:10 DEBUG FrontController:66 - FrontController finished, now go to forward address --> /WEB-INF/jsp/admin/userList.jsp
-2020-10-28 16:13:10 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 16:13:10 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 16:13:10 DEBUG SessionLocaleFilter:54 - Current locale: ru
-2020-10-28 16:13:10 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 16:13:10 DEBUG SessionLocaleFilter:54 - Current locale: ru
-2020-10-28 16:13:10 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 16:13:12 DEBUG CommandAccessFilter:79 - This command can be accessed by all users: changeLanguageCommand
-2020-10-28 16:13:12 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 16:13:12 DEBUG SessionLocaleFilter:54 - Current locale: en
-2020-10-28 16:13:12 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 16:13:12 DEBUG FrontController:46 - FrontController starts
-2020-10-28 16:13:12 TRACE FrontController:50 - Request parameter: command --> changeLanguageCommand
-2020-10-28 16:13:12 TRACE FrontController:54 - Obtaned command: ChangeLanguageCommand
-2020-10-28 16:13:12 DEBUG ChangeLanguageCommand:28 - LanguageChangeCommand starts
-2020-10-28 16:13:12 DEBUG ChangeLanguageCommand:33 - LanguageChangeCommand finished
-2020-10-28 16:13:12 TRACE FrontController:64 - Forward address --> /WEB-INF/jsp/admin/userList.jsp
-2020-10-28 16:13:12 DEBUG FrontController:66 - FrontController finished, now go to forward address --> /WEB-INF/jsp/admin/userList.jsp
-2020-10-28 16:13:12 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 16:13:12 DEBUG SessionLocaleFilter:54 - Current locale: en
-2020-10-28 16:13:12 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 16:13:12 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 16:13:12 DEBUG SessionLocaleFilter:54 - Current locale: en
-2020-10-28 16:13:12 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 16:22:59 DEBUG CommandAccessFilter:79 - This command can be accessed by all users: changeLanguageCommand
-2020-10-28 16:22:59 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 16:22:59 DEBUG SessionLocaleFilter:54 - Current locale: ru
-2020-10-28 16:22:59 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 16:22:59 DEBUG FrontController:46 - FrontController starts
-2020-10-28 16:22:59 TRACE FrontController:50 - Request parameter: command --> changeLanguageCommand
-2020-10-28 16:22:59 TRACE FrontController:54 - Obtaned command: ChangeLanguageCommand
-2020-10-28 16:22:59 DEBUG ChangeLanguageCommand:28 - LanguageChangeCommand starts
-2020-10-28 16:22:59 DEBUG ChangeLanguageCommand:33 - LanguageChangeCommand finished
-2020-10-28 16:22:59 TRACE FrontController:64 - Forward address --> /WEB-INF/jsp/admin/userList.jsp
-2020-10-28 16:22:59 DEBUG FrontController:66 - FrontController finished, now go to forward address --> /WEB-INF/jsp/admin/userList.jsp
-2020-10-28 16:22:59 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 16:22:59 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 16:22:59 DEBUG SessionLocaleFilter:54 - Current locale: ru
-2020-10-28 16:22:59 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 16:22:59 DEBUG SessionLocaleFilter:54 - Current locale: ru
-2020-10-28 16:22:59 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 16:23:01 DEBUG CommandAccessFilter:79 - This command can be accessed by all users: changeLanguageCommand
-2020-10-28 16:23:01 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 16:23:01 DEBUG SessionLocaleFilter:54 - Current locale: en
-2020-10-28 16:23:01 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 16:23:01 DEBUG FrontController:46 - FrontController starts
-2020-10-28 16:23:01 TRACE FrontController:50 - Request parameter: command --> changeLanguageCommand
-2020-10-28 16:23:01 TRACE FrontController:54 - Obtaned command: ChangeLanguageCommand
-2020-10-28 16:23:01 DEBUG ChangeLanguageCommand:28 - LanguageChangeCommand starts
-2020-10-28 16:23:01 DEBUG ChangeLanguageCommand:33 - LanguageChangeCommand finished
-2020-10-28 16:23:01 TRACE FrontController:64 - Forward address --> /WEB-INF/jsp/admin/userList.jsp
-2020-10-28 16:23:01 DEBUG FrontController:66 - FrontController finished, now go to forward address --> /WEB-INF/jsp/admin/userList.jsp
-2020-10-28 16:23:01 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 16:23:01 DEBUG SessionLocaleFilter:54 - Current locale: en
-2020-10-28 16:23:01 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 16:23:01 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 16:23:01 DEBUG SessionLocaleFilter:54 - Current locale: en
-2020-10-28 16:23:01 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 16:23:03 DEBUG CommandAccessFilter:79 - This command can be accessed by all users: changeLanguageCommand
-2020-10-28 16:23:03 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 16:23:03 DEBUG SessionLocaleFilter:54 - Current locale: ru
-2020-10-28 16:23:03 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 16:23:03 DEBUG FrontController:46 - FrontController starts
-2020-10-28 16:23:03 TRACE FrontController:50 - Request parameter: command --> changeLanguageCommand
-2020-10-28 16:23:03 TRACE FrontController:54 - Obtaned command: ChangeLanguageCommand
-2020-10-28 16:23:03 DEBUG ChangeLanguageCommand:28 - LanguageChangeCommand starts
-2020-10-28 16:23:03 DEBUG ChangeLanguageCommand:33 - LanguageChangeCommand finished
-2020-10-28 16:23:03 TRACE FrontController:64 - Forward address --> /WEB-INF/jsp/admin/userList.jsp
-2020-10-28 16:23:03 DEBUG FrontController:66 - FrontController finished, now go to forward address --> /WEB-INF/jsp/admin/userList.jsp
-2020-10-28 16:23:03 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 16:23:03 DEBUG SessionLocaleFilter:32 - Filter starts
-2020-10-28 16:23:03 DEBUG SessionLocaleFilter:54 - Current locale: ru
-2020-10-28 16:23:03 DEBUG SessionLocaleFilter:56 - Filter finished
-2020-10-28 16:23:03 DEBUG SessionLocaleFilter:54 - Current locale: ru
-2020-10-28 16:23:03 DEBUG SessionLocaleFilter:56 - Filter finished
+2020-10-30 09:26:26 DEBUG CommandAccessFilter:87 - This command can be accessed only by logged in users: newAct
+2020-10-30 09:26:26 DEBUG CommandAccessFilter:95 - s. Check user role.
+2020-10-30 09:26:26 DEBUG CommandAccessFilter:96 - Check user role.[USER]
+2020-10-30 09:26:26 DEBUG CommandAccessFilter:101 - User is client. Command can be executed by client: newAct
+2020-10-30 09:26:26 DEBUG SessionLocaleFilter:32 - Filter starts
+2020-10-30 09:26:26 DEBUG SessionLocaleFilter:54 - Current locale: en
+2020-10-30 09:26:26 DEBUG SessionLocaleFilter:56 - Filter finished
+2020-10-30 09:26:26 DEBUG FrontController:46 - FrontController starts
+2020-10-30 09:26:26 TRACE FrontController:50 - Request parameter: command --> newAct
+2020-10-30 09:26:26 TRACE FrontController:54 - Obtaned command: NewActivityCommand
+2020-10-30 09:26:26 DEBUG NewActivityCommand:21 - NewActivityCommand starts
+2020-10-30 09:26:26 TRACE FrontController:64 - Forward address --> /WEB-INF/jsp/error_page.jsp
+2020-10-30 09:26:26 DEBUG FrontController:66 - FrontController finished, now go to forward address --> /WEB-INF/jsp/error_page.jsp
+2020-10-30 09:27:30 DEBUG SessionLocaleFilter:19 - Filter initialization starts
+2020-10-30 09:27:30 DEBUG SessionLocaleFilter:21 - Filter initialization finished
+2020-10-30 09:27:30 DEBUG CommandAccessFilter:70 - Start initializing filter: CommandAccessFilter
+2020-10-30 09:27:30 DEBUG CommandAccessFilter:72 - Finished initializing filter: CommandAccessFilter
+2020-10-30 09:27:30 DEBUG CommandAccessFilter:83 - This command can be accessed by all users: logout
+2020-10-30 09:27:30 DEBUG SessionLocaleFilter:32 - Filter starts
+2020-10-30 09:27:30 DEBUG SessionLocaleFilter:47 - Preferred Locale: ru
+2020-10-30 09:27:30 DEBUG SessionLocaleFilter:54 - Current locale: ru
+2020-10-30 09:27:30 DEBUG SessionLocaleFilter:56 - Filter finished
+2020-10-30 09:27:30 DEBUG FrontController:46 - FrontController starts
+2020-10-30 09:27:30 TRACE FrontController:50 - Request parameter: command --> logout
+2020-10-30 09:27:30 TRACE FrontController:54 - Obtaned command: LogoutCommand
+2020-10-30 09:27:30 DEBUG LogoutCommand:27 - LogoutCommand starts
+2020-10-30 09:27:30 DEBUG LogoutCommand:32 - LogoutCommand invalidate session
+2020-10-30 09:27:30 DEBUG LogoutCommand:35 - LogoutCommand finished
+2020-10-30 09:27:30 TRACE FrontController:64 - Forward address --> /login.jsp
+2020-10-30 09:27:30 DEBUG FrontController:66 - FrontController finished, now go to forward address --> /login.jsp
+2020-10-30 09:27:34 DEBUG CommandAccessFilter:83 - This command can be accessed by all users: login
+2020-10-30 09:27:34 DEBUG SessionLocaleFilter:32 - Filter starts
+2020-10-30 09:27:34 DEBUG SessionLocaleFilter:54 - Current locale: en
+2020-10-30 09:27:34 DEBUG SessionLocaleFilter:56 - Filter finished
+2020-10-30 09:27:34 DEBUG FrontController:46 - FrontController starts
+2020-10-30 09:27:34 TRACE FrontController:50 - Request parameter: command --> login
+2020-10-30 09:27:34 TRACE FrontController:54 - Obtaned command: LoginCommand
+2020-10-30 09:27:34 DEBUG LoginCommand:34 - LoginCommand starts
+2020-10-30 09:27:34 TRACE UserServiceImpl:20 - Service method getOne --> diana@mail.com
+2020-10-30 09:27:34 TRACE UserRepositoryImpl:61 - Repository impl method getOne --> diana@mail.com
+2020-10-30 09:27:34 DEBUG ConnectionPool:30 - org.apache.commons.dbcp2.BasicDataSource@16110675
+2020-10-30 09:27:34 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@16110675
+2020-10-30 09:27:34 TRACE UserRepositoryImpl:73 - Repository method getOne returned --> User{id=24, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=[USER]}
+2020-10-30 09:27:34 TRACE LoginCommand:44 - Found in DB: user --> User{id=24, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=[USER]}
+2020-10-30 09:27:34 TRACE UserServiceImpl:20 - Service method getOne --> diana@mail.com
+2020-10-30 09:27:34 TRACE UserRepositoryImpl:61 - Repository impl method getOne --> diana@mail.com
+2020-10-30 09:27:34 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@16110675
+2020-10-30 09:27:34 TRACE UserRepositoryImpl:73 - Repository method getOne returned --> User{id=24, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=[USER]}
+2020-10-30 09:27:34 DEBUG LoginCommand:56 - LoginCommand getUserUser{id=24, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=[USER]}
+2020-10-30 09:27:34 TRACE FrontController:64 - Forward address --> /WEB-INF/jsp/user/userCab.jsp
+2020-10-30 09:27:34 DEBUG FrontController:66 - FrontController finished, now go to forward address --> /WEB-INF/jsp/user/userCab.jsp
+2020-10-30 09:27:34 DEBUG SessionLocaleFilter:32 - Filter starts
+2020-10-30 09:27:34 DEBUG SessionLocaleFilter:54 - Current locale: en
+2020-10-30 09:27:34 DEBUG SessionLocaleFilter:56 - Filter finished
+2020-10-30 09:27:34 DEBUG SessionLocaleFilter:32 - Filter starts
+2020-10-30 09:27:34 DEBUG SessionLocaleFilter:54 - Current locale: en
+2020-10-30 09:27:34 DEBUG SessionLocaleFilter:56 - Filter finished
+2020-10-30 09:27:38 DEBUG CommandAccessFilter:87 - This command can be accessed only by logged in users: newAct
+2020-10-30 09:27:38 DEBUG CommandAccessFilter:95 - s. Check user role.
+2020-10-30 09:27:38 DEBUG CommandAccessFilter:96 - Check user role.[USER]
+2020-10-30 09:27:38 DEBUG CommandAccessFilter:101 - User is client. Command can be executed by client: newAct
+2020-10-30 09:27:38 DEBUG SessionLocaleFilter:32 - Filter starts
+2020-10-30 09:27:38 DEBUG SessionLocaleFilter:54 - Current locale: en
+2020-10-30 09:27:38 DEBUG SessionLocaleFilter:56 - Filter finished
+2020-10-30 09:27:38 DEBUG FrontController:46 - FrontController starts
+2020-10-30 09:27:38 TRACE FrontController:50 - Request parameter: command --> newAct
+2020-10-30 09:27:38 TRACE FrontController:54 - Obtaned command: NewActivityCommand
+2020-10-30 09:27:38 DEBUG NewActivityCommand:21 - NewActivityCommand starts
+2020-10-30 09:28:54 DEBUG SessionLocaleFilter:19 - Filter initialization starts
+2020-10-30 09:28:54 DEBUG SessionLocaleFilter:21 - Filter initialization finished
+2020-10-30 09:28:54 DEBUG CommandAccessFilter:70 - Start initializing filter: CommandAccessFilter
+2020-10-30 09:28:54 DEBUG CommandAccessFilter:72 - Finished initializing filter: CommandAccessFilter
+2020-10-30 09:28:54 DEBUG CommandAccessFilter:83 - This command can be accessed by all users: logout
+2020-10-30 09:28:54 DEBUG SessionLocaleFilter:32 - Filter starts
+2020-10-30 09:28:54 DEBUG SessionLocaleFilter:47 - Preferred Locale: ru
+2020-10-30 09:28:54 DEBUG SessionLocaleFilter:54 - Current locale: ru
+2020-10-30 09:28:54 DEBUG SessionLocaleFilter:56 - Filter finished
+2020-10-30 09:28:54 DEBUG FrontController:46 - FrontController starts
+2020-10-30 09:28:54 TRACE FrontController:50 - Request parameter: command --> logout
+2020-10-30 09:28:54 TRACE FrontController:54 - Obtaned command: LogoutCommand
+2020-10-30 09:28:54 DEBUG LogoutCommand:27 - LogoutCommand starts
+2020-10-30 09:28:54 DEBUG LogoutCommand:32 - LogoutCommand invalidate session
+2020-10-30 09:28:54 DEBUG LogoutCommand:35 - LogoutCommand finished
+2020-10-30 09:28:54 TRACE FrontController:64 - Forward address --> /login.jsp
+2020-10-30 09:28:54 DEBUG FrontController:66 - FrontController finished, now go to forward address --> /login.jsp
+2020-10-30 09:28:58 DEBUG CommandAccessFilter:83 - This command can be accessed by all users: login
+2020-10-30 09:28:58 DEBUG SessionLocaleFilter:32 - Filter starts
+2020-10-30 09:28:58 DEBUG SessionLocaleFilter:54 - Current locale: en
+2020-10-30 09:28:58 DEBUG SessionLocaleFilter:56 - Filter finished
+2020-10-30 09:28:58 DEBUG FrontController:46 - FrontController starts
+2020-10-30 09:28:58 TRACE FrontController:50 - Request parameter: command --> login
+2020-10-30 09:28:58 TRACE FrontController:54 - Obtaned command: LoginCommand
+2020-10-30 09:28:58 DEBUG LoginCommand:34 - LoginCommand starts
+2020-10-30 09:28:58 TRACE UserServiceImpl:20 - Service method getOne --> diana@mail.com
+2020-10-30 09:28:58 TRACE UserRepositoryImpl:61 - Repository impl method getOne --> diana@mail.com
+2020-10-30 09:28:58 DEBUG ConnectionPool:30 - org.apache.commons.dbcp2.BasicDataSource@3335442f
+2020-10-30 09:28:58 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@3335442f
+2020-10-30 09:28:58 TRACE UserRepositoryImpl:73 - Repository method getOne returned --> User{id=24, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=[USER]}
+2020-10-30 09:28:58 TRACE LoginCommand:44 - Found in DB: user --> User{id=24, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=[USER]}
+2020-10-30 09:28:58 TRACE UserServiceImpl:20 - Service method getOne --> diana@mail.com
+2020-10-30 09:28:58 TRACE UserRepositoryImpl:61 - Repository impl method getOne --> diana@mail.com
+2020-10-30 09:28:58 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@3335442f
+2020-10-30 09:28:58 TRACE UserRepositoryImpl:73 - Repository method getOne returned --> User{id=24, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=[USER]}
+2020-10-30 09:28:58 DEBUG LoginCommand:56 - LoginCommand getUserUser{id=24, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=[USER]}
+2020-10-30 09:28:58 TRACE FrontController:64 - Forward address --> /WEB-INF/jsp/user/userCab.jsp
+2020-10-30 09:28:58 DEBUG FrontController:66 - FrontController finished, now go to forward address --> /WEB-INF/jsp/user/userCab.jsp
+2020-10-30 09:28:58 DEBUG SessionLocaleFilter:32 - Filter starts
+2020-10-30 09:28:58 DEBUG SessionLocaleFilter:54 - Current locale: en
+2020-10-30 09:28:58 DEBUG SessionLocaleFilter:56 - Filter finished
+2020-10-30 09:28:58 DEBUG SessionLocaleFilter:32 - Filter starts
+2020-10-30 09:28:58 DEBUG SessionLocaleFilter:54 - Current locale: en
+2020-10-30 09:28:58 DEBUG SessionLocaleFilter:56 - Filter finished
+2020-10-30 09:29:01 DEBUG CommandAccessFilter:87 - This command can be accessed only by logged in users: newAct
+2020-10-30 09:29:01 DEBUG CommandAccessFilter:95 - s. Check user role.
+2020-10-30 09:29:01 DEBUG CommandAccessFilter:96 - Check user role.[USER]
+2020-10-30 09:29:01 DEBUG CommandAccessFilter:101 - User is client. Command can be executed by client: newAct
+2020-10-30 09:29:01 DEBUG SessionLocaleFilter:32 - Filter starts
+2020-10-30 09:29:01 DEBUG SessionLocaleFilter:54 - Current locale: en
+2020-10-30 09:29:01 DEBUG SessionLocaleFilter:56 - Filter finished
+2020-10-30 09:29:01 DEBUG FrontController:46 - FrontController starts
+2020-10-30 09:29:01 TRACE FrontController:50 - Request parameter: command --> newAct
+2020-10-30 09:29:01 TRACE FrontController:54 - Obtaned command: NewActivityCommand
+2020-10-30 09:29:01 DEBUG NewActivityCommand:21 - NewActivityCommand starts
+2020-10-30 09:29:01 TRACE FrontController:64 - Forward address --> /WEB-INF/jsp/error_page.jsp
+2020-10-30 09:29:01 DEBUG FrontController:66 - FrontController finished, now go to forward address --> /WEB-INF/jsp/error_page.jsp
+2020-10-30 09:29:40 DEBUG SessionLocaleFilter:19 - Filter initialization starts
+2020-10-30 09:29:40 DEBUG SessionLocaleFilter:21 - Filter initialization finished
+2020-10-30 09:29:40 DEBUG CommandAccessFilter:70 - Start initializing filter: CommandAccessFilter
+2020-10-30 09:29:40 DEBUG CommandAccessFilter:72 - Finished initializing filter: CommandAccessFilter
+2020-10-30 09:29:45 DEBUG CommandAccessFilter:87 - This command can be accessed only by logged in users: newAct
+2020-10-30 09:29:45 DEBUG CommandAccessFilter:90 - Unauthorized access to resource. Client is not logged-in.
+2020-10-30 09:29:46 DEBUG CommandAccessFilter:83 - This command can be accessed by all users: logout
+2020-10-30 09:29:46 DEBUG SessionLocaleFilter:32 - Filter starts
+2020-10-30 09:29:46 DEBUG SessionLocaleFilter:47 - Preferred Locale: ru
+2020-10-30 09:29:46 DEBUG SessionLocaleFilter:54 - Current locale: ru
+2020-10-30 09:29:46 DEBUG SessionLocaleFilter:56 - Filter finished
+2020-10-30 09:29:46 DEBUG FrontController:46 - FrontController starts
+2020-10-30 09:29:46 TRACE FrontController:50 - Request parameter: command --> logout
+2020-10-30 09:29:46 TRACE FrontController:54 - Obtaned command: LogoutCommand
+2020-10-30 09:29:46 DEBUG LogoutCommand:27 - LogoutCommand starts
+2020-10-30 09:29:46 DEBUG LogoutCommand:32 - LogoutCommand invalidate session
+2020-10-30 09:29:46 DEBUG LogoutCommand:35 - LogoutCommand finished
+2020-10-30 09:29:46 TRACE FrontController:64 - Forward address --> /login.jsp
+2020-10-30 09:29:46 DEBUG FrontController:66 - FrontController finished, now go to forward address --> /login.jsp
+2020-10-30 09:29:50 DEBUG CommandAccessFilter:83 - This command can be accessed by all users: login
+2020-10-30 09:29:50 DEBUG SessionLocaleFilter:32 - Filter starts
+2020-10-30 09:29:50 DEBUG SessionLocaleFilter:54 - Current locale: en
+2020-10-30 09:29:50 DEBUG SessionLocaleFilter:56 - Filter finished
+2020-10-30 09:29:50 DEBUG FrontController:46 - FrontController starts
+2020-10-30 09:29:50 TRACE FrontController:50 - Request parameter: command --> login
+2020-10-30 09:29:50 TRACE FrontController:54 - Obtaned command: LoginCommand
+2020-10-30 09:29:50 DEBUG LoginCommand:34 - LoginCommand starts
+2020-10-30 09:29:50 TRACE UserServiceImpl:20 - Service method getOne --> diana@mail.com
+2020-10-30 09:29:50 TRACE UserRepositoryImpl:61 - Repository impl method getOne --> diana@mail.com
+2020-10-30 09:29:50 DEBUG ConnectionPool:30 - org.apache.commons.dbcp2.BasicDataSource@486fad96
+2020-10-30 09:29:50 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@486fad96
+2020-10-30 09:29:50 TRACE UserRepositoryImpl:73 - Repository method getOne returned --> User{id=24, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=[USER]}
+2020-10-30 09:29:50 TRACE LoginCommand:44 - Found in DB: user --> User{id=24, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=[USER]}
+2020-10-30 09:29:50 TRACE UserServiceImpl:20 - Service method getOne --> diana@mail.com
+2020-10-30 09:29:50 TRACE UserRepositoryImpl:61 - Repository impl method getOne --> diana@mail.com
+2020-10-30 09:29:50 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@486fad96
+2020-10-30 09:29:50 TRACE UserRepositoryImpl:73 - Repository method getOne returned --> User{id=24, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=[USER]}
+2020-10-30 09:29:50 DEBUG LoginCommand:56 - LoginCommand getUserUser{id=24, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=[USER]}
+2020-10-30 09:29:50 TRACE FrontController:64 - Forward address --> /WEB-INF/jsp/user/userCab.jsp
+2020-10-30 09:29:50 DEBUG FrontController:66 - FrontController finished, now go to forward address --> /WEB-INF/jsp/user/userCab.jsp
+2020-10-30 09:29:50 DEBUG SessionLocaleFilter:32 - Filter starts
+2020-10-30 09:29:50 DEBUG SessionLocaleFilter:54 - Current locale: en
+2020-10-30 09:29:50 DEBUG SessionLocaleFilter:32 - Filter starts
+2020-10-30 09:29:50 DEBUG SessionLocaleFilter:56 - Filter finished
+2020-10-30 09:29:50 DEBUG SessionLocaleFilter:54 - Current locale: en
+2020-10-30 09:29:50 DEBUG SessionLocaleFilter:56 - Filter finished
+2020-10-30 09:29:53 DEBUG CommandAccessFilter:87 - This command can be accessed only by logged in users: newAct
+2020-10-30 09:29:53 DEBUG CommandAccessFilter:95 - s. Check user role.
+2020-10-30 09:29:53 DEBUG CommandAccessFilter:96 - Check user role.[USER]
+2020-10-30 09:29:53 DEBUG CommandAccessFilter:101 - User is client. Command can be executed by client: newAct
+2020-10-30 09:29:53 DEBUG SessionLocaleFilter:32 - Filter starts
+2020-10-30 09:29:53 DEBUG SessionLocaleFilter:54 - Current locale: en
+2020-10-30 09:29:53 DEBUG SessionLocaleFilter:56 - Filter finished
+2020-10-30 09:29:53 DEBUG FrontController:46 - FrontController starts
+2020-10-30 09:29:53 TRACE FrontController:50 - Request parameter: command --> newAct
+2020-10-30 09:29:53 TRACE FrontController:54 - Obtaned command: NewActivityCommand
+2020-10-30 09:29:53 DEBUG NewActivityCommand:21 - NewActivityCommand starts
+2020-10-30 09:29:53 DEBUG NewActivityCommand:26 - NewActivityCommand userId is 24/
+2020-10-30 09:29:53 TRACE FrontController:64 - Forward address --> /WEB-INF/jsp/error_page.jsp
+2020-10-30 09:29:53 DEBUG FrontController:66 - FrontController finished, now go to forward address --> /WEB-INF/jsp/error_page.jsp
+2020-10-30 09:30:20 DEBUG SessionLocaleFilter:19 - Filter initialization starts
+2020-10-30 09:30:20 DEBUG SessionLocaleFilter:21 - Filter initialization finished
+2020-10-30 09:30:20 DEBUG CommandAccessFilter:70 - Start initializing filter: CommandAccessFilter
+2020-10-30 09:30:20 DEBUG CommandAccessFilter:72 - Finished initializing filter: CommandAccessFilter
+2020-10-30 09:30:22 DEBUG CommandAccessFilter:87 - This command can be accessed only by logged in users: newAct
+2020-10-30 09:30:22 DEBUG CommandAccessFilter:90 - Unauthorized access to resource. Client is not logged-in.
+2020-10-30 09:30:24 DEBUG CommandAccessFilter:83 - This command can be accessed by all users: logout
+2020-10-30 09:30:24 DEBUG SessionLocaleFilter:32 - Filter starts
+2020-10-30 09:30:24 DEBUG SessionLocaleFilter:47 - Preferred Locale: ru
+2020-10-30 09:30:24 DEBUG SessionLocaleFilter:54 - Current locale: ru
+2020-10-30 09:30:24 DEBUG SessionLocaleFilter:56 - Filter finished
+2020-10-30 09:30:24 DEBUG FrontController:46 - FrontController starts
+2020-10-30 09:30:24 TRACE FrontController:50 - Request parameter: command --> logout
+2020-10-30 09:30:24 TRACE FrontController:54 - Obtaned command: LogoutCommand
+2020-10-30 09:30:24 DEBUG LogoutCommand:27 - LogoutCommand starts
+2020-10-30 09:30:24 DEBUG LogoutCommand:32 - LogoutCommand invalidate session
+2020-10-30 09:30:24 DEBUG LogoutCommand:35 - LogoutCommand finished
+2020-10-30 09:30:24 TRACE FrontController:64 - Forward address --> /login.jsp
+2020-10-30 09:30:24 DEBUG FrontController:66 - FrontController finished, now go to forward address --> /login.jsp
+2020-10-30 09:30:26 DEBUG CommandAccessFilter:83 - This command can be accessed by all users: login
+2020-10-30 09:30:26 DEBUG SessionLocaleFilter:32 - Filter starts
+2020-10-30 09:30:26 DEBUG SessionLocaleFilter:54 - Current locale: en
+2020-10-30 09:30:26 DEBUG SessionLocaleFilter:56 - Filter finished
+2020-10-30 09:30:26 DEBUG FrontController:46 - FrontController starts
+2020-10-30 09:30:26 TRACE FrontController:50 - Request parameter: command --> login
+2020-10-30 09:30:26 TRACE FrontController:54 - Obtaned command: LoginCommand
+2020-10-30 09:30:26 DEBUG LoginCommand:34 - LoginCommand starts
+2020-10-30 09:30:26 TRACE UserServiceImpl:20 - Service method getOne --> ssaas
+2020-10-30 09:30:26 TRACE UserRepositoryImpl:61 - Repository impl method getOne --> ssaas
+2020-10-30 09:30:26 DEBUG ConnectionPool:30 - org.apache.commons.dbcp2.BasicDataSource@5b90bfd4
+2020-10-30 09:30:26 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@5b90bfd4
+2020-10-30 09:30:27 TRACE UserRepositoryImpl:73 - Repository method getOne returned --> null
+2020-10-30 09:30:27 TRACE LoginCommand:44 - Found in DB: user --> null
+2020-10-30 09:30:27 TRACE FrontController:64 - Forward address --> /login.jsp
+2020-10-30 09:30:27 DEBUG FrontController:66 - FrontController finished, now go to forward address --> /login.jsp
+2020-10-30 09:30:30 DEBUG CommandAccessFilter:83 - This command can be accessed by all users: login
+2020-10-30 09:30:30 DEBUG SessionLocaleFilter:32 - Filter starts
+2020-10-30 09:30:30 DEBUG SessionLocaleFilter:54 - Current locale: en
+2020-10-30 09:30:30 DEBUG SessionLocaleFilter:56 - Filter finished
+2020-10-30 09:30:30 DEBUG FrontController:46 - FrontController starts
+2020-10-30 09:30:30 TRACE FrontController:50 - Request parameter: command --> login
+2020-10-30 09:30:30 TRACE FrontController:54 - Obtaned command: LoginCommand
+2020-10-30 09:30:30 DEBUG LoginCommand:34 - LoginCommand starts
+2020-10-30 09:30:30 TRACE UserServiceImpl:20 - Service method getOne --> diana@mail.com
+2020-10-30 09:30:30 TRACE UserRepositoryImpl:61 - Repository impl method getOne --> diana@mail.com
+2020-10-30 09:30:30 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@5b90bfd4
+2020-10-30 09:30:30 TRACE UserRepositoryImpl:73 - Repository method getOne returned --> User{id=24, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=[USER]}
+2020-10-30 09:30:30 TRACE LoginCommand:44 - Found in DB: user --> User{id=24, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=[USER]}
+2020-10-30 09:30:30 TRACE UserServiceImpl:20 - Service method getOne --> diana@mail.com
+2020-10-30 09:30:30 TRACE UserRepositoryImpl:61 - Repository impl method getOne --> diana@mail.com
+2020-10-30 09:30:30 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@5b90bfd4
+2020-10-30 09:30:30 TRACE UserRepositoryImpl:73 - Repository method getOne returned --> User{id=24, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=[USER]}
+2020-10-30 09:30:30 DEBUG LoginCommand:56 - LoginCommand getUserUser{id=24, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=[USER]}
+2020-10-30 09:30:30 TRACE FrontController:64 - Forward address --> /WEB-INF/jsp/user/userCab.jsp
+2020-10-30 09:30:30 DEBUG FrontController:66 - FrontController finished, now go to forward address --> /WEB-INF/jsp/user/userCab.jsp
+2020-10-30 09:30:31 DEBUG SessionLocaleFilter:32 - Filter starts
+2020-10-30 09:30:31 DEBUG SessionLocaleFilter:54 - Current locale: en
+2020-10-30 09:30:31 DEBUG SessionLocaleFilter:56 - Filter finished
+2020-10-30 09:30:31 DEBUG SessionLocaleFilter:32 - Filter starts
+2020-10-30 09:30:31 DEBUG SessionLocaleFilter:54 - Current locale: en
+2020-10-30 09:30:31 DEBUG SessionLocaleFilter:56 - Filter finished
+2020-10-30 09:30:33 DEBUG CommandAccessFilter:87 - This command can be accessed only by logged in users: newAct
+2020-10-30 09:30:33 DEBUG CommandAccessFilter:95 - s. Check user role.
+2020-10-30 09:30:33 DEBUG CommandAccessFilter:96 - Check user role.[USER]
+2020-10-30 09:30:33 DEBUG CommandAccessFilter:101 - User is client. Command can be executed by client: newAct
+2020-10-30 09:30:33 DEBUG SessionLocaleFilter:32 - Filter starts
+2020-10-30 09:30:33 DEBUG SessionLocaleFilter:54 - Current locale: en
+2020-10-30 09:30:33 DEBUG SessionLocaleFilter:56 - Filter finished
+2020-10-30 09:30:33 DEBUG FrontController:46 - FrontController starts
+2020-10-30 09:30:33 TRACE FrontController:50 - Request parameter: command --> newAct
+2020-10-30 09:30:33 TRACE FrontController:54 - Obtaned command: NewActivityCommand
+2020-10-30 09:30:33 DEBUG NewActivityCommand:21 - NewActivityCommand starts
+2020-10-30 09:30:33 DEBUG NewActivityCommand:26 - NewActivityCommand userId is 24
+2020-10-30 09:30:33 TRACE UserRepositoryImpl:170 - Repository method createNewActivity for   --> 24 a a
+2020-10-30 09:30:33 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@5b90bfd4
+2020-10-30 09:30:33 TRACE UserRepositoryImpl:181 - Repository method createNewActivity nextValID--> 45
+2020-10-30 09:30:33 ERROR UserRepositoryImpl:199 - org.postgresql.util.PSQLException: ERROR: new row for relation "activity" violates check constraint "activity_time_check"
+  Подробности: Failing row contains (45, f, f, a, a, 0).
+2020-10-30 09:30:33 TRACE UserRepositoryImpl:201 - Repository method createNewActivity returned --> Activity{id=null, text='null', tag='null', activeAct=false, archiveAct=false, time=null, users=[]}
+2020-10-30 09:30:33 DEBUG NewActivityCommand:34 - NewActivityCommand finishActivity{id=null, text='null', tag='null', activeAct=false, archiveAct=false, time=null, users=[]}
+2020-10-30 09:30:33 TRACE FrontController:64 - Forward address --> /WEB-INF/jsp/user/userCab.jsp
+2020-10-30 09:30:33 DEBUG FrontController:66 - FrontController finished, now go to forward address --> /WEB-INF/jsp/user/userCab.jsp
+2020-10-30 09:30:33 DEBUG SessionLocaleFilter:32 - Filter starts
+2020-10-30 09:30:33 DEBUG SessionLocaleFilter:32 - Filter starts
+2020-10-30 09:30:33 DEBUG SessionLocaleFilter:54 - Current locale: en
+2020-10-30 09:30:33 DEBUG SessionLocaleFilter:56 - Filter finished
+2020-10-30 09:30:33 DEBUG SessionLocaleFilter:54 - Current locale: en
+2020-10-30 09:30:33 DEBUG SessionLocaleFilter:56 - Filter finished
+2020-10-30 09:31:50 DEBUG SessionLocaleFilter:19 - Filter initialization starts
+2020-10-30 09:31:50 DEBUG SessionLocaleFilter:21 - Filter initialization finished
+2020-10-30 09:31:50 DEBUG CommandAccessFilter:70 - Start initializing filter: CommandAccessFilter
+2020-10-30 09:31:50 DEBUG CommandAccessFilter:72 - Finished initializing filter: CommandAccessFilter
+2020-10-30 09:31:54 DEBUG CommandAccessFilter:83 - This command can be accessed by all users: logout
+2020-10-30 09:31:54 DEBUG SessionLocaleFilter:32 - Filter starts
+2020-10-30 09:31:54 DEBUG SessionLocaleFilter:47 - Preferred Locale: ru
+2020-10-30 09:31:54 DEBUG SessionLocaleFilter:54 - Current locale: ru
+2020-10-30 09:31:54 DEBUG SessionLocaleFilter:56 - Filter finished
+2020-10-30 09:31:54 DEBUG FrontController:46 - FrontController starts
+2020-10-30 09:31:54 TRACE FrontController:50 - Request parameter: command --> logout
+2020-10-30 09:31:54 TRACE FrontController:54 - Obtaned command: LogoutCommand
+2020-10-30 09:31:54 DEBUG LogoutCommand:27 - LogoutCommand starts
+2020-10-30 09:31:54 DEBUG LogoutCommand:32 - LogoutCommand invalidate session
+2020-10-30 09:31:54 DEBUG LogoutCommand:35 - LogoutCommand finished
+2020-10-30 09:31:54 TRACE FrontController:64 - Forward address --> /login.jsp
+2020-10-30 09:31:54 DEBUG FrontController:66 - FrontController finished, now go to forward address --> /login.jsp
+2020-10-30 09:31:58 DEBUG CommandAccessFilter:83 - This command can be accessed by all users: login
+2020-10-30 09:31:58 DEBUG SessionLocaleFilter:32 - Filter starts
+2020-10-30 09:31:58 DEBUG SessionLocaleFilter:54 - Current locale: en
+2020-10-30 09:31:58 DEBUG SessionLocaleFilter:56 - Filter finished
+2020-10-30 09:31:58 DEBUG FrontController:46 - FrontController starts
+2020-10-30 09:31:58 TRACE FrontController:50 - Request parameter: command --> login
+2020-10-30 09:31:58 TRACE FrontController:54 - Obtaned command: LoginCommand
+2020-10-30 09:31:58 DEBUG LoginCommand:34 - LoginCommand starts
+2020-10-30 09:31:58 TRACE UserServiceImpl:20 - Service method getOne --> diana@mail.com
+2020-10-30 09:31:58 TRACE UserRepositoryImpl:61 - Repository impl method getOne --> diana@mail.com
+2020-10-30 09:31:58 DEBUG ConnectionPool:30 - org.apache.commons.dbcp2.BasicDataSource@6387e0e1
+2020-10-30 09:31:58 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@6387e0e1
+2020-10-30 09:31:58 TRACE UserRepositoryImpl:73 - Repository method getOne returned --> User{id=24, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=[USER]}
+2020-10-30 09:31:58 TRACE LoginCommand:44 - Found in DB: user --> User{id=24, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=[USER]}
+2020-10-30 09:31:58 TRACE UserServiceImpl:20 - Service method getOne --> diana@mail.com
+2020-10-30 09:31:58 TRACE UserRepositoryImpl:61 - Repository impl method getOne --> diana@mail.com
+2020-10-30 09:31:58 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@6387e0e1
+2020-10-30 09:31:58 TRACE UserRepositoryImpl:73 - Repository method getOne returned --> User{id=24, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=[USER]}
+2020-10-30 09:31:58 DEBUG LoginCommand:56 - LoginCommand getUserUser{id=24, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=[USER]}
+2020-10-30 09:31:58 TRACE FrontController:64 - Forward address --> /WEB-INF/jsp/user/userCab.jsp
+2020-10-30 09:31:58 DEBUG FrontController:66 - FrontController finished, now go to forward address --> /WEB-INF/jsp/user/userCab.jsp
+2020-10-30 09:31:58 DEBUG SessionLocaleFilter:32 - Filter starts
+2020-10-30 09:31:58 DEBUG SessionLocaleFilter:54 - Current locale: en
+2020-10-30 09:31:58 DEBUG SessionLocaleFilter:56 - Filter finished
+2020-10-30 09:31:58 DEBUG SessionLocaleFilter:32 - Filter starts
+2020-10-30 09:31:58 DEBUG SessionLocaleFilter:54 - Current locale: en
+2020-10-30 09:31:58 DEBUG SessionLocaleFilter:56 - Filter finished
+2020-10-30 09:32:00 DEBUG CommandAccessFilter:87 - This command can be accessed only by logged in users: newAct
+2020-10-30 09:32:00 DEBUG CommandAccessFilter:95 - s. Check user role.
+2020-10-30 09:32:00 DEBUG CommandAccessFilter:96 - Check user role.[USER]
+2020-10-30 09:32:00 DEBUG CommandAccessFilter:101 - User is client. Command can be executed by client: newAct
+2020-10-30 09:32:00 DEBUG SessionLocaleFilter:32 - Filter starts
+2020-10-30 09:32:00 DEBUG SessionLocaleFilter:54 - Current locale: en
+2020-10-30 09:32:00 DEBUG SessionLocaleFilter:56 - Filter finished
+2020-10-30 09:32:00 DEBUG FrontController:46 - FrontController starts
+2020-10-30 09:32:00 TRACE FrontController:50 - Request parameter: command --> newAct
+2020-10-30 09:32:00 TRACE FrontController:54 - Obtaned command: NewActivityCommand
+2020-10-30 09:32:00 DEBUG NewActivityCommand:21 - NewActivityCommand starts
+2020-10-30 09:32:00 DEBUG NewActivityCommand:26 - NewActivityCommand userId is 24
+2020-10-30 09:32:00 TRACE UserRepositoryImpl:170 - Repository method createNewActivity for   --> 24 aa aa
+2020-10-30 09:32:00 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@6387e0e1
+2020-10-30 09:32:00 TRACE UserRepositoryImpl:181 - Repository method createNewActivity nextValID--> 46
+2020-10-30 09:32:00 ERROR UserRepositoryImpl:199 - org.postgresql.util.PSQLException: Запрос не вернул результатов.
+2020-10-30 09:32:00 TRACE UserRepositoryImpl:201 - Repository method createNewActivity returned --> Activity{id=null, text='null', tag='null', activeAct=false, archiveAct=false, time=null, users=[]}
+2020-10-30 09:32:00 DEBUG NewActivityCommand:34 - NewActivityCommand finishActivity{id=null, text='null', tag='null', activeAct=false, archiveAct=false, time=null, users=[]}
+2020-10-30 09:32:00 TRACE FrontController:64 - Forward address --> /WEB-INF/jsp/user/userCab.jsp
+2020-10-30 09:32:00 DEBUG FrontController:66 - FrontController finished, now go to forward address --> /WEB-INF/jsp/user/userCab.jsp
+2020-10-30 09:32:00 DEBUG SessionLocaleFilter:32 - Filter starts
+2020-10-30 09:32:00 DEBUG SessionLocaleFilter:32 - Filter starts
+2020-10-30 09:32:00 DEBUG SessionLocaleFilter:54 - Current locale: en
+2020-10-30 09:32:00 DEBUG SessionLocaleFilter:56 - Filter finished
+2020-10-30 09:32:00 DEBUG SessionLocaleFilter:54 - Current locale: en
+2020-10-30 09:32:00 DEBUG SessionLocaleFilter:56 - Filter finished
+2020-10-30 09:32:25 DEBUG SessionLocaleFilter:32 - Filter starts
+2020-10-30 09:32:25 DEBUG SessionLocaleFilter:47 - Preferred Locale: ru
+2020-10-30 09:32:25 DEBUG SessionLocaleFilter:54 - Current locale: ru
+2020-10-30 09:32:25 DEBUG SessionLocaleFilter:56 - Filter finished
+2020-10-30 09:32:27 DEBUG SessionLocaleFilter:32 - Filter starts
+2020-10-30 09:32:27 DEBUG SessionLocaleFilter:54 - Current locale: ru
+2020-10-30 09:32:27 DEBUG SessionLocaleFilter:56 - Filter finished
+2020-10-30 09:32:31 DEBUG CommandAccessFilter:83 - This command can be accessed by all users: login
+2020-10-30 09:32:31 DEBUG SessionLocaleFilter:32 - Filter starts
+2020-10-30 09:32:31 DEBUG SessionLocaleFilter:54 - Current locale: en
+2020-10-30 09:32:31 DEBUG SessionLocaleFilter:56 - Filter finished
+2020-10-30 09:32:31 DEBUG FrontController:46 - FrontController starts
+2020-10-30 09:32:31 TRACE FrontController:50 - Request parameter: command --> login
+2020-10-30 09:32:31 TRACE FrontController:54 - Obtaned command: LoginCommand
+2020-10-30 09:32:31 DEBUG LoginCommand:34 - LoginCommand starts
+2020-10-30 09:32:31 TRACE UserServiceImpl:20 - Service method getOne --> admin@mail.com
+2020-10-30 09:32:31 TRACE UserRepositoryImpl:61 - Repository impl method getOne --> admin@mail.com
+2020-10-30 09:32:31 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@6387e0e1
+2020-10-30 09:32:31 TRACE UserRepositoryImpl:73 - Repository method getOne returned --> User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}
+2020-10-30 09:32:31 TRACE LoginCommand:44 - Found in DB: user --> User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}
+2020-10-30 09:32:31 TRACE UserServiceImpl:20 - Service method getOne --> admin@mail.com
+2020-10-30 09:32:31 TRACE UserRepositoryImpl:61 - Repository impl method getOne --> admin@mail.com
+2020-10-30 09:32:31 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@6387e0e1
+2020-10-30 09:32:31 TRACE UserRepositoryImpl:73 - Repository method getOne returned --> User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}
+2020-10-30 09:32:31 DEBUG LoginCommand:56 - LoginCommand getUserUser{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}
+2020-10-30 09:32:31 TRACE UserServiceImpl:48 - Service method get all users
+2020-10-30 09:32:31 TRACE UserRepositoryImpl:144 - Repository impl method getAllUsers.
+2020-10-30 09:32:31 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@6387e0e1
+2020-10-30 09:32:31 TRACE UserRepositoryImpl:162 - Repository method getAll returned --> [User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}, User{id=23, email='aa2an@mail.com', username='Alika', password='aaa', active=true, roles=[USER]}, User{id=24, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=[USER]}, User{id=25, email='diana2@mail.com', username='Alik', password='123', active=true, roles=[USER]}, User{id=26, email='admin2@mail.com', username='Alik', password='123', active=true, roles=[USER]}, User{id=27, email='admin3@mail.com', username='Aliks', password='123', active=true, roles=[USER]}, User{id=28, email='admin4@mail.com', username='Alika', password='aaa', active=true, roles=[USER]}, User{id=29, email='adminaaaaaa@mail.com', username='Alikaa', password='aaa', active=false, roles=[USER]}, User{id=34, email='admin836@mail.com', username='Alik', password='aaa', active=true, roles=[USER]}, User{id=35, email='Dima@gmail.com', username='Dima', password='123', active=true, roles=[USER]}, User{id=36, email='dima@mail.com', username='Dima2', password='123', active=true, roles=[USER]}, User{id=38, email='dima3@mail.com', username='dima3', password='123', active=true, roles=[USER]}]
+2020-10-30 09:32:31 DEBUG DataHelper:23 - Found in DB: userList --> [User{id=1, email='admin@mail.com', username='admin', password='admin', active=true, roles=[ADMIN, USER]}, User{id=23, email='aa2an@mail.com', username='Alika', password='aaa', active=true, roles=[USER]}, User{id=24, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=[USER]}, User{id=25, email='diana2@mail.com', username='Alik', password='123', active=true, roles=[USER]}, User{id=26, email='admin2@mail.com', username='Alik', password='123', active=true, roles=[USER]}, User{id=27, email='admin3@mail.com', username='Aliks', password='123', active=true, roles=[USER]}, User{id=28, email='admin4@mail.com', username='Alika', password='aaa', active=true, roles=[USER]}, User{id=29, email='adminaaaaaa@mail.com', username='Alikaa', password='aaa', active=false, roles=[USER]}, User{id=34, email='admin836@mail.com', username='Alik', password='aaa', active=true, roles=[USER]}, User{id=35, email='Dima@gmail.com', username='Dima', password='123', active=true, roles=[USER]}, User{id=36, email='dima@mail.com', username='Dima2', password='123', active=true, roles=[USER]}, User{id=38, email='dima3@mail.com', username='dima3', password='123', active=true, roles=[USER]}]
+2020-10-30 09:32:31 TRACE FrontController:64 - Forward address --> /WEB-INF/jsp/admin/userList.jsp
+2020-10-30 09:32:31 DEBUG FrontController:66 - FrontController finished, now go to forward address --> /WEB-INF/jsp/admin/userList.jsp
+2020-10-30 09:32:31 DEBUG SessionLocaleFilter:32 - Filter starts
+2020-10-30 09:32:31 DEBUG SessionLocaleFilter:54 - Current locale: en
+2020-10-30 09:32:31 DEBUG SessionLocaleFilter:56 - Filter finished
+2020-10-30 09:32:31 DEBUG SessionLocaleFilter:32 - Filter starts
+2020-10-30 09:32:31 DEBUG SessionLocaleFilter:54 - Current locale: en
+2020-10-30 09:32:31 DEBUG SessionLocaleFilter:56 - Filter finished
+2020-10-30 09:32:32 DEBUG CommandAccessFilter:87 - This command can be accessed only by logged in users: listUsersTasks
+2020-10-30 09:32:32 DEBUG CommandAccessFilter:95 - s. Check user role.
+2020-10-30 09:32:32 DEBUG CommandAccessFilter:96 - Check user role.[ADMIN, USER]
+2020-10-30 09:32:32 DEBUG CommandAccessFilter:98 - User is admin. Command can be executed by admin: listUsersTasks
+2020-10-30 09:32:32 DEBUG SessionLocaleFilter:32 - Filter starts
+2020-10-30 09:32:32 DEBUG SessionLocaleFilter:54 - Current locale: en
+2020-10-30 09:32:32 DEBUG SessionLocaleFilter:56 - Filter finished
+2020-10-30 09:32:32 DEBUG FrontController:46 - FrontController starts
+2020-10-30 09:32:32 TRACE FrontController:50 - Request parameter: command --> listUsersTasks
+2020-10-30 09:32:32 TRACE FrontController:54 - Obtaned command: ListUsersTasksCommand
+2020-10-30 09:32:32 DEBUG ListUsersTasksCommand:33 - ListUsersTasksCommand starts
+2020-10-30 09:32:32 TRACE AdminRepositoryImpl:69 - Repository impl method getAllNotActive --> 
+2020-10-30 09:32:32 DEBUG ConnectionPool:41 - org.apache.commons.dbcp2.BasicDataSource@6387e0e1
+2020-10-30 09:32:32 TRACE AdminRepositoryImpl:83 - Repository method getAllNotActivereturned --> [Activity{id=40, text='ddd', tag='ddd', activeAct=false, archiveAct=false, time=0, users=[User{id=40, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=[]}]}, Activity{id=46, text='aa', tag='aa', activeAct=false, archiveAct=false, time=1, users=[User{id=46, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=[]}]}]
+2020-10-30 09:32:32 DEBUG ListUsersTasksCommand:36 - Found in DB: activities --> [Activity{id=40, text='ddd', tag='ddd', activeAct=false, archiveAct=false, time=0, users=[User{id=40, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=[]}]}, Activity{id=46, text='aa', tag='aa', activeAct=false, archiveAct=false, time=1, users=[User{id=46, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=[]}]}]
+2020-10-30 09:32:32 DEBUG ListUsersTasksCommand:39 - Set the request attribute: activities --> [Activity{id=40, text='ddd', tag='ddd', activeAct=false, archiveAct=false, time=0, users=[User{id=40, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=[]}]}, Activity{id=46, text='aa', tag='aa', activeAct=false, archiveAct=false, time=1, users=[User{id=46, email='diana@mail.com', username='Diana', password='aaa', active=true, roles=[]}]}]
+2020-10-30 09:32:32 DEBUG ListUsersTasksCommand:41 - ListUsersTasksCommand finished
+2020-10-30 09:32:32 TRACE FrontController:64 - Forward address --> /WEB-INF/jsp/admin/usersTasks.jsp
+2020-10-30 09:32:32 DEBUG FrontController:66 - FrontController finished, now go to forward address --> /WEB-INF/jsp/admin/usersTasks.jsp
+2020-10-30 09:32:32 DEBUG SessionLocaleFilter:32 - Filter starts
+2020-10-30 09:32:32 DEBUG SessionLocaleFilter:32 - Filter starts
+2020-10-30 09:32:32 DEBUG SessionLocaleFilter:54 - Current locale: en
+2020-10-30 09:32:32 DEBUG SessionLocaleFilter:56 - Filter finished
+2020-10-30 09:32:32 DEBUG SessionLocaleFilter:54 - Current locale: en
+2020-10-30 09:32:32 DEBUG SessionLocaleFilter:56 - Filter finished
+2020-10-30 09:43:50 DEBUG SessionLocaleFilter:19 - Filter initialization starts
+2020-10-30 09:43:50 DEBUG SessionLocaleFilter:21 - Filter initialization finished
+2020-10-30 09:43:50 DEBUG CommandAccessFilter:70 - Start initializing filter: CommandAccessFilter
+2020-10-30 09:43:50 DEBUG CommandAccessFilter:72 - Finished initializing filter: CommandAccessFilter
+2020-10-30 09:44:04 DEBUG CommandAccessFilter:87 - This command can be accessed only by logged in users: listUsersTasks
+2020-10-30 09:44:04 DEBUG CommandAccessFilter:90 - Unauthorized access to resource. Client is not logged-in.
+2020-10-30 09:44:04 DEBUG SessionLocaleFilter:32 - Filter starts
+2020-10-30 09:44:04 DEBUG SessionLocaleFilter:47 - Preferred Locale: ru
+2020-10-30 09:44:04 DEBUG SessionLocaleFilter:54 - Current locale: ru
+2020-10-30 09:44:04 DEBUG SessionLocaleFilter:56 - Filter finished
+2020-10-30 09:44:06 DEBUG SessionLocaleFilter:32 - Filter starts
+2020-10-30 09:44:06 DEBUG SessionLocaleFilter:54 - Current locale: ru
+2020-10-30 09:44:06 DEBUG SessionLocaleFilter:56 - Filter finished
+2020-10-30 09:51:27 DEBUG SessionLocaleFilter:32 - Filter starts
+2020-10-30 09:51:27 DEBUG SessionLocaleFilter:47 - Preferred Locale: ru
+2020-10-30 09:51:27 DEBUG SessionLocaleFilter:54 - Current locale: ru
+2020-10-30 09:51:27 DEBUG SessionLocaleFilter:56 - Filter finished
+2020-10-30 15:28:09 DEBUG SessionLocaleFilter:32 - Filter starts
+2020-10-30 15:28:09 DEBUG SessionLocaleFilter:47 - Preferred Locale: ru
+2020-10-30 15:28:09 DEBUG SessionLocaleFilter:54 - Current locale: ru
+2020-10-30 15:28:09 DEBUG SessionLocaleFilter:56 - Filter finished
+2020-10-30 15:28:09 DEBUG SessionLocaleFilter:32 - Filter starts
+2020-10-30 15:28:09 DEBUG SessionLocaleFilter:54 - Current locale: ru
+2020-10-30 15:28:09 DEBUG SessionLocaleFilter:56 - Filter finished

@@ -43,7 +43,7 @@ public class LoginCommand extends Command {
         User user = userService.getOne(email);
         LOG.trace("Found in DB: user --> " + user);
 
-        if (user.getEmail() == null || !VerifyProvidedPassword.isPasswordCorrect(password, user)) {
+        if (user==null || !VerifyProvidedPassword.isPasswordCorrect(password, user)) {
             req.setAttribute("errorString", "Cannot find user with such login/password");
             return Path.PAGE_LOGIN;
         }

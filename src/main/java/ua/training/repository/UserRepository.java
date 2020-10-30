@@ -1,5 +1,6 @@
 package ua.training.repository;
 
+import ua.training.domain.Activity;
 import ua.training.domain.User;
 
 import java.util.List;
@@ -32,4 +33,12 @@ public interface UserRepository {
     User createUser(String email,String name,String password) ;
 
     List<User> getAllUsers();
+
+    Activity createNewActivity(String text, String tag, Long userEmail);
+
+
+
+
+
+
 }

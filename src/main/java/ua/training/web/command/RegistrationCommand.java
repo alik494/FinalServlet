@@ -35,7 +35,7 @@ public class RegistrationCommand extends Command {
             req.setAttribute("errorString", "password are not equal");
             return Path.PAGE_REGISTER;
         }
-        if (userService.getOne(email).getEmail() != null) {
+        if (userService.getOne(email) != null) {
             req.setAttribute("errorString", "User alredy exist!");
             return Path.PAGE_REGISTER;
         }

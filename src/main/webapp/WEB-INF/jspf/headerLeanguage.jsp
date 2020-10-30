@@ -1,4 +1,4 @@
-
+<%@ page import="ua.training.Path" %>
 <%@ include file="/WEB-INF/jspf/directive/page.jspf" %>
 <%@ include file="/WEB-INF/jspf/directive/taglib.jspf" %>
 
@@ -13,15 +13,16 @@
                 <%--===========================================================================
                 This way we define the ADMIN MENU.
                 ===========================================================================--%>
-                <c:when test="${userRole.contains(Role.ADMIN) }">
-                    <a class="navbar-brand" href="controller?command=adminQuizzeCommand">Quizzes Edit</a> &nbsp;
+                <c:when test="${user.admin}">
+                    <a class="navbar-brand" href="/controller?command=listUsersCommand">Users List</a> &nbsp;
+                    <a class="navbar-brand" href="/controller?command=listUsersTasks">Tasks</a>
                 </c:when>
 
 
                 <%--===========================================================================
                 This way we define the USER MENU.
                 ===========================================================================--%>
-                <c:when test="${userRole.contains(Role.USER)}">
+                <c:when test="${!user.admin}">
                     <a class="navbar-brand" href="controller?command=quizzeCommand">Quizzes</a> &nbsp;
                 </c:when>
             </c:choose>

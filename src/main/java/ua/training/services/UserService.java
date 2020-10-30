@@ -1,5 +1,6 @@
 package ua.training.services;
 
+import ua.training.domain.Activity;
 import ua.training.domain.User;
 
 import java.util.List;
@@ -14,4 +15,6 @@ public interface UserService {
     String getSalt(Long id);
 
     List<User> getAll();
+
+    Activity createNewActivity(String text, String tag, Long userId);
 }

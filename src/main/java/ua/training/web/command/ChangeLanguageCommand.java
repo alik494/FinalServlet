@@ -33,7 +33,7 @@ public class ChangeLanguageCommand extends  Command{
         LOG.debug("LanguageChangeCommand finished");
         request.setAttribute("userList", session.getAttribute("userList"));
         if (userRole.contains(Role.ADMIN)) {
-            return Path.PAGE_ADMIN_PAGE_USERLIST;
+            return Path.COMMAND_LIST_USERS;
         } else {
             return Path.PAGE_USER_PAGE;
         }

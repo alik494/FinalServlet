@@ -55,9 +55,13 @@ public class CommandAccessFilter implements Filter {
 
         // client commands
         clientCommands.add("userTestCommand");
+        clientCommands.add("newAct");
 
         // admin commands
         adminCommands.add("createSubjectCommand");
+        adminCommands.add("listUsersCommand");
+        adminCommands.add("listUsersTasks");
+        adminCommands.add("changeUserStatusCommand");
 
     }
 
